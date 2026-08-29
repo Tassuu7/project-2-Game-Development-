@@ -1,4 +1,10 @@
-# NovaForge Game Development Engine & Arcade Studio
+# -*- coding: utf-8 -*-
+import sys
+sys.path.insert(0, '.')
+from scripts.code_gen_lib import write_file
+
+def update_readme():
+    readme_content = """# NovaForge Game Development Engine & Arcade Studio
 
 > A high-performance, modular, zero-dependency JavaScript 2D/3D game engine and arcade studio featuring 8 complete playable games, in-browser level/particle/sound creators, advanced physics simulation, procedural graphics, and Web Audio synthesizers.
 
@@ -110,3 +116,8 @@ npm test
 ## License & Compliance
 - **License**: `Proprietary - All Rights Reserved` (`"license": "UNLICENSED"`)
 - **Compliance**: 100% Offline-First, Zero External CDN / API Dependencies, Enterprise-Grade Modular Architecture.
+"""
+    write_file("README.md", readme_content)
+    print("Updated README.md with live GitHub PR links!")
+
+update_readme()
