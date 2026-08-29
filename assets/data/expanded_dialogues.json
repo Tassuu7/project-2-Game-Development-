@@ -1,0 +1,2002 @@
+{
+  "quest_npc_001": {
+    "root": {
+      "speaker": "Officer B-1",
+      "text": "Greetings Pilot! The telemetry from Sector 1 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer B-1",
+      "text": "Scanners indicate Tier 1 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer B-1",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_1"
+    },
+    "declined": {
+      "speaker": "Officer B-1",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_002": {
+    "root": {
+      "speaker": "Officer C-2",
+      "text": "Greetings Pilot! The telemetry from Sector 2 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer C-2",
+      "text": "Scanners indicate Tier 1 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer C-2",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_2"
+    },
+    "declined": {
+      "speaker": "Officer C-2",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_003": {
+    "root": {
+      "speaker": "Officer D-3",
+      "text": "Greetings Pilot! The telemetry from Sector 3 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer D-3",
+      "text": "Scanners indicate Tier 1 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer D-3",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_3"
+    },
+    "declined": {
+      "speaker": "Officer D-3",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_004": {
+    "root": {
+      "speaker": "Officer E-4",
+      "text": "Greetings Pilot! The telemetry from Sector 4 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer E-4",
+      "text": "Scanners indicate Tier 1 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer E-4",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_4"
+    },
+    "declined": {
+      "speaker": "Officer E-4",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_005": {
+    "root": {
+      "speaker": "Officer F-5",
+      "text": "Greetings Pilot! The telemetry from Sector 5 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer F-5",
+      "text": "Scanners indicate Tier 1 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer F-5",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_5"
+    },
+    "declined": {
+      "speaker": "Officer F-5",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_006": {
+    "root": {
+      "speaker": "Officer G-6",
+      "text": "Greetings Pilot! The telemetry from Sector 6 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer G-6",
+      "text": "Scanners indicate Tier 2 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer G-6",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_6"
+    },
+    "declined": {
+      "speaker": "Officer G-6",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_007": {
+    "root": {
+      "speaker": "Officer H-7",
+      "text": "Greetings Pilot! The telemetry from Sector 7 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer H-7",
+      "text": "Scanners indicate Tier 2 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer H-7",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_7"
+    },
+    "declined": {
+      "speaker": "Officer H-7",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_008": {
+    "root": {
+      "speaker": "Officer I-8",
+      "text": "Greetings Pilot! The telemetry from Sector 8 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer I-8",
+      "text": "Scanners indicate Tier 2 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer I-8",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_8"
+    },
+    "declined": {
+      "speaker": "Officer I-8",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_009": {
+    "root": {
+      "speaker": "Officer J-9",
+      "text": "Greetings Pilot! The telemetry from Sector 9 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer J-9",
+      "text": "Scanners indicate Tier 2 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer J-9",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_9"
+    },
+    "declined": {
+      "speaker": "Officer J-9",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_010": {
+    "root": {
+      "speaker": "Officer K-10",
+      "text": "Greetings Pilot! The telemetry from Sector 10 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer K-10",
+      "text": "Scanners indicate Tier 2 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer K-10",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_10"
+    },
+    "declined": {
+      "speaker": "Officer K-10",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_011": {
+    "root": {
+      "speaker": "Officer L-11",
+      "text": "Greetings Pilot! The telemetry from Sector 11 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer L-11",
+      "text": "Scanners indicate Tier 3 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer L-11",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_11"
+    },
+    "declined": {
+      "speaker": "Officer L-11",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_012": {
+    "root": {
+      "speaker": "Officer M-12",
+      "text": "Greetings Pilot! The telemetry from Sector 12 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer M-12",
+      "text": "Scanners indicate Tier 3 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer M-12",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_12"
+    },
+    "declined": {
+      "speaker": "Officer M-12",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_013": {
+    "root": {
+      "speaker": "Officer N-13",
+      "text": "Greetings Pilot! The telemetry from Sector 13 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer N-13",
+      "text": "Scanners indicate Tier 3 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer N-13",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_13"
+    },
+    "declined": {
+      "speaker": "Officer N-13",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_014": {
+    "root": {
+      "speaker": "Officer O-14",
+      "text": "Greetings Pilot! The telemetry from Sector 14 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer O-14",
+      "text": "Scanners indicate Tier 3 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer O-14",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_14"
+    },
+    "declined": {
+      "speaker": "Officer O-14",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_015": {
+    "root": {
+      "speaker": "Officer P-15",
+      "text": "Greetings Pilot! The telemetry from Sector 15 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer P-15",
+      "text": "Scanners indicate Tier 3 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer P-15",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_15"
+    },
+    "declined": {
+      "speaker": "Officer P-15",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_016": {
+    "root": {
+      "speaker": "Officer Q-16",
+      "text": "Greetings Pilot! The telemetry from Sector 16 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer Q-16",
+      "text": "Scanners indicate Tier 4 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer Q-16",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_16"
+    },
+    "declined": {
+      "speaker": "Officer Q-16",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_017": {
+    "root": {
+      "speaker": "Officer R-17",
+      "text": "Greetings Pilot! The telemetry from Sector 17 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer R-17",
+      "text": "Scanners indicate Tier 4 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer R-17",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_17"
+    },
+    "declined": {
+      "speaker": "Officer R-17",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_018": {
+    "root": {
+      "speaker": "Officer S-18",
+      "text": "Greetings Pilot! The telemetry from Sector 18 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer S-18",
+      "text": "Scanners indicate Tier 4 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer S-18",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_18"
+    },
+    "declined": {
+      "speaker": "Officer S-18",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_019": {
+    "root": {
+      "speaker": "Officer T-19",
+      "text": "Greetings Pilot! The telemetry from Sector 19 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer T-19",
+      "text": "Scanners indicate Tier 4 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer T-19",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_19"
+    },
+    "declined": {
+      "speaker": "Officer T-19",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_020": {
+    "root": {
+      "speaker": "Officer U-20",
+      "text": "Greetings Pilot! The telemetry from Sector 20 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer U-20",
+      "text": "Scanners indicate Tier 4 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer U-20",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_20"
+    },
+    "declined": {
+      "speaker": "Officer U-20",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_021": {
+    "root": {
+      "speaker": "Officer V-21",
+      "text": "Greetings Pilot! The telemetry from Sector 21 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer V-21",
+      "text": "Scanners indicate Tier 5 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer V-21",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_21"
+    },
+    "declined": {
+      "speaker": "Officer V-21",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_022": {
+    "root": {
+      "speaker": "Officer W-22",
+      "text": "Greetings Pilot! The telemetry from Sector 22 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer W-22",
+      "text": "Scanners indicate Tier 5 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer W-22",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_22"
+    },
+    "declined": {
+      "speaker": "Officer W-22",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_023": {
+    "root": {
+      "speaker": "Officer X-23",
+      "text": "Greetings Pilot! The telemetry from Sector 23 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer X-23",
+      "text": "Scanners indicate Tier 5 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer X-23",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_23"
+    },
+    "declined": {
+      "speaker": "Officer X-23",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_024": {
+    "root": {
+      "speaker": "Officer Y-24",
+      "text": "Greetings Pilot! The telemetry from Sector 24 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer Y-24",
+      "text": "Scanners indicate Tier 5 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer Y-24",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_24"
+    },
+    "declined": {
+      "speaker": "Officer Y-24",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_025": {
+    "root": {
+      "speaker": "Officer Z-25",
+      "text": "Greetings Pilot! The telemetry from Sector 25 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer Z-25",
+      "text": "Scanners indicate Tier 5 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer Z-25",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_25"
+    },
+    "declined": {
+      "speaker": "Officer Z-25",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_026": {
+    "root": {
+      "speaker": "Officer A-26",
+      "text": "Greetings Pilot! The telemetry from Sector 26 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer A-26",
+      "text": "Scanners indicate Tier 6 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer A-26",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_26"
+    },
+    "declined": {
+      "speaker": "Officer A-26",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_027": {
+    "root": {
+      "speaker": "Officer B-27",
+      "text": "Greetings Pilot! The telemetry from Sector 27 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer B-27",
+      "text": "Scanners indicate Tier 6 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer B-27",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_27"
+    },
+    "declined": {
+      "speaker": "Officer B-27",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_028": {
+    "root": {
+      "speaker": "Officer C-28",
+      "text": "Greetings Pilot! The telemetry from Sector 28 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer C-28",
+      "text": "Scanners indicate Tier 6 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer C-28",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_28"
+    },
+    "declined": {
+      "speaker": "Officer C-28",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_029": {
+    "root": {
+      "speaker": "Officer D-29",
+      "text": "Greetings Pilot! The telemetry from Sector 29 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer D-29",
+      "text": "Scanners indicate Tier 6 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer D-29",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_29"
+    },
+    "declined": {
+      "speaker": "Officer D-29",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_030": {
+    "root": {
+      "speaker": "Officer E-30",
+      "text": "Greetings Pilot! The telemetry from Sector 30 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer E-30",
+      "text": "Scanners indicate Tier 6 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer E-30",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_30"
+    },
+    "declined": {
+      "speaker": "Officer E-30",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_031": {
+    "root": {
+      "speaker": "Officer F-31",
+      "text": "Greetings Pilot! The telemetry from Sector 31 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer F-31",
+      "text": "Scanners indicate Tier 7 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer F-31",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_31"
+    },
+    "declined": {
+      "speaker": "Officer F-31",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_032": {
+    "root": {
+      "speaker": "Officer G-32",
+      "text": "Greetings Pilot! The telemetry from Sector 32 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer G-32",
+      "text": "Scanners indicate Tier 7 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer G-32",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_32"
+    },
+    "declined": {
+      "speaker": "Officer G-32",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_033": {
+    "root": {
+      "speaker": "Officer H-33",
+      "text": "Greetings Pilot! The telemetry from Sector 33 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer H-33",
+      "text": "Scanners indicate Tier 7 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer H-33",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_33"
+    },
+    "declined": {
+      "speaker": "Officer H-33",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_034": {
+    "root": {
+      "speaker": "Officer I-34",
+      "text": "Greetings Pilot! The telemetry from Sector 34 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer I-34",
+      "text": "Scanners indicate Tier 7 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer I-34",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_34"
+    },
+    "declined": {
+      "speaker": "Officer I-34",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_035": {
+    "root": {
+      "speaker": "Officer J-35",
+      "text": "Greetings Pilot! The telemetry from Sector 35 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer J-35",
+      "text": "Scanners indicate Tier 7 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer J-35",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_35"
+    },
+    "declined": {
+      "speaker": "Officer J-35",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_036": {
+    "root": {
+      "speaker": "Officer K-36",
+      "text": "Greetings Pilot! The telemetry from Sector 36 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer K-36",
+      "text": "Scanners indicate Tier 8 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer K-36",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_36"
+    },
+    "declined": {
+      "speaker": "Officer K-36",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_037": {
+    "root": {
+      "speaker": "Officer L-37",
+      "text": "Greetings Pilot! The telemetry from Sector 37 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer L-37",
+      "text": "Scanners indicate Tier 8 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer L-37",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_37"
+    },
+    "declined": {
+      "speaker": "Officer L-37",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_038": {
+    "root": {
+      "speaker": "Officer M-38",
+      "text": "Greetings Pilot! The telemetry from Sector 38 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer M-38",
+      "text": "Scanners indicate Tier 8 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer M-38",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_38"
+    },
+    "declined": {
+      "speaker": "Officer M-38",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_039": {
+    "root": {
+      "speaker": "Officer N-39",
+      "text": "Greetings Pilot! The telemetry from Sector 39 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer N-39",
+      "text": "Scanners indicate Tier 8 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer N-39",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_39"
+    },
+    "declined": {
+      "speaker": "Officer N-39",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_040": {
+    "root": {
+      "speaker": "Officer O-40",
+      "text": "Greetings Pilot! The telemetry from Sector 40 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer O-40",
+      "text": "Scanners indicate Tier 8 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer O-40",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_40"
+    },
+    "declined": {
+      "speaker": "Officer O-40",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_041": {
+    "root": {
+      "speaker": "Officer P-41",
+      "text": "Greetings Pilot! The telemetry from Sector 41 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer P-41",
+      "text": "Scanners indicate Tier 9 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer P-41",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_41"
+    },
+    "declined": {
+      "speaker": "Officer P-41",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_042": {
+    "root": {
+      "speaker": "Officer Q-42",
+      "text": "Greetings Pilot! The telemetry from Sector 42 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer Q-42",
+      "text": "Scanners indicate Tier 9 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer Q-42",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_42"
+    },
+    "declined": {
+      "speaker": "Officer Q-42",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_043": {
+    "root": {
+      "speaker": "Officer R-43",
+      "text": "Greetings Pilot! The telemetry from Sector 43 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer R-43",
+      "text": "Scanners indicate Tier 9 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer R-43",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_43"
+    },
+    "declined": {
+      "speaker": "Officer R-43",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_044": {
+    "root": {
+      "speaker": "Officer S-44",
+      "text": "Greetings Pilot! The telemetry from Sector 44 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer S-44",
+      "text": "Scanners indicate Tier 9 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer S-44",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_44"
+    },
+    "declined": {
+      "speaker": "Officer S-44",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_045": {
+    "root": {
+      "speaker": "Officer T-45",
+      "text": "Greetings Pilot! The telemetry from Sector 45 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer T-45",
+      "text": "Scanners indicate Tier 9 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer T-45",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_45"
+    },
+    "declined": {
+      "speaker": "Officer T-45",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_046": {
+    "root": {
+      "speaker": "Officer U-46",
+      "text": "Greetings Pilot! The telemetry from Sector 46 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer U-46",
+      "text": "Scanners indicate Tier 10 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer U-46",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_46"
+    },
+    "declined": {
+      "speaker": "Officer U-46",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_047": {
+    "root": {
+      "speaker": "Officer V-47",
+      "text": "Greetings Pilot! The telemetry from Sector 47 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer V-47",
+      "text": "Scanners indicate Tier 10 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer V-47",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_47"
+    },
+    "declined": {
+      "speaker": "Officer V-47",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_048": {
+    "root": {
+      "speaker": "Officer W-48",
+      "text": "Greetings Pilot! The telemetry from Sector 48 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer W-48",
+      "text": "Scanners indicate Tier 10 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer W-48",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_48"
+    },
+    "declined": {
+      "speaker": "Officer W-48",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_049": {
+    "root": {
+      "speaker": "Officer X-49",
+      "text": "Greetings Pilot! The telemetry from Sector 49 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer X-49",
+      "text": "Scanners indicate Tier 10 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer X-49",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_49"
+    },
+    "declined": {
+      "speaker": "Officer X-49",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  },
+  "quest_npc_050": {
+    "root": {
+      "speaker": "Officer Y-50",
+      "text": "Greetings Pilot! The telemetry from Sector 50 indicates hostile incursions.",
+      "choices": [
+        {
+          "text": "I will neutralize the threat immediately.",
+          "next": "accepted"
+        },
+        {
+          "text": "What kind of resistance should I expect?",
+          "next": "intel"
+        },
+        {
+          "text": "I must decline this assignment for now.",
+          "next": "declined"
+        }
+      ]
+    },
+    "intel": {
+      "speaker": "Officer Y-50",
+      "text": "Scanners indicate Tier 10 combat mechs with high shielding. Bring plasma weapons.",
+      "choices": [
+        {
+          "text": "Understood. Accepting deployment.",
+          "next": "accepted"
+        }
+      ]
+    },
+    "accepted": {
+      "speaker": "Officer Y-50",
+      "text": "Mission parameters locked into your HUD. Good hunting!",
+      "action": "START_QUEST_SECTOR_50"
+    },
+    "declined": {
+      "speaker": "Officer Y-50",
+      "text": "Understood. Return when you are equipped for battle.",
+      "action": "CLOSE"
+    }
+  }
+}

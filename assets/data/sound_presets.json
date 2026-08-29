@@ -1,0 +1,2504 @@
+{
+  "patches": [
+    {
+      "patchId": "patch_001",
+      "name": "Synth Lead 1",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.1,
+        "sustain": 0.30000000000000004,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 480,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_002",
+      "name": "Pluck Bass 2",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.15000000000000002,
+        "sustain": 0.4,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 560,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_003",
+      "name": "Cyber Pad 3",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.2,
+        "sustain": 0.5,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 640,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_004",
+      "name": "808 Kick 4",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.25,
+        "sustain": 0.6000000000000001,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 720,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_005",
+      "name": "Snare Noise 5",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.3,
+        "sustain": 0.7,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 800,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_006",
+      "name": "Hi-Hat Metal 6",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.35000000000000003,
+        "sustain": 0.2,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 880,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_007",
+      "name": "Retro Arp 7",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.4,
+        "sustain": 0.30000000000000004,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 960,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_008",
+      "name": "Brass Stab 8",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.05,
+        "sustain": 0.4,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 1040,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_009",
+      "name": "Bell Chime 9",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.1,
+        "sustain": 0.5,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 1120,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_010",
+      "name": "Laser Sweep 10",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.15000000000000002,
+        "sustain": 0.6000000000000001,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 1200,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_011",
+      "name": "Synth Lead 11",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.2,
+        "sustain": 0.7,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 1280,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_012",
+      "name": "Pluck Bass 12",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.25,
+        "sustain": 0.2,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 1360,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_013",
+      "name": "Cyber Pad 13",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.3,
+        "sustain": 0.30000000000000004,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 1440,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_014",
+      "name": "808 Kick 14",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.35000000000000003,
+        "sustain": 0.4,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 1520,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_015",
+      "name": "Snare Noise 15",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.4,
+        "sustain": 0.5,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 1600,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_016",
+      "name": "Hi-Hat Metal 16",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.05,
+        "sustain": 0.6000000000000001,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 1680,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_017",
+      "name": "Retro Arp 17",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.1,
+        "sustain": 0.7,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 1760,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_018",
+      "name": "Brass Stab 18",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.15000000000000002,
+        "sustain": 0.2,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 1840,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_019",
+      "name": "Bell Chime 19",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.2,
+        "sustain": 0.30000000000000004,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 1920,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_020",
+      "name": "Laser Sweep 20",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.25,
+        "sustain": 0.4,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2000,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_021",
+      "name": "Synth Lead 21",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.3,
+        "sustain": 0.5,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 2080,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_022",
+      "name": "Pluck Bass 22",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.35000000000000003,
+        "sustain": 0.6000000000000001,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2160,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_023",
+      "name": "Cyber Pad 23",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.4,
+        "sustain": 0.7,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 2240,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_024",
+      "name": "808 Kick 24",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.05,
+        "sustain": 0.2,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2320,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_025",
+      "name": "Snare Noise 25",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.1,
+        "sustain": 0.30000000000000004,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 2400,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_026",
+      "name": "Hi-Hat Metal 26",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.15000000000000002,
+        "sustain": 0.4,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2480,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_027",
+      "name": "Retro Arp 27",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.2,
+        "sustain": 0.5,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 2560,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_028",
+      "name": "Brass Stab 28",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.25,
+        "sustain": 0.6000000000000001,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2640,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_029",
+      "name": "Bell Chime 29",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.3,
+        "sustain": 0.7,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 2720,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_030",
+      "name": "Laser Sweep 30",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.35000000000000003,
+        "sustain": 0.2,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2800,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_031",
+      "name": "Synth Lead 31",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.4,
+        "sustain": 0.30000000000000004,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 2880,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_032",
+      "name": "Pluck Bass 32",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.05,
+        "sustain": 0.4,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 2960,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_033",
+      "name": "Cyber Pad 33",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.1,
+        "sustain": 0.5,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 3040,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_034",
+      "name": "808 Kick 34",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.15000000000000002,
+        "sustain": 0.6000000000000001,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 3120,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_035",
+      "name": "Snare Noise 35",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.2,
+        "sustain": 0.7,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 3200,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_036",
+      "name": "Hi-Hat Metal 36",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.25,
+        "sustain": 0.2,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 3280,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_037",
+      "name": "Retro Arp 37",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.3,
+        "sustain": 0.30000000000000004,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 3360,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_038",
+      "name": "Brass Stab 38",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.35000000000000003,
+        "sustain": 0.4,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 3440,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_039",
+      "name": "Bell Chime 39",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.4,
+        "sustain": 0.5,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 3520,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_040",
+      "name": "Laser Sweep 40",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.05,
+        "sustain": 0.6000000000000001,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 3600,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_041",
+      "name": "Synth Lead 41",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.1,
+        "sustain": 0.7,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 3680,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_042",
+      "name": "Pluck Bass 42",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.15000000000000002,
+        "sustain": 0.2,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 3760,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_043",
+      "name": "Cyber Pad 43",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.2,
+        "sustain": 0.30000000000000004,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 3840,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_044",
+      "name": "808 Kick 44",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.25,
+        "sustain": 0.4,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 3920,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_045",
+      "name": "Snare Noise 45",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.3,
+        "sustain": 0.5,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4000,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_046",
+      "name": "Hi-Hat Metal 46",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.35000000000000003,
+        "sustain": 0.6000000000000001,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 4080,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_047",
+      "name": "Retro Arp 47",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.4,
+        "sustain": 0.7,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4160,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_048",
+      "name": "Brass Stab 48",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.05,
+        "sustain": 0.2,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 4240,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_049",
+      "name": "Bell Chime 49",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.1,
+        "sustain": 0.30000000000000004,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4320,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_050",
+      "name": "Laser Sweep 50",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.15000000000000002,
+        "sustain": 0.4,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 4400,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_051",
+      "name": "Synth Lead 51",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.2,
+        "sustain": 0.5,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4480,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_052",
+      "name": "Pluck Bass 52",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.25,
+        "sustain": 0.6000000000000001,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 4560,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_053",
+      "name": "Cyber Pad 53",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.3,
+        "sustain": 0.7,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4640,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_054",
+      "name": "808 Kick 54",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.35000000000000003,
+        "sustain": 0.2,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 4720,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_055",
+      "name": "Snare Noise 55",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.4,
+        "sustain": 0.30000000000000004,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4800,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_056",
+      "name": "Hi-Hat Metal 56",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.05,
+        "sustain": 0.4,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 4880,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_057",
+      "name": "Retro Arp 57",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.1,
+        "sustain": 0.5,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 4960,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_058",
+      "name": "Brass Stab 58",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.15000000000000002,
+        "sustain": 0.6000000000000001,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 5040,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_059",
+      "name": "Bell Chime 59",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.2,
+        "sustain": 0.7,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 5120,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_060",
+      "name": "Laser Sweep 60",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.25,
+        "sustain": 0.2,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 5200,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_061",
+      "name": "Synth Lead 61",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.3,
+        "sustain": 0.30000000000000004,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 5280,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_062",
+      "name": "Pluck Bass 62",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.35000000000000003,
+        "sustain": 0.4,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 5360,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_063",
+      "name": "Cyber Pad 63",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.4,
+        "sustain": 0.5,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 5440,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_064",
+      "name": "808 Kick 64",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.05,
+        "sustain": 0.6000000000000001,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 5520,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_065",
+      "name": "Snare Noise 65",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.1,
+        "sustain": 0.7,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 5600,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_066",
+      "name": "Hi-Hat Metal 66",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.15000000000000002,
+        "sustain": 0.2,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 5680,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_067",
+      "name": "Retro Arp 67",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.2,
+        "sustain": 0.30000000000000004,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 5760,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_068",
+      "name": "Brass Stab 68",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.25,
+        "sustain": 0.4,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 5840,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_069",
+      "name": "Bell Chime 69",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.3,
+        "sustain": 0.5,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 5920,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_070",
+      "name": "Laser Sweep 70",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.35000000000000003,
+        "sustain": 0.6000000000000001,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6000,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_071",
+      "name": "Synth Lead 71",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.4,
+        "sustain": 0.7,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 6080,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_072",
+      "name": "Pluck Bass 72",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.05,
+        "sustain": 0.2,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6160,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_073",
+      "name": "Cyber Pad 73",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.1,
+        "sustain": 0.30000000000000004,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 6240,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_074",
+      "name": "808 Kick 74",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.15000000000000002,
+        "sustain": 0.4,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6320,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_075",
+      "name": "Snare Noise 75",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.2,
+        "sustain": 0.5,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 6400,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_076",
+      "name": "Hi-Hat Metal 76",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.25,
+        "sustain": 0.6000000000000001,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6480,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_077",
+      "name": "Retro Arp 77",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.3,
+        "sustain": 0.7,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 6560,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_078",
+      "name": "Brass Stab 78",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.35000000000000003,
+        "sustain": 0.2,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6640,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_079",
+      "name": "Bell Chime 79",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.4,
+        "sustain": 0.30000000000000004,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 6720,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_080",
+      "name": "Laser Sweep 80",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.05,
+        "sustain": 0.4,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6800,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_081",
+      "name": "Synth Lead 81",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.1,
+        "sustain": 0.5,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 6880,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_082",
+      "name": "Pluck Bass 82",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.15000000000000002,
+        "sustain": 0.6000000000000001,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 6960,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_083",
+      "name": "Cyber Pad 83",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.2,
+        "sustain": 0.7,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 7040,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_084",
+      "name": "808 Kick 84",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.25,
+        "sustain": 0.2,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 7120,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_085",
+      "name": "Snare Noise 85",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.3,
+        "sustain": 0.30000000000000004,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 7200,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_086",
+      "name": "Hi-Hat Metal 86",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.35000000000000003,
+        "sustain": 0.4,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 7280,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_087",
+      "name": "Retro Arp 87",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.4,
+        "sustain": 0.5,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 7360,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_088",
+      "name": "Brass Stab 88",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.05,
+        "sustain": 0.6000000000000001,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 7440,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_089",
+      "name": "Bell Chime 89",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.1,
+        "sustain": 0.7,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 7520,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_090",
+      "name": "Laser Sweep 90",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.15000000000000002,
+        "sustain": 0.2,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 7600,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_091",
+      "name": "Synth Lead 91",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.025,
+        "decay": 0.2,
+        "sustain": 0.30000000000000004,
+        "release": 0.18
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 7680,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_092",
+      "name": "Pluck Bass 92",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.045,
+        "decay": 0.25,
+        "sustain": 0.4,
+        "release": 0.26
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 7760,
+        "resonance": 3.0
+      }
+    },
+    {
+      "patchId": "patch_093",
+      "name": "Cyber Pad 93",
+      "oscillator1": {
+        "wave": "square",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.065,
+        "decay": 0.3,
+        "sustain": 0.5,
+        "release": 0.33999999999999997
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 7840,
+        "resonance": 3.5
+      }
+    },
+    {
+      "patchId": "patch_094",
+      "name": "808 Kick 94",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": 0,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.085,
+        "decay": 0.35000000000000003,
+        "sustain": 0.6000000000000001,
+        "release": 0.42000000000000004
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 7920,
+        "resonance": 4.0
+      }
+    },
+    {
+      "patchId": "patch_095",
+      "name": "Snare Noise 95",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": 2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.10500000000000001,
+        "decay": 0.4,
+        "sustain": 0.7,
+        "release": 0.5
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 8000,
+        "resonance": 4.5
+      }
+    },
+    {
+      "patchId": "patch_096",
+      "name": "Hi-Hat Metal 96",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.125,
+        "decay": 0.05,
+        "sustain": 0.2,
+        "release": 0.58
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 8080,
+        "resonance": 1.0
+      }
+    },
+    {
+      "patchId": "patch_097",
+      "name": "Retro Arp 97",
+      "oscillator1": {
+        "wave": "square",
+        "detune": 6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "square",
+        "detune": 0,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.14500000000000002,
+        "decay": 0.1,
+        "sustain": 0.30000000000000004,
+        "release": 0.66
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 8160,
+        "resonance": 1.5
+      }
+    },
+    {
+      "patchId": "patch_098",
+      "name": "Brass Stab 98",
+      "oscillator1": {
+        "wave": "sawtooth",
+        "detune": -6,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sine",
+        "detune": 4,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.165,
+        "decay": 0.15000000000000002,
+        "sustain": 0.4,
+        "release": 0.74
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 8240,
+        "resonance": 2.0
+      }
+    },
+    {
+      "patchId": "patch_099",
+      "name": "Bell Chime 99",
+      "oscillator1": {
+        "wave": "triangle",
+        "detune": -4,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "sawtooth",
+        "detune": 8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.185,
+        "decay": 0.2,
+        "sustain": 0.5,
+        "release": 0.82
+      },
+      "filter": {
+        "type": "bandpass",
+        "cutoff": 8320,
+        "resonance": 2.5
+      }
+    },
+    {
+      "patchId": "patch_100",
+      "name": "Laser Sweep 100",
+      "oscillator1": {
+        "wave": "sine",
+        "detune": -2,
+        "gain": 0.8
+      },
+      "oscillator2": {
+        "wave": "triangle",
+        "detune": -8,
+        "gain": 0.5
+      },
+      "envelope": {
+        "attack": 0.005,
+        "decay": 0.25,
+        "sustain": 0.6000000000000001,
+        "release": 0.1
+      },
+      "filter": {
+        "type": "lowpass",
+        "cutoff": 8400,
+        "resonance": 3.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,2104 @@
+{
+  "presets": [
+    {
+      "presetId": "fx_001",
+      "name": "Fire Explosion Variant 1",
+      "rate": 45,
+      "maxParticles": 150,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_002",
+      "name": "Plasma Nova Variant 2",
+      "rate": 60,
+      "maxParticles": 200,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_003",
+      "name": "Sparks Fountain Variant 3",
+      "rate": 75,
+      "maxParticles": 250,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_004",
+      "name": "Smoke Trail Variant 4",
+      "rate": 90,
+      "maxParticles": 300,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_005",
+      "name": "Magic Arcane Burst Variant 5",
+      "rate": 105,
+      "maxParticles": 350,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_006",
+      "name": "Cyber Warp Variant 6",
+      "rate": 120,
+      "maxParticles": 400,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_007",
+      "name": "Blood Splatter Variant 7",
+      "rate": 135,
+      "maxParticles": 450,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_008",
+      "name": "Gold Coin Fountain Variant 8",
+      "rate": 150,
+      "maxParticles": 100,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_009",
+      "name": "Snow Blizzard Variant 9",
+      "rate": 165,
+      "maxParticles": 150,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_010",
+      "name": "Toxic Gas Cloud Variant 10",
+      "rate": 30,
+      "maxParticles": 200,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_011",
+      "name": "Fire Explosion Variant 11",
+      "rate": 45,
+      "maxParticles": 250,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_012",
+      "name": "Plasma Nova Variant 12",
+      "rate": 60,
+      "maxParticles": 300,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_013",
+      "name": "Sparks Fountain Variant 13",
+      "rate": 75,
+      "maxParticles": 350,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_014",
+      "name": "Smoke Trail Variant 14",
+      "rate": 90,
+      "maxParticles": 400,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_015",
+      "name": "Magic Arcane Burst Variant 15",
+      "rate": 105,
+      "maxParticles": 450,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_016",
+      "name": "Cyber Warp Variant 16",
+      "rate": 120,
+      "maxParticles": 100,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_017",
+      "name": "Blood Splatter Variant 17",
+      "rate": 135,
+      "maxParticles": 150,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_018",
+      "name": "Gold Coin Fountain Variant 18",
+      "rate": 150,
+      "maxParticles": 200,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_019",
+      "name": "Snow Blizzard Variant 19",
+      "rate": 165,
+      "maxParticles": 250,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_020",
+      "name": "Toxic Gas Cloud Variant 20",
+      "rate": 30,
+      "maxParticles": 300,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_021",
+      "name": "Fire Explosion Variant 21",
+      "rate": 45,
+      "maxParticles": 350,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_022",
+      "name": "Plasma Nova Variant 22",
+      "rate": 60,
+      "maxParticles": 400,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_023",
+      "name": "Sparks Fountain Variant 23",
+      "rate": 75,
+      "maxParticles": 450,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_024",
+      "name": "Smoke Trail Variant 24",
+      "rate": 90,
+      "maxParticles": 100,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_025",
+      "name": "Magic Arcane Burst Variant 25",
+      "rate": 105,
+      "maxParticles": 150,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_026",
+      "name": "Cyber Warp Variant 26",
+      "rate": 120,
+      "maxParticles": 200,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_027",
+      "name": "Blood Splatter Variant 27",
+      "rate": 135,
+      "maxParticles": 250,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_028",
+      "name": "Gold Coin Fountain Variant 28",
+      "rate": 150,
+      "maxParticles": 300,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_029",
+      "name": "Snow Blizzard Variant 29",
+      "rate": 165,
+      "maxParticles": 350,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_030",
+      "name": "Toxic Gas Cloud Variant 30",
+      "rate": 30,
+      "maxParticles": 400,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_031",
+      "name": "Fire Explosion Variant 31",
+      "rate": 45,
+      "maxParticles": 450,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_032",
+      "name": "Plasma Nova Variant 32",
+      "rate": 60,
+      "maxParticles": 100,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_033",
+      "name": "Sparks Fountain Variant 33",
+      "rate": 75,
+      "maxParticles": 150,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_034",
+      "name": "Smoke Trail Variant 34",
+      "rate": 90,
+      "maxParticles": 200,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_035",
+      "name": "Magic Arcane Burst Variant 35",
+      "rate": 105,
+      "maxParticles": 250,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_036",
+      "name": "Cyber Warp Variant 36",
+      "rate": 120,
+      "maxParticles": 300,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_037",
+      "name": "Blood Splatter Variant 37",
+      "rate": 135,
+      "maxParticles": 350,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_038",
+      "name": "Gold Coin Fountain Variant 38",
+      "rate": 150,
+      "maxParticles": 400,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_039",
+      "name": "Snow Blizzard Variant 39",
+      "rate": 165,
+      "maxParticles": 450,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_040",
+      "name": "Toxic Gas Cloud Variant 40",
+      "rate": 30,
+      "maxParticles": 100,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_041",
+      "name": "Fire Explosion Variant 41",
+      "rate": 45,
+      "maxParticles": 150,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_042",
+      "name": "Plasma Nova Variant 42",
+      "rate": 60,
+      "maxParticles": 200,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_043",
+      "name": "Sparks Fountain Variant 43",
+      "rate": 75,
+      "maxParticles": 250,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_044",
+      "name": "Smoke Trail Variant 44",
+      "rate": 90,
+      "maxParticles": 300,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_045",
+      "name": "Magic Arcane Burst Variant 45",
+      "rate": 105,
+      "maxParticles": 350,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_046",
+      "name": "Cyber Warp Variant 46",
+      "rate": 120,
+      "maxParticles": 400,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_047",
+      "name": "Blood Splatter Variant 47",
+      "rate": 135,
+      "maxParticles": 450,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_048",
+      "name": "Gold Coin Fountain Variant 48",
+      "rate": 150,
+      "maxParticles": 100,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_049",
+      "name": "Snow Blizzard Variant 49",
+      "rate": 165,
+      "maxParticles": 150,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_050",
+      "name": "Toxic Gas Cloud Variant 50",
+      "rate": 30,
+      "maxParticles": 200,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_051",
+      "name": "Fire Explosion Variant 51",
+      "rate": 45,
+      "maxParticles": 250,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_052",
+      "name": "Plasma Nova Variant 52",
+      "rate": 60,
+      "maxParticles": 300,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_053",
+      "name": "Sparks Fountain Variant 53",
+      "rate": 75,
+      "maxParticles": 350,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_054",
+      "name": "Smoke Trail Variant 54",
+      "rate": 90,
+      "maxParticles": 400,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_055",
+      "name": "Magic Arcane Burst Variant 55",
+      "rate": 105,
+      "maxParticles": 450,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_056",
+      "name": "Cyber Warp Variant 56",
+      "rate": 120,
+      "maxParticles": 100,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_057",
+      "name": "Blood Splatter Variant 57",
+      "rate": 135,
+      "maxParticles": 150,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_058",
+      "name": "Gold Coin Fountain Variant 58",
+      "rate": 150,
+      "maxParticles": 200,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_059",
+      "name": "Snow Blizzard Variant 59",
+      "rate": 165,
+      "maxParticles": 250,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_060",
+      "name": "Toxic Gas Cloud Variant 60",
+      "rate": 30,
+      "maxParticles": 300,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_061",
+      "name": "Fire Explosion Variant 61",
+      "rate": 45,
+      "maxParticles": 350,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_062",
+      "name": "Plasma Nova Variant 62",
+      "rate": 60,
+      "maxParticles": 400,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_063",
+      "name": "Sparks Fountain Variant 63",
+      "rate": 75,
+      "maxParticles": 450,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_064",
+      "name": "Smoke Trail Variant 64",
+      "rate": 90,
+      "maxParticles": 100,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_065",
+      "name": "Magic Arcane Burst Variant 65",
+      "rate": 105,
+      "maxParticles": 150,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_066",
+      "name": "Cyber Warp Variant 66",
+      "rate": 120,
+      "maxParticles": 200,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_067",
+      "name": "Blood Splatter Variant 67",
+      "rate": 135,
+      "maxParticles": 250,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_068",
+      "name": "Gold Coin Fountain Variant 68",
+      "rate": 150,
+      "maxParticles": 300,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_069",
+      "name": "Snow Blizzard Variant 69",
+      "rate": 165,
+      "maxParticles": 350,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_070",
+      "name": "Toxic Gas Cloud Variant 70",
+      "rate": 30,
+      "maxParticles": 400,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_071",
+      "name": "Fire Explosion Variant 71",
+      "rate": 45,
+      "maxParticles": 450,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_072",
+      "name": "Plasma Nova Variant 72",
+      "rate": 60,
+      "maxParticles": 100,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_073",
+      "name": "Sparks Fountain Variant 73",
+      "rate": 75,
+      "maxParticles": 150,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_074",
+      "name": "Smoke Trail Variant 74",
+      "rate": 90,
+      "maxParticles": 200,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_075",
+      "name": "Magic Arcane Burst Variant 75",
+      "rate": 105,
+      "maxParticles": 250,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_076",
+      "name": "Cyber Warp Variant 76",
+      "rate": 120,
+      "maxParticles": 300,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_077",
+      "name": "Blood Splatter Variant 77",
+      "rate": 135,
+      "maxParticles": 350,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_078",
+      "name": "Gold Coin Fountain Variant 78",
+      "rate": 150,
+      "maxParticles": 400,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_079",
+      "name": "Snow Blizzard Variant 79",
+      "rate": 165,
+      "maxParticles": 450,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_080",
+      "name": "Toxic Gas Cloud Variant 80",
+      "rate": 30,
+      "maxParticles": 100,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_081",
+      "name": "Fire Explosion Variant 81",
+      "rate": 45,
+      "maxParticles": 150,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_082",
+      "name": "Plasma Nova Variant 82",
+      "rate": 60,
+      "maxParticles": 200,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_083",
+      "name": "Sparks Fountain Variant 83",
+      "rate": 75,
+      "maxParticles": 250,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_084",
+      "name": "Smoke Trail Variant 84",
+      "rate": 90,
+      "maxParticles": 300,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_085",
+      "name": "Magic Arcane Burst Variant 85",
+      "rate": 105,
+      "maxParticles": 350,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_086",
+      "name": "Cyber Warp Variant 86",
+      "rate": 120,
+      "maxParticles": 400,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_087",
+      "name": "Blood Splatter Variant 87",
+      "rate": 135,
+      "maxParticles": 450,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_088",
+      "name": "Gold Coin Fountain Variant 88",
+      "rate": 150,
+      "maxParticles": 100,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_089",
+      "name": "Snow Blizzard Variant 89",
+      "rate": 165,
+      "maxParticles": 150,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_090",
+      "name": "Toxic Gas Cloud Variant 90",
+      "rate": 30,
+      "maxParticles": 200,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_091",
+      "name": "Fire Explosion Variant 91",
+      "rate": 45,
+      "maxParticles": 250,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 70,
+        "max": 210
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_092",
+      "name": "Plasma Nova Variant 92",
+      "rate": 60,
+      "maxParticles": 300,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 90,
+        "max": 240
+      },
+      "spread": 3.14159,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_093",
+      "name": "Sparks Fountain Variant 93",
+      "rate": 75,
+      "maxParticles": 350,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 110,
+        "max": 270
+      },
+      "spread": 4.398226,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 150
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_094",
+      "name": "Smoke Trail Variant 94",
+      "rate": 90,
+      "maxParticles": 400,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 130,
+        "max": 300
+      },
+      "spread": 5.654862,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 190
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_095",
+      "name": "Magic Arcane Burst Variant 95",
+      "rate": 105,
+      "maxParticles": 450,
+      "lifetime": 1.4,
+      "speed": {
+        "min": 50,
+        "max": 330
+      },
+      "spread": 0.628318,
+      "startColor": "#ffffff",
+      "endColor": "#222222",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 230
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_096",
+      "name": "Cyber Warp Variant 96",
+      "rate": 120,
+      "maxParticles": 100,
+      "lifetime": 0.4,
+      "speed": {
+        "min": 70,
+        "max": 360
+      },
+      "spread": 1.8849540000000002,
+      "startColor": "#ff0055",
+      "endColor": "#330011",
+      "startSize": 5,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -50
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_097",
+      "name": "Blood Splatter Variant 97",
+      "rate": 135,
+      "maxParticles": 150,
+      "lifetime": 0.6000000000000001,
+      "speed": {
+        "min": 90,
+        "max": 390
+      },
+      "spread": 3.14159,
+      "startColor": "#00e5ff",
+      "endColor": "#002244",
+      "startSize": 7,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": -10
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_098",
+      "name": "Gold Coin Fountain Variant 98",
+      "rate": 150,
+      "maxParticles": 200,
+      "lifetime": 0.8,
+      "speed": {
+        "min": 110,
+        "max": 420
+      },
+      "spread": 4.398226,
+      "startColor": "#ffe600",
+      "endColor": "#443300",
+      "startSize": 9,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 30
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_099",
+      "name": "Snow Blizzard Variant 99",
+      "rate": 165,
+      "maxParticles": 250,
+      "lifetime": 1.0,
+      "speed": {
+        "min": 130,
+        "max": 450
+      },
+      "spread": 5.654862,
+      "startColor": "#39ff14",
+      "endColor": "#003300",
+      "startSize": 11,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 70
+      },
+      "drag": 0.96
+    },
+    {
+      "presetId": "fx_100",
+      "name": "Toxic Gas Cloud Variant 100",
+      "rate": 30,
+      "maxParticles": 300,
+      "lifetime": 1.2000000000000002,
+      "speed": {
+        "min": 50,
+        "max": 180
+      },
+      "spread": 0.628318,
+      "startColor": "#ff8800",
+      "endColor": "#331100",
+      "startSize": 3,
+      "endSize": 0,
+      "gravity": {
+        "x": 0,
+        "y": 110
+      },
+      "drag": 0.96
+    }
+  ]
+}

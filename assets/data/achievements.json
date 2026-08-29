@@ -1,0 +1,1804 @@
+{
+  "achievements": [
+    {
+      "id": "ach_0001",
+      "title": "Master of Cosmic Vanguard - Rank 1",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 1 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0002",
+      "title": "Master of Shadow Quest - Rank 2",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 2 combat and puzzle objectives in Shadow Quest.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0003",
+      "title": "Master of Cyber Runner - Rank 3",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 3 combat and puzzle objectives in Cyber Runner.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0004",
+      "title": "Master of Dungeon Raycast 3D - Rank 4",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 4 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0005",
+      "title": "Master of Gravity Sandbox - Rank 5",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 5 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0006",
+      "title": "Master of Neon Tower Defense - Rank 6",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 6 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0007",
+      "title": "Master of Chrono Puzzle - Rank 7",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 7 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0008",
+      "title": "Master of Rhythm Blaster - Rank 8",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 8 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0009",
+      "title": "Master of Cosmic Vanguard - Rank 9",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 9 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0010",
+      "title": "Master of Shadow Quest - Rank 10",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 10 combat and puzzle objectives in Shadow Quest.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0011",
+      "title": "Master of Cyber Runner - Rank 11",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 11 combat and puzzle objectives in Cyber Runner.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0012",
+      "title": "Master of Dungeon Raycast 3D - Rank 12",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 12 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0013",
+      "title": "Master of Gravity Sandbox - Rank 13",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 13 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0014",
+      "title": "Master of Neon Tower Defense - Rank 14",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 14 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0015",
+      "title": "Master of Chrono Puzzle - Rank 15",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 15 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0016",
+      "title": "Master of Rhythm Blaster - Rank 16",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 16 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0017",
+      "title": "Master of Cosmic Vanguard - Rank 17",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 17 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0018",
+      "title": "Master of Shadow Quest - Rank 18",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 18 combat and puzzle objectives in Shadow Quest.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0019",
+      "title": "Master of Cyber Runner - Rank 19",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 19 combat and puzzle objectives in Cyber Runner.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0020",
+      "title": "Master of Dungeon Raycast 3D - Rank 20",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 20 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0021",
+      "title": "Master of Gravity Sandbox - Rank 21",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 21 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0022",
+      "title": "Master of Neon Tower Defense - Rank 22",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 22 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0023",
+      "title": "Master of Chrono Puzzle - Rank 23",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 23 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0024",
+      "title": "Master of Rhythm Blaster - Rank 24",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 24 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0025",
+      "title": "Master of Cosmic Vanguard - Rank 25",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 25 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0026",
+      "title": "Master of Shadow Quest - Rank 26",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 26 combat and puzzle objectives in Shadow Quest.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0027",
+      "title": "Master of Cyber Runner - Rank 27",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 27 combat and puzzle objectives in Cyber Runner.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0028",
+      "title": "Master of Dungeon Raycast 3D - Rank 28",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 28 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0029",
+      "title": "Master of Gravity Sandbox - Rank 29",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 29 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0030",
+      "title": "Master of Neon Tower Defense - Rank 30",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 30 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0031",
+      "title": "Master of Chrono Puzzle - Rank 31",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 31 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0032",
+      "title": "Master of Rhythm Blaster - Rank 32",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 32 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0033",
+      "title": "Master of Cosmic Vanguard - Rank 33",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 33 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0034",
+      "title": "Master of Shadow Quest - Rank 34",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 34 combat and puzzle objectives in Shadow Quest.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0035",
+      "title": "Master of Cyber Runner - Rank 35",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 35 combat and puzzle objectives in Cyber Runner.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0036",
+      "title": "Master of Dungeon Raycast 3D - Rank 36",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 36 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0037",
+      "title": "Master of Gravity Sandbox - Rank 37",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 37 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0038",
+      "title": "Master of Neon Tower Defense - Rank 38",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 38 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0039",
+      "title": "Master of Chrono Puzzle - Rank 39",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 39 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0040",
+      "title": "Master of Rhythm Blaster - Rank 40",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 40 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0041",
+      "title": "Master of Cosmic Vanguard - Rank 41",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 41 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0042",
+      "title": "Master of Shadow Quest - Rank 42",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 42 combat and puzzle objectives in Shadow Quest.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0043",
+      "title": "Master of Cyber Runner - Rank 43",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 43 combat and puzzle objectives in Cyber Runner.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0044",
+      "title": "Master of Dungeon Raycast 3D - Rank 44",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 44 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0045",
+      "title": "Master of Gravity Sandbox - Rank 45",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 45 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0046",
+      "title": "Master of Neon Tower Defense - Rank 46",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 46 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0047",
+      "title": "Master of Chrono Puzzle - Rank 47",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 47 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0048",
+      "title": "Master of Rhythm Blaster - Rank 48",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 48 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0049",
+      "title": "Master of Cosmic Vanguard - Rank 49",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 49 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0050",
+      "title": "Master of Shadow Quest - Rank 50",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 50 combat and puzzle objectives in Shadow Quest.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0051",
+      "title": "Master of Cyber Runner - Rank 51",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 51 combat and puzzle objectives in Cyber Runner.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0052",
+      "title": "Master of Dungeon Raycast 3D - Rank 52",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 52 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0053",
+      "title": "Master of Gravity Sandbox - Rank 53",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 53 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0054",
+      "title": "Master of Neon Tower Defense - Rank 54",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 54 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0055",
+      "title": "Master of Chrono Puzzle - Rank 55",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 55 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0056",
+      "title": "Master of Rhythm Blaster - Rank 56",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 56 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0057",
+      "title": "Master of Cosmic Vanguard - Rank 57",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 57 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0058",
+      "title": "Master of Shadow Quest - Rank 58",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 58 combat and puzzle objectives in Shadow Quest.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0059",
+      "title": "Master of Cyber Runner - Rank 59",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 59 combat and puzzle objectives in Cyber Runner.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0060",
+      "title": "Master of Dungeon Raycast 3D - Rank 60",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 60 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0061",
+      "title": "Master of Gravity Sandbox - Rank 61",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 61 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0062",
+      "title": "Master of Neon Tower Defense - Rank 62",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 62 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0063",
+      "title": "Master of Chrono Puzzle - Rank 63",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 63 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0064",
+      "title": "Master of Rhythm Blaster - Rank 64",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 64 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0065",
+      "title": "Master of Cosmic Vanguard - Rank 65",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 65 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0066",
+      "title": "Master of Shadow Quest - Rank 66",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 66 combat and puzzle objectives in Shadow Quest.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0067",
+      "title": "Master of Cyber Runner - Rank 67",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 67 combat and puzzle objectives in Cyber Runner.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0068",
+      "title": "Master of Dungeon Raycast 3D - Rank 68",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 68 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0069",
+      "title": "Master of Gravity Sandbox - Rank 69",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 69 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0070",
+      "title": "Master of Neon Tower Defense - Rank 70",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 70 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0071",
+      "title": "Master of Chrono Puzzle - Rank 71",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 71 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0072",
+      "title": "Master of Rhythm Blaster - Rank 72",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 72 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0073",
+      "title": "Master of Cosmic Vanguard - Rank 73",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 73 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0074",
+      "title": "Master of Shadow Quest - Rank 74",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 74 combat and puzzle objectives in Shadow Quest.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0075",
+      "title": "Master of Cyber Runner - Rank 75",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 75 combat and puzzle objectives in Cyber Runner.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0076",
+      "title": "Master of Dungeon Raycast 3D - Rank 76",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 76 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0077",
+      "title": "Master of Gravity Sandbox - Rank 77",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 77 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0078",
+      "title": "Master of Neon Tower Defense - Rank 78",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 78 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0079",
+      "title": "Master of Chrono Puzzle - Rank 79",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 79 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0080",
+      "title": "Master of Rhythm Blaster - Rank 80",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 80 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0081",
+      "title": "Master of Cosmic Vanguard - Rank 81",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 81 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0082",
+      "title": "Master of Shadow Quest - Rank 82",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 82 combat and puzzle objectives in Shadow Quest.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0083",
+      "title": "Master of Cyber Runner - Rank 83",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 83 combat and puzzle objectives in Cyber Runner.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0084",
+      "title": "Master of Dungeon Raycast 3D - Rank 84",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 84 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0085",
+      "title": "Master of Gravity Sandbox - Rank 85",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 85 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0086",
+      "title": "Master of Neon Tower Defense - Rank 86",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 86 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0087",
+      "title": "Master of Chrono Puzzle - Rank 87",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 87 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0088",
+      "title": "Master of Rhythm Blaster - Rank 88",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 88 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0089",
+      "title": "Master of Cosmic Vanguard - Rank 89",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 89 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0090",
+      "title": "Master of Shadow Quest - Rank 90",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 90 combat and puzzle objectives in Shadow Quest.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0091",
+      "title": "Master of Cyber Runner - Rank 91",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 91 combat and puzzle objectives in Cyber Runner.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0092",
+      "title": "Master of Dungeon Raycast 3D - Rank 92",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 92 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0093",
+      "title": "Master of Gravity Sandbox - Rank 93",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 93 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0094",
+      "title": "Master of Neon Tower Defense - Rank 94",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 94 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0095",
+      "title": "Master of Chrono Puzzle - Rank 95",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 95 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0096",
+      "title": "Master of Rhythm Blaster - Rank 96",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 96 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0097",
+      "title": "Master of Cosmic Vanguard - Rank 97",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 97 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0098",
+      "title": "Master of Shadow Quest - Rank 98",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 98 combat and puzzle objectives in Shadow Quest.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0099",
+      "title": "Master of Cyber Runner - Rank 99",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 99 combat and puzzle objectives in Cyber Runner.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0100",
+      "title": "Master of Dungeon Raycast 3D - Rank 100",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 100 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0101",
+      "title": "Master of Gravity Sandbox - Rank 101",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 101 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0102",
+      "title": "Master of Neon Tower Defense - Rank 102",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 102 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0103",
+      "title": "Master of Chrono Puzzle - Rank 103",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 103 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0104",
+      "title": "Master of Rhythm Blaster - Rank 104",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 104 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0105",
+      "title": "Master of Cosmic Vanguard - Rank 105",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 105 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0106",
+      "title": "Master of Shadow Quest - Rank 106",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 106 combat and puzzle objectives in Shadow Quest.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0107",
+      "title": "Master of Cyber Runner - Rank 107",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 107 combat and puzzle objectives in Cyber Runner.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0108",
+      "title": "Master of Dungeon Raycast 3D - Rank 108",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 108 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0109",
+      "title": "Master of Gravity Sandbox - Rank 109",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 109 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0110",
+      "title": "Master of Neon Tower Defense - Rank 110",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 110 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0111",
+      "title": "Master of Chrono Puzzle - Rank 111",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 111 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0112",
+      "title": "Master of Rhythm Blaster - Rank 112",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 112 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0113",
+      "title": "Master of Cosmic Vanguard - Rank 113",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 113 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0114",
+      "title": "Master of Shadow Quest - Rank 114",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 114 combat and puzzle objectives in Shadow Quest.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0115",
+      "title": "Master of Cyber Runner - Rank 115",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 115 combat and puzzle objectives in Cyber Runner.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0116",
+      "title": "Master of Dungeon Raycast 3D - Rank 116",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 116 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0117",
+      "title": "Master of Gravity Sandbox - Rank 117",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 117 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0118",
+      "title": "Master of Neon Tower Defense - Rank 118",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 118 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0119",
+      "title": "Master of Chrono Puzzle - Rank 119",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 119 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0120",
+      "title": "Master of Rhythm Blaster - Rank 120",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 120 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0121",
+      "title": "Master of Cosmic Vanguard - Rank 121",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 121 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0122",
+      "title": "Master of Shadow Quest - Rank 122",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 122 combat and puzzle objectives in Shadow Quest.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0123",
+      "title": "Master of Cyber Runner - Rank 123",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 123 combat and puzzle objectives in Cyber Runner.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0124",
+      "title": "Master of Dungeon Raycast 3D - Rank 124",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 124 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0125",
+      "title": "Master of Gravity Sandbox - Rank 125",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 125 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0126",
+      "title": "Master of Neon Tower Defense - Rank 126",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 126 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0127",
+      "title": "Master of Chrono Puzzle - Rank 127",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 127 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0128",
+      "title": "Master of Rhythm Blaster - Rank 128",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 128 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0129",
+      "title": "Master of Cosmic Vanguard - Rank 129",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 129 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0130",
+      "title": "Master of Shadow Quest - Rank 130",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 130 combat and puzzle objectives in Shadow Quest.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0131",
+      "title": "Master of Cyber Runner - Rank 131",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 131 combat and puzzle objectives in Cyber Runner.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0132",
+      "title": "Master of Dungeon Raycast 3D - Rank 132",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 132 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0133",
+      "title": "Master of Gravity Sandbox - Rank 133",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 133 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0134",
+      "title": "Master of Neon Tower Defense - Rank 134",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 134 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0135",
+      "title": "Master of Chrono Puzzle - Rank 135",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 135 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0136",
+      "title": "Master of Rhythm Blaster - Rank 136",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 136 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0137",
+      "title": "Master of Cosmic Vanguard - Rank 137",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 137 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0138",
+      "title": "Master of Shadow Quest - Rank 138",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 138 combat and puzzle objectives in Shadow Quest.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0139",
+      "title": "Master of Cyber Runner - Rank 139",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 139 combat and puzzle objectives in Cyber Runner.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0140",
+      "title": "Master of Dungeon Raycast 3D - Rank 140",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 140 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0141",
+      "title": "Master of Gravity Sandbox - Rank 141",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 141 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0142",
+      "title": "Master of Neon Tower Defense - Rank 142",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 142 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0143",
+      "title": "Master of Chrono Puzzle - Rank 143",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 143 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0144",
+      "title": "Master of Rhythm Blaster - Rank 144",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 144 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0145",
+      "title": "Master of Cosmic Vanguard - Rank 145",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 145 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0146",
+      "title": "Master of Shadow Quest - Rank 146",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 146 combat and puzzle objectives in Shadow Quest.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0147",
+      "title": "Master of Cyber Runner - Rank 147",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 147 combat and puzzle objectives in Cyber Runner.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0148",
+      "title": "Master of Dungeon Raycast 3D - Rank 148",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 148 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0149",
+      "title": "Master of Gravity Sandbox - Rank 149",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 149 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0150",
+      "title": "Master of Neon Tower Defense - Rank 150",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 150 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0151",
+      "title": "Master of Chrono Puzzle - Rank 151",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 151 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0152",
+      "title": "Master of Rhythm Blaster - Rank 152",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 152 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0153",
+      "title": "Master of Cosmic Vanguard - Rank 153",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 153 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0154",
+      "title": "Master of Shadow Quest - Rank 154",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 154 combat and puzzle objectives in Shadow Quest.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0155",
+      "title": "Master of Cyber Runner - Rank 155",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 155 combat and puzzle objectives in Cyber Runner.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0156",
+      "title": "Master of Dungeon Raycast 3D - Rank 156",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 156 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0157",
+      "title": "Master of Gravity Sandbox - Rank 157",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 157 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0158",
+      "title": "Master of Neon Tower Defense - Rank 158",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 158 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0159",
+      "title": "Master of Chrono Puzzle - Rank 159",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 159 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0160",
+      "title": "Master of Rhythm Blaster - Rank 160",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 160 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0161",
+      "title": "Master of Cosmic Vanguard - Rank 161",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 161 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0162",
+      "title": "Master of Shadow Quest - Rank 162",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 162 combat and puzzle objectives in Shadow Quest.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0163",
+      "title": "Master of Cyber Runner - Rank 163",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 163 combat and puzzle objectives in Cyber Runner.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0164",
+      "title": "Master of Dungeon Raycast 3D - Rank 164",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 164 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0165",
+      "title": "Master of Gravity Sandbox - Rank 165",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 165 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0166",
+      "title": "Master of Neon Tower Defense - Rank 166",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 166 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0167",
+      "title": "Master of Chrono Puzzle - Rank 167",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 167 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0168",
+      "title": "Master of Rhythm Blaster - Rank 168",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 168 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0169",
+      "title": "Master of Cosmic Vanguard - Rank 169",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 169 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0170",
+      "title": "Master of Shadow Quest - Rank 170",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 170 combat and puzzle objectives in Shadow Quest.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0171",
+      "title": "Master of Cyber Runner - Rank 171",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 171 combat and puzzle objectives in Cyber Runner.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0172",
+      "title": "Master of Dungeon Raycast 3D - Rank 172",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 172 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0173",
+      "title": "Master of Gravity Sandbox - Rank 173",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 173 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0174",
+      "title": "Master of Neon Tower Defense - Rank 174",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 174 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0175",
+      "title": "Master of Chrono Puzzle - Rank 175",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 175 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0176",
+      "title": "Master of Rhythm Blaster - Rank 176",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 176 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0177",
+      "title": "Master of Cosmic Vanguard - Rank 177",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 177 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0178",
+      "title": "Master of Shadow Quest - Rank 178",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 178 combat and puzzle objectives in Shadow Quest.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0179",
+      "title": "Master of Cyber Runner - Rank 179",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 179 combat and puzzle objectives in Cyber Runner.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0180",
+      "title": "Master of Dungeon Raycast 3D - Rank 180",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 180 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0181",
+      "title": "Master of Gravity Sandbox - Rank 181",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 181 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0182",
+      "title": "Master of Neon Tower Defense - Rank 182",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 182 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0183",
+      "title": "Master of Chrono Puzzle - Rank 183",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 183 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0184",
+      "title": "Master of Rhythm Blaster - Rank 184",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 184 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0185",
+      "title": "Master of Cosmic Vanguard - Rank 185",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 185 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0186",
+      "title": "Master of Shadow Quest - Rank 186",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 186 combat and puzzle objectives in Shadow Quest.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0187",
+      "title": "Master of Cyber Runner - Rank 187",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 187 combat and puzzle objectives in Cyber Runner.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0188",
+      "title": "Master of Dungeon Raycast 3D - Rank 188",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 188 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0189",
+      "title": "Master of Gravity Sandbox - Rank 189",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 189 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0190",
+      "title": "Master of Neon Tower Defense - Rank 190",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 190 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0191",
+      "title": "Master of Chrono Puzzle - Rank 191",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 191 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 15,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0192",
+      "title": "Master of Rhythm Blaster - Rank 192",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 192 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 20,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0193",
+      "title": "Master of Cosmic Vanguard - Rank 193",
+      "game": "Cosmic Vanguard",
+      "description": "Accomplish tier 193 combat and puzzle objectives in Cosmic Vanguard.",
+      "points": 25,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0194",
+      "title": "Master of Shadow Quest - Rank 194",
+      "game": "Shadow Quest",
+      "description": "Accomplish tier 194 combat and puzzle objectives in Shadow Quest.",
+      "points": 30,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0195",
+      "title": "Master of Cyber Runner - Rank 195",
+      "game": "Cyber Runner",
+      "description": "Accomplish tier 195 combat and puzzle objectives in Cyber Runner.",
+      "points": 35,
+      "icon": "trophy",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0196",
+      "title": "Master of Dungeon Raycast 3D - Rank 196",
+      "game": "Dungeon Raycast 3D",
+      "description": "Accomplish tier 196 combat and puzzle objectives in Dungeon Raycast 3D.",
+      "points": 40,
+      "icon": "star",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0197",
+      "title": "Master of Gravity Sandbox - Rank 197",
+      "game": "Gravity Sandbox",
+      "description": "Accomplish tier 197 combat and puzzle objectives in Gravity Sandbox.",
+      "points": 45,
+      "icon": "medal",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0198",
+      "title": "Master of Neon Tower Defense - Rank 198",
+      "game": "Neon Tower Defense",
+      "description": "Accomplish tier 198 combat and puzzle objectives in Neon Tower Defense.",
+      "points": 50,
+      "icon": "crown",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0199",
+      "title": "Master of Chrono Puzzle - Rank 199",
+      "game": "Chrono Puzzle",
+      "description": "Accomplish tier 199 combat and puzzle objectives in Chrono Puzzle.",
+      "points": 55,
+      "icon": "badge",
+      "unlocked": false
+    },
+    {
+      "id": "ach_0200",
+      "title": "Master of Rhythm Blaster - Rank 200",
+      "game": "Rhythm Blaster",
+      "description": "Accomplish tier 200 combat and puzzle objectives in Rhythm Blaster.",
+      "points": 10,
+      "icon": "trophy",
+      "unlocked": false
+    }
+  ]
+}

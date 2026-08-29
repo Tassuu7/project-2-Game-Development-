@@ -1,0 +1,7004 @@
+{
+  "waves": [
+    {
+      "waveNumber": 1,
+      "title": "Sector Incursion Wave 1",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 105,
+          "bulletSpeed": 154
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 105,
+          "bulletSpeed": 154
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 105,
+          "bulletSpeed": 154
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "box",
+          "speed": 105,
+          "bulletSpeed": 154
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 105,
+          "bulletSpeed": 154
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 105,
+          "bulletSpeed": 154
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 105,
+          "bulletSpeed": 154
+        }
+      ]
+    },
+    {
+      "waveNumber": 2,
+      "title": "Sector Incursion Wave 2",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 110,
+          "bulletSpeed": 158
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 110,
+          "bulletSpeed": 158
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 110,
+          "bulletSpeed": 158
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "box",
+          "speed": 110,
+          "bulletSpeed": 158
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 110,
+          "bulletSpeed": 158
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 110,
+          "bulletSpeed": 158
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 110,
+          "bulletSpeed": 158
+        }
+      ]
+    },
+    {
+      "waveNumber": 3,
+      "title": "Sector Incursion Wave 3",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 115,
+          "bulletSpeed": 162
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 115,
+          "bulletSpeed": 162
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 115,
+          "bulletSpeed": 162
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "box",
+          "speed": 115,
+          "bulletSpeed": 162
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 115,
+          "bulletSpeed": 162
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 115,
+          "bulletSpeed": 162
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 115,
+          "bulletSpeed": 162
+        }
+      ]
+    },
+    {
+      "waveNumber": 4,
+      "title": "Sector Incursion Wave 4",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 120,
+          "bulletSpeed": 166
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 120,
+          "bulletSpeed": 166
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 120,
+          "bulletSpeed": 166
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "box",
+          "speed": 120,
+          "bulletSpeed": 166
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 120,
+          "bulletSpeed": 166
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 120,
+          "bulletSpeed": 166
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 120,
+          "bulletSpeed": 166
+        }
+      ]
+    },
+    {
+      "waveNumber": 5,
+      "title": "Sector Incursion Wave 5",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 125,
+          "bulletSpeed": 170
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 125,
+          "bulletSpeed": 170
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 125,
+          "bulletSpeed": 170
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "box",
+          "speed": 125,
+          "bulletSpeed": 170
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 125,
+          "bulletSpeed": 170
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 125,
+          "bulletSpeed": 170
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 125,
+          "bulletSpeed": 170
+        }
+      ]
+    },
+    {
+      "waveNumber": 6,
+      "title": "Sector Incursion Wave 6",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 130,
+          "bulletSpeed": 174
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 130,
+          "bulletSpeed": 174
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 130,
+          "bulletSpeed": 174
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "box",
+          "speed": 130,
+          "bulletSpeed": 174
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 130,
+          "bulletSpeed": 174
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 130,
+          "bulletSpeed": 174
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 130,
+          "bulletSpeed": 174
+        }
+      ]
+    },
+    {
+      "waveNumber": 7,
+      "title": "Sector Incursion Wave 7",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 135,
+          "bulletSpeed": 178
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 135,
+          "bulletSpeed": 178
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 135,
+          "bulletSpeed": 178
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "box",
+          "speed": 135,
+          "bulletSpeed": 178
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 135,
+          "bulletSpeed": 178
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 135,
+          "bulletSpeed": 178
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 135,
+          "bulletSpeed": 178
+        }
+      ]
+    },
+    {
+      "waveNumber": 8,
+      "title": "Sector Incursion Wave 8",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 140,
+          "bulletSpeed": 182
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 140,
+          "bulletSpeed": 182
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 140,
+          "bulletSpeed": 182
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "box",
+          "speed": 140,
+          "bulletSpeed": 182
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 140,
+          "bulletSpeed": 182
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 140,
+          "bulletSpeed": 182
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 140,
+          "bulletSpeed": 182
+        }
+      ]
+    },
+    {
+      "waveNumber": 9,
+      "title": "Sector Incursion Wave 9",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 145,
+          "bulletSpeed": 186
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 145,
+          "bulletSpeed": 186
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 145,
+          "bulletSpeed": 186
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "box",
+          "speed": 145,
+          "bulletSpeed": 186
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 145,
+          "bulletSpeed": 186
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 145,
+          "bulletSpeed": 186
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 145,
+          "bulletSpeed": 186
+        }
+      ]
+    },
+    {
+      "waveNumber": 10,
+      "title": "Sector Incursion Wave 10",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 150,
+          "bulletSpeed": 190
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 150,
+          "bulletSpeed": 190
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 150,
+          "bulletSpeed": 190
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "box",
+          "speed": 150,
+          "bulletSpeed": 190
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 150,
+          "bulletSpeed": 190
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 150,
+          "bulletSpeed": 190
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 150,
+          "bulletSpeed": 190
+        }
+      ]
+    },
+    {
+      "waveNumber": 11,
+      "title": "Sector Incursion Wave 11",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "line",
+          "speed": 155,
+          "bulletSpeed": 194
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "circle",
+          "speed": 155,
+          "bulletSpeed": 194
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 155,
+          "bulletSpeed": 194
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "box",
+          "speed": 155,
+          "bulletSpeed": 194
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 155,
+          "bulletSpeed": 194
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "line",
+          "speed": 155,
+          "bulletSpeed": 194
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "circle",
+          "speed": 155,
+          "bulletSpeed": 194
+        }
+      ]
+    },
+    {
+      "waveNumber": 12,
+      "title": "Sector Incursion Wave 12",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "line",
+          "speed": 160,
+          "bulletSpeed": 198
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "circle",
+          "speed": 160,
+          "bulletSpeed": 198
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 160,
+          "bulletSpeed": 198
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "box",
+          "speed": 160,
+          "bulletSpeed": 198
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 160,
+          "bulletSpeed": 198
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "line",
+          "speed": 160,
+          "bulletSpeed": 198
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "circle",
+          "speed": 160,
+          "bulletSpeed": 198
+        }
+      ]
+    },
+    {
+      "waveNumber": 13,
+      "title": "Sector Incursion Wave 13",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "line",
+          "speed": 165,
+          "bulletSpeed": 202
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "circle",
+          "speed": 165,
+          "bulletSpeed": 202
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 165,
+          "bulletSpeed": 202
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "box",
+          "speed": 165,
+          "bulletSpeed": 202
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 165,
+          "bulletSpeed": 202
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "line",
+          "speed": 165,
+          "bulletSpeed": 202
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "circle",
+          "speed": 165,
+          "bulletSpeed": 202
+        }
+      ]
+    },
+    {
+      "waveNumber": 14,
+      "title": "Sector Incursion Wave 14",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "line",
+          "speed": 170,
+          "bulletSpeed": 206
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "circle",
+          "speed": 170,
+          "bulletSpeed": 206
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 170,
+          "bulletSpeed": 206
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "box",
+          "speed": 170,
+          "bulletSpeed": 206
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 170,
+          "bulletSpeed": 206
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "line",
+          "speed": 170,
+          "bulletSpeed": 206
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "circle",
+          "speed": 170,
+          "bulletSpeed": 206
+        }
+      ]
+    },
+    {
+      "waveNumber": 15,
+      "title": "Sector Incursion Wave 15",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "line",
+          "speed": 175,
+          "bulletSpeed": 210
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "circle",
+          "speed": 175,
+          "bulletSpeed": 210
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 175,
+          "bulletSpeed": 210
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "box",
+          "speed": 175,
+          "bulletSpeed": 210
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 175,
+          "bulletSpeed": 210
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "line",
+          "speed": 175,
+          "bulletSpeed": 210
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "circle",
+          "speed": 175,
+          "bulletSpeed": 210
+        }
+      ]
+    },
+    {
+      "waveNumber": 16,
+      "title": "Sector Incursion Wave 16",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "line",
+          "speed": 180,
+          "bulletSpeed": 214
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "circle",
+          "speed": 180,
+          "bulletSpeed": 214
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 180,
+          "bulletSpeed": 214
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "box",
+          "speed": 180,
+          "bulletSpeed": 214
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 180,
+          "bulletSpeed": 214
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "line",
+          "speed": 180,
+          "bulletSpeed": 214
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "circle",
+          "speed": 180,
+          "bulletSpeed": 214
+        }
+      ]
+    },
+    {
+      "waveNumber": 17,
+      "title": "Sector Incursion Wave 17",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "line",
+          "speed": 185,
+          "bulletSpeed": 218
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "circle",
+          "speed": 185,
+          "bulletSpeed": 218
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 185,
+          "bulletSpeed": 218
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "box",
+          "speed": 185,
+          "bulletSpeed": 218
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 185,
+          "bulletSpeed": 218
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "line",
+          "speed": 185,
+          "bulletSpeed": 218
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "circle",
+          "speed": 185,
+          "bulletSpeed": 218
+        }
+      ]
+    },
+    {
+      "waveNumber": 18,
+      "title": "Sector Incursion Wave 18",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "line",
+          "speed": 190,
+          "bulletSpeed": 222
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "circle",
+          "speed": 190,
+          "bulletSpeed": 222
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 190,
+          "bulletSpeed": 222
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "box",
+          "speed": 190,
+          "bulletSpeed": 222
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 190,
+          "bulletSpeed": 222
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "line",
+          "speed": 190,
+          "bulletSpeed": 222
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "circle",
+          "speed": 190,
+          "bulletSpeed": 222
+        }
+      ]
+    },
+    {
+      "waveNumber": 19,
+      "title": "Sector Incursion Wave 19",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "line",
+          "speed": 195,
+          "bulletSpeed": 226
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "circle",
+          "speed": 195,
+          "bulletSpeed": 226
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 195,
+          "bulletSpeed": 226
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "box",
+          "speed": 195,
+          "bulletSpeed": 226
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 195,
+          "bulletSpeed": 226
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "line",
+          "speed": 195,
+          "bulletSpeed": 226
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "circle",
+          "speed": 195,
+          "bulletSpeed": 226
+        }
+      ]
+    },
+    {
+      "waveNumber": 20,
+      "title": "Sector Incursion Wave 20",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "line",
+          "speed": 200,
+          "bulletSpeed": 230
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "circle",
+          "speed": 200,
+          "bulletSpeed": 230
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 200,
+          "bulletSpeed": 230
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "box",
+          "speed": 200,
+          "bulletSpeed": 230
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 200,
+          "bulletSpeed": 230
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "line",
+          "speed": 200,
+          "bulletSpeed": 230
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "circle",
+          "speed": 200,
+          "bulletSpeed": 230
+        }
+      ]
+    },
+    {
+      "waveNumber": 21,
+      "title": "Sector Incursion Wave 21",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "line",
+          "speed": 205,
+          "bulletSpeed": 234
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "circle",
+          "speed": 205,
+          "bulletSpeed": 234
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 205,
+          "bulletSpeed": 234
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "box",
+          "speed": 205,
+          "bulletSpeed": 234
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 205,
+          "bulletSpeed": 234
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "line",
+          "speed": 205,
+          "bulletSpeed": 234
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "circle",
+          "speed": 205,
+          "bulletSpeed": 234
+        }
+      ]
+    },
+    {
+      "waveNumber": 22,
+      "title": "Sector Incursion Wave 22",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "line",
+          "speed": 210,
+          "bulletSpeed": 238
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "circle",
+          "speed": 210,
+          "bulletSpeed": 238
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 210,
+          "bulletSpeed": 238
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "box",
+          "speed": 210,
+          "bulletSpeed": 238
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 210,
+          "bulletSpeed": 238
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "line",
+          "speed": 210,
+          "bulletSpeed": 238
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "circle",
+          "speed": 210,
+          "bulletSpeed": 238
+        }
+      ]
+    },
+    {
+      "waveNumber": 23,
+      "title": "Sector Incursion Wave 23",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "line",
+          "speed": 215,
+          "bulletSpeed": 242
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "circle",
+          "speed": 215,
+          "bulletSpeed": 242
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 215,
+          "bulletSpeed": 242
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "box",
+          "speed": 215,
+          "bulletSpeed": 242
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 215,
+          "bulletSpeed": 242
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "line",
+          "speed": 215,
+          "bulletSpeed": 242
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "circle",
+          "speed": 215,
+          "bulletSpeed": 242
+        }
+      ]
+    },
+    {
+      "waveNumber": 24,
+      "title": "Sector Incursion Wave 24",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "line",
+          "speed": 220,
+          "bulletSpeed": 246
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "circle",
+          "speed": 220,
+          "bulletSpeed": 246
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 220,
+          "bulletSpeed": 246
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "box",
+          "speed": 220,
+          "bulletSpeed": 246
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 220,
+          "bulletSpeed": 246
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "line",
+          "speed": 220,
+          "bulletSpeed": 246
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "circle",
+          "speed": 220,
+          "bulletSpeed": 246
+        }
+      ]
+    },
+    {
+      "waveNumber": 25,
+      "title": "Sector Incursion Wave 25",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "line",
+          "speed": 225,
+          "bulletSpeed": 250
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "circle",
+          "speed": 225,
+          "bulletSpeed": 250
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 225,
+          "bulletSpeed": 250
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "box",
+          "speed": 225,
+          "bulletSpeed": 250
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 225,
+          "bulletSpeed": 250
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "line",
+          "speed": 225,
+          "bulletSpeed": 250
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "circle",
+          "speed": 225,
+          "bulletSpeed": 250
+        }
+      ]
+    },
+    {
+      "waveNumber": 26,
+      "title": "Sector Incursion Wave 26",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "line",
+          "speed": 230,
+          "bulletSpeed": 254
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "circle",
+          "speed": 230,
+          "bulletSpeed": 254
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 230,
+          "bulletSpeed": 254
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "box",
+          "speed": 230,
+          "bulletSpeed": 254
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 230,
+          "bulletSpeed": 254
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "line",
+          "speed": 230,
+          "bulletSpeed": 254
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "circle",
+          "speed": 230,
+          "bulletSpeed": 254
+        }
+      ]
+    },
+    {
+      "waveNumber": 27,
+      "title": "Sector Incursion Wave 27",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "line",
+          "speed": 235,
+          "bulletSpeed": 258
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "circle",
+          "speed": 235,
+          "bulletSpeed": 258
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 235,
+          "bulletSpeed": 258
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "box",
+          "speed": 235,
+          "bulletSpeed": 258
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 235,
+          "bulletSpeed": 258
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "line",
+          "speed": 235,
+          "bulletSpeed": 258
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "circle",
+          "speed": 235,
+          "bulletSpeed": 258
+        }
+      ]
+    },
+    {
+      "waveNumber": 28,
+      "title": "Sector Incursion Wave 28",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "line",
+          "speed": 240,
+          "bulletSpeed": 262
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "circle",
+          "speed": 240,
+          "bulletSpeed": 262
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 240,
+          "bulletSpeed": 262
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "box",
+          "speed": 240,
+          "bulletSpeed": 262
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 240,
+          "bulletSpeed": 262
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "line",
+          "speed": 240,
+          "bulletSpeed": 262
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "circle",
+          "speed": 240,
+          "bulletSpeed": 262
+        }
+      ]
+    },
+    {
+      "waveNumber": 29,
+      "title": "Sector Incursion Wave 29",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "line",
+          "speed": 245,
+          "bulletSpeed": 266
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "circle",
+          "speed": 245,
+          "bulletSpeed": 266
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 245,
+          "bulletSpeed": 266
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "box",
+          "speed": 245,
+          "bulletSpeed": 266
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 245,
+          "bulletSpeed": 266
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "line",
+          "speed": 245,
+          "bulletSpeed": 266
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "circle",
+          "speed": 245,
+          "bulletSpeed": 266
+        }
+      ]
+    },
+    {
+      "waveNumber": 30,
+      "title": "Sector Incursion Wave 30",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "line",
+          "speed": 250,
+          "bulletSpeed": 270
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "circle",
+          "speed": 250,
+          "bulletSpeed": 270
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 250,
+          "bulletSpeed": 270
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "box",
+          "speed": 250,
+          "bulletSpeed": 270
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 250,
+          "bulletSpeed": 270
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "line",
+          "speed": 250,
+          "bulletSpeed": 270
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "circle",
+          "speed": 250,
+          "bulletSpeed": 270
+        }
+      ]
+    },
+    {
+      "waveNumber": 31,
+      "title": "Sector Incursion Wave 31",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 255,
+          "bulletSpeed": 274
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 255,
+          "bulletSpeed": 274
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 255,
+          "bulletSpeed": 274
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "box",
+          "speed": 255,
+          "bulletSpeed": 274
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 255,
+          "bulletSpeed": 274
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 255,
+          "bulletSpeed": 274
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 255,
+          "bulletSpeed": 274
+        }
+      ]
+    },
+    {
+      "waveNumber": 32,
+      "title": "Sector Incursion Wave 32",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 260,
+          "bulletSpeed": 278
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 260,
+          "bulletSpeed": 278
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 260,
+          "bulletSpeed": 278
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "box",
+          "speed": 260,
+          "bulletSpeed": 278
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 260,
+          "bulletSpeed": 278
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 260,
+          "bulletSpeed": 278
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 260,
+          "bulletSpeed": 278
+        }
+      ]
+    },
+    {
+      "waveNumber": 33,
+      "title": "Sector Incursion Wave 33",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 265,
+          "bulletSpeed": 282
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 265,
+          "bulletSpeed": 282
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 265,
+          "bulletSpeed": 282
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "box",
+          "speed": 265,
+          "bulletSpeed": 282
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 265,
+          "bulletSpeed": 282
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 265,
+          "bulletSpeed": 282
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 265,
+          "bulletSpeed": 282
+        }
+      ]
+    },
+    {
+      "waveNumber": 34,
+      "title": "Sector Incursion Wave 34",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 270,
+          "bulletSpeed": 286
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 270,
+          "bulletSpeed": 286
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 270,
+          "bulletSpeed": 286
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "box",
+          "speed": 270,
+          "bulletSpeed": 286
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 270,
+          "bulletSpeed": 286
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 270,
+          "bulletSpeed": 286
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 270,
+          "bulletSpeed": 286
+        }
+      ]
+    },
+    {
+      "waveNumber": 35,
+      "title": "Sector Incursion Wave 35",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 275,
+          "bulletSpeed": 290
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 275,
+          "bulletSpeed": 290
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 275,
+          "bulletSpeed": 290
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "box",
+          "speed": 275,
+          "bulletSpeed": 290
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 275,
+          "bulletSpeed": 290
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 275,
+          "bulletSpeed": 290
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 275,
+          "bulletSpeed": 290
+        }
+      ]
+    },
+    {
+      "waveNumber": 36,
+      "title": "Sector Incursion Wave 36",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 280,
+          "bulletSpeed": 294
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 280,
+          "bulletSpeed": 294
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 280,
+          "bulletSpeed": 294
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "box",
+          "speed": 280,
+          "bulletSpeed": 294
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 280,
+          "bulletSpeed": 294
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 280,
+          "bulletSpeed": 294
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 280,
+          "bulletSpeed": 294
+        }
+      ]
+    },
+    {
+      "waveNumber": 37,
+      "title": "Sector Incursion Wave 37",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 285,
+          "bulletSpeed": 298
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 285,
+          "bulletSpeed": 298
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 285,
+          "bulletSpeed": 298
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "box",
+          "speed": 285,
+          "bulletSpeed": 298
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 285,
+          "bulletSpeed": 298
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 285,
+          "bulletSpeed": 298
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 285,
+          "bulletSpeed": 298
+        }
+      ]
+    },
+    {
+      "waveNumber": 38,
+      "title": "Sector Incursion Wave 38",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 290,
+          "bulletSpeed": 302
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 290,
+          "bulletSpeed": 302
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 290,
+          "bulletSpeed": 302
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "box",
+          "speed": 290,
+          "bulletSpeed": 302
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 290,
+          "bulletSpeed": 302
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 290,
+          "bulletSpeed": 302
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 290,
+          "bulletSpeed": 302
+        }
+      ]
+    },
+    {
+      "waveNumber": 39,
+      "title": "Sector Incursion Wave 39",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 295,
+          "bulletSpeed": 306
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 295,
+          "bulletSpeed": 306
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 295,
+          "bulletSpeed": 306
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "box",
+          "speed": 295,
+          "bulletSpeed": 306
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 295,
+          "bulletSpeed": 306
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 295,
+          "bulletSpeed": 306
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 295,
+          "bulletSpeed": 306
+        }
+      ]
+    },
+    {
+      "waveNumber": 40,
+      "title": "Sector Incursion Wave 40",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 300,
+          "bulletSpeed": 310
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 300,
+          "bulletSpeed": 310
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 300,
+          "bulletSpeed": 310
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "box",
+          "speed": 300,
+          "bulletSpeed": 310
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 300,
+          "bulletSpeed": 310
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 300,
+          "bulletSpeed": 310
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 300,
+          "bulletSpeed": 310
+        }
+      ]
+    },
+    {
+      "waveNumber": 41,
+      "title": "Sector Incursion Wave 41",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "line",
+          "speed": 305,
+          "bulletSpeed": 314
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "circle",
+          "speed": 305,
+          "bulletSpeed": 314
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 305,
+          "bulletSpeed": 314
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "box",
+          "speed": 305,
+          "bulletSpeed": 314
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 305,
+          "bulletSpeed": 314
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "line",
+          "speed": 305,
+          "bulletSpeed": 314
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "circle",
+          "speed": 305,
+          "bulletSpeed": 314
+        }
+      ]
+    },
+    {
+      "waveNumber": 42,
+      "title": "Sector Incursion Wave 42",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "line",
+          "speed": 310,
+          "bulletSpeed": 318
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "circle",
+          "speed": 310,
+          "bulletSpeed": 318
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 310,
+          "bulletSpeed": 318
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "box",
+          "speed": 310,
+          "bulletSpeed": 318
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 310,
+          "bulletSpeed": 318
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "line",
+          "speed": 310,
+          "bulletSpeed": 318
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "circle",
+          "speed": 310,
+          "bulletSpeed": 318
+        }
+      ]
+    },
+    {
+      "waveNumber": 43,
+      "title": "Sector Incursion Wave 43",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "line",
+          "speed": 315,
+          "bulletSpeed": 322
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "circle",
+          "speed": 315,
+          "bulletSpeed": 322
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 315,
+          "bulletSpeed": 322
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "box",
+          "speed": 315,
+          "bulletSpeed": 322
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 315,
+          "bulletSpeed": 322
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "line",
+          "speed": 315,
+          "bulletSpeed": 322
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "circle",
+          "speed": 315,
+          "bulletSpeed": 322
+        }
+      ]
+    },
+    {
+      "waveNumber": 44,
+      "title": "Sector Incursion Wave 44",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "line",
+          "speed": 320,
+          "bulletSpeed": 326
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "circle",
+          "speed": 320,
+          "bulletSpeed": 326
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 320,
+          "bulletSpeed": 326
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "box",
+          "speed": 320,
+          "bulletSpeed": 326
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 320,
+          "bulletSpeed": 326
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "line",
+          "speed": 320,
+          "bulletSpeed": 326
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "circle",
+          "speed": 320,
+          "bulletSpeed": 326
+        }
+      ]
+    },
+    {
+      "waveNumber": 45,
+      "title": "Sector Incursion Wave 45",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "line",
+          "speed": 325,
+          "bulletSpeed": 330
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "circle",
+          "speed": 325,
+          "bulletSpeed": 330
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 325,
+          "bulletSpeed": 330
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "box",
+          "speed": 325,
+          "bulletSpeed": 330
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 325,
+          "bulletSpeed": 330
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "line",
+          "speed": 325,
+          "bulletSpeed": 330
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "circle",
+          "speed": 325,
+          "bulletSpeed": 330
+        }
+      ]
+    },
+    {
+      "waveNumber": 46,
+      "title": "Sector Incursion Wave 46",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "line",
+          "speed": 330,
+          "bulletSpeed": 334
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "circle",
+          "speed": 330,
+          "bulletSpeed": 334
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 330,
+          "bulletSpeed": 334
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "box",
+          "speed": 330,
+          "bulletSpeed": 334
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 330,
+          "bulletSpeed": 334
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "line",
+          "speed": 330,
+          "bulletSpeed": 334
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "circle",
+          "speed": 330,
+          "bulletSpeed": 334
+        }
+      ]
+    },
+    {
+      "waveNumber": 47,
+      "title": "Sector Incursion Wave 47",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "line",
+          "speed": 335,
+          "bulletSpeed": 338
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "circle",
+          "speed": 335,
+          "bulletSpeed": 338
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 335,
+          "bulletSpeed": 338
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "box",
+          "speed": 335,
+          "bulletSpeed": 338
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 335,
+          "bulletSpeed": 338
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "line",
+          "speed": 335,
+          "bulletSpeed": 338
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "circle",
+          "speed": 335,
+          "bulletSpeed": 338
+        }
+      ]
+    },
+    {
+      "waveNumber": 48,
+      "title": "Sector Incursion Wave 48",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "line",
+          "speed": 340,
+          "bulletSpeed": 342
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "circle",
+          "speed": 340,
+          "bulletSpeed": 342
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 340,
+          "bulletSpeed": 342
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "box",
+          "speed": 340,
+          "bulletSpeed": 342
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 340,
+          "bulletSpeed": 342
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "line",
+          "speed": 340,
+          "bulletSpeed": 342
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "circle",
+          "speed": 340,
+          "bulletSpeed": 342
+        }
+      ]
+    },
+    {
+      "waveNumber": 49,
+      "title": "Sector Incursion Wave 49",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "line",
+          "speed": 345,
+          "bulletSpeed": 346
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "circle",
+          "speed": 345,
+          "bulletSpeed": 346
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 345,
+          "bulletSpeed": 346
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "box",
+          "speed": 345,
+          "bulletSpeed": 346
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 345,
+          "bulletSpeed": 346
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "line",
+          "speed": 345,
+          "bulletSpeed": 346
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "circle",
+          "speed": 345,
+          "bulletSpeed": 346
+        }
+      ]
+    },
+    {
+      "waveNumber": 50,
+      "title": "Sector Incursion Wave 50",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "line",
+          "speed": 350,
+          "bulletSpeed": 350
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "circle",
+          "speed": 350,
+          "bulletSpeed": 350
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 350,
+          "bulletSpeed": 350
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "box",
+          "speed": 350,
+          "bulletSpeed": 350
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 350,
+          "bulletSpeed": 350
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "line",
+          "speed": 350,
+          "bulletSpeed": 350
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "circle",
+          "speed": 350,
+          "bulletSpeed": 350
+        }
+      ]
+    },
+    {
+      "waveNumber": 51,
+      "title": "Sector Incursion Wave 51",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "line",
+          "speed": 355,
+          "bulletSpeed": 354
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "circle",
+          "speed": 355,
+          "bulletSpeed": 354
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 355,
+          "bulletSpeed": 354
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "box",
+          "speed": 355,
+          "bulletSpeed": 354
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 355,
+          "bulletSpeed": 354
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "line",
+          "speed": 355,
+          "bulletSpeed": 354
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "circle",
+          "speed": 355,
+          "bulletSpeed": 354
+        }
+      ]
+    },
+    {
+      "waveNumber": 52,
+      "title": "Sector Incursion Wave 52",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "line",
+          "speed": 360,
+          "bulletSpeed": 358
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "circle",
+          "speed": 360,
+          "bulletSpeed": 358
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 360,
+          "bulletSpeed": 358
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "box",
+          "speed": 360,
+          "bulletSpeed": 358
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 360,
+          "bulletSpeed": 358
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "line",
+          "speed": 360,
+          "bulletSpeed": 358
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "circle",
+          "speed": 360,
+          "bulletSpeed": 358
+        }
+      ]
+    },
+    {
+      "waveNumber": 53,
+      "title": "Sector Incursion Wave 53",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "line",
+          "speed": 365,
+          "bulletSpeed": 362
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "circle",
+          "speed": 365,
+          "bulletSpeed": 362
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 365,
+          "bulletSpeed": 362
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "box",
+          "speed": 365,
+          "bulletSpeed": 362
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 365,
+          "bulletSpeed": 362
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "line",
+          "speed": 365,
+          "bulletSpeed": 362
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "circle",
+          "speed": 365,
+          "bulletSpeed": 362
+        }
+      ]
+    },
+    {
+      "waveNumber": 54,
+      "title": "Sector Incursion Wave 54",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "line",
+          "speed": 370,
+          "bulletSpeed": 366
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "circle",
+          "speed": 370,
+          "bulletSpeed": 366
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 370,
+          "bulletSpeed": 366
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "box",
+          "speed": 370,
+          "bulletSpeed": 366
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 370,
+          "bulletSpeed": 366
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "line",
+          "speed": 370,
+          "bulletSpeed": 366
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "circle",
+          "speed": 370,
+          "bulletSpeed": 366
+        }
+      ]
+    },
+    {
+      "waveNumber": 55,
+      "title": "Sector Incursion Wave 55",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "line",
+          "speed": 375,
+          "bulletSpeed": 370
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "circle",
+          "speed": 375,
+          "bulletSpeed": 370
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 375,
+          "bulletSpeed": 370
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "box",
+          "speed": 375,
+          "bulletSpeed": 370
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 375,
+          "bulletSpeed": 370
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "line",
+          "speed": 375,
+          "bulletSpeed": 370
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "circle",
+          "speed": 375,
+          "bulletSpeed": 370
+        }
+      ]
+    },
+    {
+      "waveNumber": 56,
+      "title": "Sector Incursion Wave 56",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "line",
+          "speed": 380,
+          "bulletSpeed": 374
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "circle",
+          "speed": 380,
+          "bulletSpeed": 374
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 380,
+          "bulletSpeed": 374
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "box",
+          "speed": 380,
+          "bulletSpeed": 374
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 380,
+          "bulletSpeed": 374
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "line",
+          "speed": 380,
+          "bulletSpeed": 374
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "circle",
+          "speed": 380,
+          "bulletSpeed": 374
+        }
+      ]
+    },
+    {
+      "waveNumber": 57,
+      "title": "Sector Incursion Wave 57",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "line",
+          "speed": 385,
+          "bulletSpeed": 378
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "circle",
+          "speed": 385,
+          "bulletSpeed": 378
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 385,
+          "bulletSpeed": 378
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "box",
+          "speed": 385,
+          "bulletSpeed": 378
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 385,
+          "bulletSpeed": 378
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "line",
+          "speed": 385,
+          "bulletSpeed": 378
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "circle",
+          "speed": 385,
+          "bulletSpeed": 378
+        }
+      ]
+    },
+    {
+      "waveNumber": 58,
+      "title": "Sector Incursion Wave 58",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "line",
+          "speed": 390,
+          "bulletSpeed": 382
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "circle",
+          "speed": 390,
+          "bulletSpeed": 382
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 390,
+          "bulletSpeed": 382
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "box",
+          "speed": 390,
+          "bulletSpeed": 382
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 390,
+          "bulletSpeed": 382
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "line",
+          "speed": 390,
+          "bulletSpeed": 382
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "circle",
+          "speed": 390,
+          "bulletSpeed": 382
+        }
+      ]
+    },
+    {
+      "waveNumber": 59,
+      "title": "Sector Incursion Wave 59",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "line",
+          "speed": 395,
+          "bulletSpeed": 386
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "circle",
+          "speed": 395,
+          "bulletSpeed": 386
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 395,
+          "bulletSpeed": 386
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "box",
+          "speed": 395,
+          "bulletSpeed": 386
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 395,
+          "bulletSpeed": 386
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "line",
+          "speed": 395,
+          "bulletSpeed": 386
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "circle",
+          "speed": 395,
+          "bulletSpeed": 386
+        }
+      ]
+    },
+    {
+      "waveNumber": 60,
+      "title": "Sector Incursion Wave 60",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "line",
+          "speed": 400,
+          "bulletSpeed": 390
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "circle",
+          "speed": 400,
+          "bulletSpeed": 390
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 400,
+          "bulletSpeed": 390
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "box",
+          "speed": 400,
+          "bulletSpeed": 390
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 400,
+          "bulletSpeed": 390
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "line",
+          "speed": 400,
+          "bulletSpeed": 390
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "circle",
+          "speed": 400,
+          "bulletSpeed": 390
+        }
+      ]
+    },
+    {
+      "waveNumber": 61,
+      "title": "Sector Incursion Wave 61",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 405,
+          "bulletSpeed": 394
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 405,
+          "bulletSpeed": 394
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 405,
+          "bulletSpeed": 394
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "box",
+          "speed": 405,
+          "bulletSpeed": 394
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 405,
+          "bulletSpeed": 394
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 405,
+          "bulletSpeed": 394
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 405,
+          "bulletSpeed": 394
+        }
+      ]
+    },
+    {
+      "waveNumber": 62,
+      "title": "Sector Incursion Wave 62",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 410,
+          "bulletSpeed": 398
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 410,
+          "bulletSpeed": 398
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 410,
+          "bulletSpeed": 398
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "box",
+          "speed": 410,
+          "bulletSpeed": 398
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 410,
+          "bulletSpeed": 398
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 410,
+          "bulletSpeed": 398
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 410,
+          "bulletSpeed": 398
+        }
+      ]
+    },
+    {
+      "waveNumber": 63,
+      "title": "Sector Incursion Wave 63",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 415,
+          "bulletSpeed": 402
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 415,
+          "bulletSpeed": 402
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 415,
+          "bulletSpeed": 402
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "box",
+          "speed": 415,
+          "bulletSpeed": 402
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 415,
+          "bulletSpeed": 402
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 415,
+          "bulletSpeed": 402
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 415,
+          "bulletSpeed": 402
+        }
+      ]
+    },
+    {
+      "waveNumber": 64,
+      "title": "Sector Incursion Wave 64",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 420,
+          "bulletSpeed": 406
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 420,
+          "bulletSpeed": 406
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 420,
+          "bulletSpeed": 406
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "box",
+          "speed": 420,
+          "bulletSpeed": 406
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 420,
+          "bulletSpeed": 406
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 420,
+          "bulletSpeed": 406
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 420,
+          "bulletSpeed": 406
+        }
+      ]
+    },
+    {
+      "waveNumber": 65,
+      "title": "Sector Incursion Wave 65",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 425,
+          "bulletSpeed": 410
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 425,
+          "bulletSpeed": 410
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 425,
+          "bulletSpeed": 410
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "box",
+          "speed": 425,
+          "bulletSpeed": 410
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 425,
+          "bulletSpeed": 410
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 425,
+          "bulletSpeed": 410
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 425,
+          "bulletSpeed": 410
+        }
+      ]
+    },
+    {
+      "waveNumber": 66,
+      "title": "Sector Incursion Wave 66",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 430,
+          "bulletSpeed": 414
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 430,
+          "bulletSpeed": 414
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 430,
+          "bulletSpeed": 414
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "box",
+          "speed": 430,
+          "bulletSpeed": 414
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 430,
+          "bulletSpeed": 414
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 430,
+          "bulletSpeed": 414
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 430,
+          "bulletSpeed": 414
+        }
+      ]
+    },
+    {
+      "waveNumber": 67,
+      "title": "Sector Incursion Wave 67",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 435,
+          "bulletSpeed": 418
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 435,
+          "bulletSpeed": 418
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 435,
+          "bulletSpeed": 418
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "box",
+          "speed": 435,
+          "bulletSpeed": 418
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 435,
+          "bulletSpeed": 418
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 435,
+          "bulletSpeed": 418
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 435,
+          "bulletSpeed": 418
+        }
+      ]
+    },
+    {
+      "waveNumber": 68,
+      "title": "Sector Incursion Wave 68",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 440,
+          "bulletSpeed": 422
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 440,
+          "bulletSpeed": 422
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 440,
+          "bulletSpeed": 422
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "box",
+          "speed": 440,
+          "bulletSpeed": 422
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 440,
+          "bulletSpeed": 422
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 440,
+          "bulletSpeed": 422
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 440,
+          "bulletSpeed": 422
+        }
+      ]
+    },
+    {
+      "waveNumber": 69,
+      "title": "Sector Incursion Wave 69",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 445,
+          "bulletSpeed": 426
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 445,
+          "bulletSpeed": 426
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 445,
+          "bulletSpeed": 426
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "box",
+          "speed": 445,
+          "bulletSpeed": 426
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 445,
+          "bulletSpeed": 426
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 445,
+          "bulletSpeed": 426
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 445,
+          "bulletSpeed": 426
+        }
+      ]
+    },
+    {
+      "waveNumber": 70,
+      "title": "Sector Incursion Wave 70",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 450,
+          "bulletSpeed": 430
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 450,
+          "bulletSpeed": 430
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 450,
+          "bulletSpeed": 430
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "box",
+          "speed": 450,
+          "bulletSpeed": 430
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 450,
+          "bulletSpeed": 430
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 450,
+          "bulletSpeed": 430
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 450,
+          "bulletSpeed": 430
+        }
+      ]
+    },
+    {
+      "waveNumber": 71,
+      "title": "Sector Incursion Wave 71",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "line",
+          "speed": 455,
+          "bulletSpeed": 434
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "circle",
+          "speed": 455,
+          "bulletSpeed": 434
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 455,
+          "bulletSpeed": 434
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "box",
+          "speed": 455,
+          "bulletSpeed": 434
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 455,
+          "bulletSpeed": 434
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "line",
+          "speed": 455,
+          "bulletSpeed": 434
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "circle",
+          "speed": 455,
+          "bulletSpeed": 434
+        }
+      ]
+    },
+    {
+      "waveNumber": 72,
+      "title": "Sector Incursion Wave 72",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "line",
+          "speed": 460,
+          "bulletSpeed": 438
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "circle",
+          "speed": 460,
+          "bulletSpeed": 438
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 460,
+          "bulletSpeed": 438
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "box",
+          "speed": 460,
+          "bulletSpeed": 438
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 460,
+          "bulletSpeed": 438
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "line",
+          "speed": 460,
+          "bulletSpeed": 438
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "circle",
+          "speed": 460,
+          "bulletSpeed": 438
+        }
+      ]
+    },
+    {
+      "waveNumber": 73,
+      "title": "Sector Incursion Wave 73",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "line",
+          "speed": 465,
+          "bulletSpeed": 442
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "circle",
+          "speed": 465,
+          "bulletSpeed": 442
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 465,
+          "bulletSpeed": 442
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "box",
+          "speed": 465,
+          "bulletSpeed": 442
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 465,
+          "bulletSpeed": 442
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "line",
+          "speed": 465,
+          "bulletSpeed": 442
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "circle",
+          "speed": 465,
+          "bulletSpeed": 442
+        }
+      ]
+    },
+    {
+      "waveNumber": 74,
+      "title": "Sector Incursion Wave 74",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "line",
+          "speed": 470,
+          "bulletSpeed": 446
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "circle",
+          "speed": 470,
+          "bulletSpeed": 446
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 470,
+          "bulletSpeed": 446
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "box",
+          "speed": 470,
+          "bulletSpeed": 446
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 470,
+          "bulletSpeed": 446
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "line",
+          "speed": 470,
+          "bulletSpeed": 446
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "circle",
+          "speed": 470,
+          "bulletSpeed": 446
+        }
+      ]
+    },
+    {
+      "waveNumber": 75,
+      "title": "Sector Incursion Wave 75",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "line",
+          "speed": 475,
+          "bulletSpeed": 450
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "circle",
+          "speed": 475,
+          "bulletSpeed": 450
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 475,
+          "bulletSpeed": 450
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "box",
+          "speed": 475,
+          "bulletSpeed": 450
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 475,
+          "bulletSpeed": 450
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "line",
+          "speed": 475,
+          "bulletSpeed": 450
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "circle",
+          "speed": 475,
+          "bulletSpeed": 450
+        }
+      ]
+    },
+    {
+      "waveNumber": 76,
+      "title": "Sector Incursion Wave 76",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "line",
+          "speed": 480,
+          "bulletSpeed": 454
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "circle",
+          "speed": 480,
+          "bulletSpeed": 454
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 480,
+          "bulletSpeed": 454
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "box",
+          "speed": 480,
+          "bulletSpeed": 454
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 480,
+          "bulletSpeed": 454
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "line",
+          "speed": 480,
+          "bulletSpeed": 454
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "circle",
+          "speed": 480,
+          "bulletSpeed": 454
+        }
+      ]
+    },
+    {
+      "waveNumber": 77,
+      "title": "Sector Incursion Wave 77",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "line",
+          "speed": 485,
+          "bulletSpeed": 458
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "circle",
+          "speed": 485,
+          "bulletSpeed": 458
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 485,
+          "bulletSpeed": 458
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "box",
+          "speed": 485,
+          "bulletSpeed": 458
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 485,
+          "bulletSpeed": 458
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "line",
+          "speed": 485,
+          "bulletSpeed": 458
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "circle",
+          "speed": 485,
+          "bulletSpeed": 458
+        }
+      ]
+    },
+    {
+      "waveNumber": 78,
+      "title": "Sector Incursion Wave 78",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "line",
+          "speed": 490,
+          "bulletSpeed": 462
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "circle",
+          "speed": 490,
+          "bulletSpeed": 462
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 490,
+          "bulletSpeed": 462
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "box",
+          "speed": 490,
+          "bulletSpeed": 462
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 490,
+          "bulletSpeed": 462
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "line",
+          "speed": 490,
+          "bulletSpeed": 462
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "circle",
+          "speed": 490,
+          "bulletSpeed": 462
+        }
+      ]
+    },
+    {
+      "waveNumber": 79,
+      "title": "Sector Incursion Wave 79",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "line",
+          "speed": 495,
+          "bulletSpeed": 466
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "circle",
+          "speed": 495,
+          "bulletSpeed": 466
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 495,
+          "bulletSpeed": 466
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "box",
+          "speed": 495,
+          "bulletSpeed": 466
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 495,
+          "bulletSpeed": 466
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "line",
+          "speed": 495,
+          "bulletSpeed": 466
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "circle",
+          "speed": 495,
+          "bulletSpeed": 466
+        }
+      ]
+    },
+    {
+      "waveNumber": 80,
+      "title": "Sector Incursion Wave 80",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "line",
+          "speed": 500,
+          "bulletSpeed": 470
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "circle",
+          "speed": 500,
+          "bulletSpeed": 470
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 500,
+          "bulletSpeed": 470
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "box",
+          "speed": 500,
+          "bulletSpeed": 470
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 500,
+          "bulletSpeed": 470
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "line",
+          "speed": 500,
+          "bulletSpeed": 470
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "circle",
+          "speed": 500,
+          "bulletSpeed": 470
+        }
+      ]
+    },
+    {
+      "waveNumber": 81,
+      "title": "Sector Incursion Wave 81",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "line",
+          "speed": 505,
+          "bulletSpeed": 474
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "circle",
+          "speed": 505,
+          "bulletSpeed": 474
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 505,
+          "bulletSpeed": 474
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "box",
+          "speed": 505,
+          "bulletSpeed": 474
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 505,
+          "bulletSpeed": 474
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "line",
+          "speed": 505,
+          "bulletSpeed": 474
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "circle",
+          "speed": 505,
+          "bulletSpeed": 474
+        }
+      ]
+    },
+    {
+      "waveNumber": 82,
+      "title": "Sector Incursion Wave 82",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "line",
+          "speed": 510,
+          "bulletSpeed": 478
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "circle",
+          "speed": 510,
+          "bulletSpeed": 478
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 510,
+          "bulletSpeed": 478
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "box",
+          "speed": 510,
+          "bulletSpeed": 478
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 510,
+          "bulletSpeed": 478
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "line",
+          "speed": 510,
+          "bulletSpeed": 478
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "circle",
+          "speed": 510,
+          "bulletSpeed": 478
+        }
+      ]
+    },
+    {
+      "waveNumber": 83,
+      "title": "Sector Incursion Wave 83",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "line",
+          "speed": 515,
+          "bulletSpeed": 482
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "circle",
+          "speed": 515,
+          "bulletSpeed": 482
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 515,
+          "bulletSpeed": 482
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "box",
+          "speed": 515,
+          "bulletSpeed": 482
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 515,
+          "bulletSpeed": 482
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "line",
+          "speed": 515,
+          "bulletSpeed": 482
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "circle",
+          "speed": 515,
+          "bulletSpeed": 482
+        }
+      ]
+    },
+    {
+      "waveNumber": 84,
+      "title": "Sector Incursion Wave 84",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "line",
+          "speed": 520,
+          "bulletSpeed": 486
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "circle",
+          "speed": 520,
+          "bulletSpeed": 486
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 520,
+          "bulletSpeed": 486
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "box",
+          "speed": 520,
+          "bulletSpeed": 486
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 520,
+          "bulletSpeed": 486
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "line",
+          "speed": 520,
+          "bulletSpeed": 486
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "circle",
+          "speed": 520,
+          "bulletSpeed": 486
+        }
+      ]
+    },
+    {
+      "waveNumber": 85,
+      "title": "Sector Incursion Wave 85",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "line",
+          "speed": 525,
+          "bulletSpeed": 490
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "circle",
+          "speed": 525,
+          "bulletSpeed": 490
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 525,
+          "bulletSpeed": 490
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "box",
+          "speed": 525,
+          "bulletSpeed": 490
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 525,
+          "bulletSpeed": 490
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "line",
+          "speed": 525,
+          "bulletSpeed": 490
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "circle",
+          "speed": 525,
+          "bulletSpeed": 490
+        }
+      ]
+    },
+    {
+      "waveNumber": 86,
+      "title": "Sector Incursion Wave 86",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "line",
+          "speed": 530,
+          "bulletSpeed": 494
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "circle",
+          "speed": 530,
+          "bulletSpeed": 494
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 530,
+          "bulletSpeed": 494
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "box",
+          "speed": 530,
+          "bulletSpeed": 494
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 530,
+          "bulletSpeed": 494
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "line",
+          "speed": 530,
+          "bulletSpeed": 494
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "circle",
+          "speed": 530,
+          "bulletSpeed": 494
+        }
+      ]
+    },
+    {
+      "waveNumber": 87,
+      "title": "Sector Incursion Wave 87",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "line",
+          "speed": 535,
+          "bulletSpeed": 498
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "circle",
+          "speed": 535,
+          "bulletSpeed": 498
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 535,
+          "bulletSpeed": 498
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "box",
+          "speed": 535,
+          "bulletSpeed": 498
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 535,
+          "bulletSpeed": 498
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "line",
+          "speed": 535,
+          "bulletSpeed": 498
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "circle",
+          "speed": 535,
+          "bulletSpeed": 498
+        }
+      ]
+    },
+    {
+      "waveNumber": 88,
+      "title": "Sector Incursion Wave 88",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "line",
+          "speed": 540,
+          "bulletSpeed": 502
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "circle",
+          "speed": 540,
+          "bulletSpeed": 502
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 540,
+          "bulletSpeed": 502
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "box",
+          "speed": 540,
+          "bulletSpeed": 502
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 540,
+          "bulletSpeed": 502
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "line",
+          "speed": 540,
+          "bulletSpeed": 502
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "circle",
+          "speed": 540,
+          "bulletSpeed": 502
+        }
+      ]
+    },
+    {
+      "waveNumber": 89,
+      "title": "Sector Incursion Wave 89",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "line",
+          "speed": 545,
+          "bulletSpeed": 506
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "circle",
+          "speed": 545,
+          "bulletSpeed": 506
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 545,
+          "bulletSpeed": 506
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "box",
+          "speed": 545,
+          "bulletSpeed": 506
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 545,
+          "bulletSpeed": 506
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "line",
+          "speed": 545,
+          "bulletSpeed": 506
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "circle",
+          "speed": 545,
+          "bulletSpeed": 506
+        }
+      ]
+    },
+    {
+      "waveNumber": 90,
+      "title": "Sector Incursion Wave 90",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "line",
+          "speed": 550,
+          "bulletSpeed": 510
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "circle",
+          "speed": 550,
+          "bulletSpeed": 510
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 550,
+          "bulletSpeed": 510
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "box",
+          "speed": 550,
+          "bulletSpeed": 510
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 550,
+          "bulletSpeed": 510
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "line",
+          "speed": 550,
+          "bulletSpeed": 510
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "circle",
+          "speed": 550,
+          "bulletSpeed": 510
+        }
+      ]
+    },
+    {
+      "waveNumber": 91,
+      "title": "Sector Incursion Wave 91",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 555,
+          "bulletSpeed": 514
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 555,
+          "bulletSpeed": 514
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 555,
+          "bulletSpeed": 514
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "box",
+          "speed": 555,
+          "bulletSpeed": 514
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 555,
+          "bulletSpeed": 514
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "line",
+          "speed": 555,
+          "bulletSpeed": 514
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "circle",
+          "speed": 555,
+          "bulletSpeed": 514
+        }
+      ]
+    },
+    {
+      "waveNumber": 92,
+      "title": "Sector Incursion Wave 92",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 560,
+          "bulletSpeed": 518
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 560,
+          "bulletSpeed": 518
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 560,
+          "bulletSpeed": 518
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "box",
+          "speed": 560,
+          "bulletSpeed": 518
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 560,
+          "bulletSpeed": 518
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "line",
+          "speed": 560,
+          "bulletSpeed": 518
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "circle",
+          "speed": 560,
+          "bulletSpeed": 518
+        }
+      ]
+    },
+    {
+      "waveNumber": 93,
+      "title": "Sector Incursion Wave 93",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 565,
+          "bulletSpeed": 522
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 565,
+          "bulletSpeed": 522
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 565,
+          "bulletSpeed": 522
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "box",
+          "speed": 565,
+          "bulletSpeed": 522
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 565,
+          "bulletSpeed": 522
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "line",
+          "speed": 565,
+          "bulletSpeed": 522
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "circle",
+          "speed": 565,
+          "bulletSpeed": 522
+        }
+      ]
+    },
+    {
+      "waveNumber": 94,
+      "title": "Sector Incursion Wave 94",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 570,
+          "bulletSpeed": 526
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 570,
+          "bulletSpeed": 526
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 570,
+          "bulletSpeed": 526
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "box",
+          "speed": 570,
+          "bulletSpeed": 526
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 570,
+          "bulletSpeed": 526
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "line",
+          "speed": 570,
+          "bulletSpeed": 526
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "circle",
+          "speed": 570,
+          "bulletSpeed": 526
+        }
+      ]
+    },
+    {
+      "waveNumber": 95,
+      "title": "Sector Incursion Wave 95",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 575,
+          "bulletSpeed": 530
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 575,
+          "bulletSpeed": 530
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 9,
+          "formation": "zigzag",
+          "speed": 575,
+          "bulletSpeed": 530
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 9,
+          "formation": "box",
+          "speed": 575,
+          "bulletSpeed": 530
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 9,
+          "formation": "v_shape",
+          "speed": 575,
+          "bulletSpeed": 530
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 9,
+          "formation": "line",
+          "speed": 575,
+          "bulletSpeed": 530
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 9,
+          "formation": "circle",
+          "speed": 575,
+          "bulletSpeed": 530
+        }
+      ]
+    },
+    {
+      "waveNumber": 96,
+      "title": "Sector Incursion Wave 96",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 580,
+          "bulletSpeed": 534
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 580,
+          "bulletSpeed": 534
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "carrier",
+          "count": 4,
+          "formation": "zigzag",
+          "speed": 580,
+          "bulletSpeed": 534
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "scout",
+          "count": 4,
+          "formation": "box",
+          "speed": 580,
+          "bulletSpeed": 534
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "interceptor",
+          "count": 4,
+          "formation": "v_shape",
+          "speed": 580,
+          "bulletSpeed": 534
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "brute",
+          "count": 4,
+          "formation": "line",
+          "speed": 580,
+          "bulletSpeed": 534
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "sniper",
+          "count": 4,
+          "formation": "circle",
+          "speed": 580,
+          "bulletSpeed": 534
+        }
+      ]
+    },
+    {
+      "waveNumber": 97,
+      "title": "Sector Incursion Wave 97",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 585,
+          "bulletSpeed": 538
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 585,
+          "bulletSpeed": 538
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "scout",
+          "count": 5,
+          "formation": "zigzag",
+          "speed": 585,
+          "bulletSpeed": 538
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "interceptor",
+          "count": 5,
+          "formation": "box",
+          "speed": 585,
+          "bulletSpeed": 538
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "brute",
+          "count": 5,
+          "formation": "v_shape",
+          "speed": 585,
+          "bulletSpeed": 538
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "sniper",
+          "count": 5,
+          "formation": "line",
+          "speed": 585,
+          "bulletSpeed": 538
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "carrier",
+          "count": 5,
+          "formation": "circle",
+          "speed": 585,
+          "bulletSpeed": 538
+        }
+      ]
+    },
+    {
+      "waveNumber": 98,
+      "title": "Sector Incursion Wave 98",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 590,
+          "bulletSpeed": 542
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 590,
+          "bulletSpeed": 542
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "interceptor",
+          "count": 6,
+          "formation": "zigzag",
+          "speed": 590,
+          "bulletSpeed": 542
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "brute",
+          "count": 6,
+          "formation": "box",
+          "speed": 590,
+          "bulletSpeed": 542
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "sniper",
+          "count": 6,
+          "formation": "v_shape",
+          "speed": 590,
+          "bulletSpeed": 542
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "carrier",
+          "count": 6,
+          "formation": "line",
+          "speed": 590,
+          "bulletSpeed": 542
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "scout",
+          "count": 6,
+          "formation": "circle",
+          "speed": 590,
+          "bulletSpeed": 542
+        }
+      ]
+    },
+    {
+      "waveNumber": 99,
+      "title": "Sector Incursion Wave 99",
+      "bossWave": false,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 595,
+          "bulletSpeed": 546
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 595,
+          "bulletSpeed": 546
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "brute",
+          "count": 7,
+          "formation": "zigzag",
+          "speed": 595,
+          "bulletSpeed": 546
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "sniper",
+          "count": 7,
+          "formation": "box",
+          "speed": 595,
+          "bulletSpeed": 546
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "carrier",
+          "count": 7,
+          "formation": "v_shape",
+          "speed": 595,
+          "bulletSpeed": 546
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "scout",
+          "count": 7,
+          "formation": "line",
+          "speed": 595,
+          "bulletSpeed": 546
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "interceptor",
+          "count": 7,
+          "formation": "circle",
+          "speed": 595,
+          "bulletSpeed": 546
+        }
+      ]
+    },
+    {
+      "waveNumber": 100,
+      "title": "Sector Incursion Wave 100",
+      "bossWave": true,
+      "formations": [
+        {
+          "waveStep": 1,
+          "spawnDelay": 1.5,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 600,
+          "bulletSpeed": 550
+        },
+        {
+          "waveStep": 2,
+          "spawnDelay": 3.0,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 600,
+          "bulletSpeed": 550
+        },
+        {
+          "waveStep": 3,
+          "spawnDelay": 4.5,
+          "enemyType": "sniper",
+          "count": 8,
+          "formation": "zigzag",
+          "speed": 600,
+          "bulletSpeed": 550
+        },
+        {
+          "waveStep": 4,
+          "spawnDelay": 6.0,
+          "enemyType": "carrier",
+          "count": 8,
+          "formation": "box",
+          "speed": 600,
+          "bulletSpeed": 550
+        },
+        {
+          "waveStep": 5,
+          "spawnDelay": 7.5,
+          "enemyType": "scout",
+          "count": 8,
+          "formation": "v_shape",
+          "speed": 600,
+          "bulletSpeed": 550
+        },
+        {
+          "waveStep": 6,
+          "spawnDelay": 9.0,
+          "enemyType": "interceptor",
+          "count": 8,
+          "formation": "line",
+          "speed": 600,
+          "bulletSpeed": 550
+        },
+        {
+          "waveStep": 7,
+          "spawnDelay": 10.5,
+          "enemyType": "brute",
+          "count": 8,
+          "formation": "circle",
+          "speed": 600,
+          "bulletSpeed": 550
+        }
+      ]
+    }
+  ]
+}

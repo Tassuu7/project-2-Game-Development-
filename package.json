@@ -1,21 +1,24 @@
 {
-  "name": "novaforge-game-engine-studio",
+  "name": "novaforge-game-engine",
   "version": "2.4.0",
-  "description": "TrainPlex-ready Game Development Suite, Physics Engine and Multi-Game Arcade Studio in pure vanilla HTML5/CSS3/JavaScript",
+  "description": "Zero-dependency 2D/3D game engine and arcade studio with 8 complete playable games, in-browser studio tools, physics, audio synthesis, and automated tests.",
+  "type": "module",
   "main": "src/core/Engine.js",
   "scripts": {
-    "start": "node -e \"const http = require('http'); const fs = require('fs'); const path = require('path'); const server = http.createServer((req, res) => { let filePath = '.' + (req.url === '/' ? '/index.html' : req.url); const ext = path.extname(filePath); const mime = {'.html':'text/html','.css':'text/css','.js':'application/javascript','.json':'application/json','.png':'image/png'}[ext] || 'text/plain'; fs.readFile(filePath, (err, data) => { if (err) { res.writeHead(404); res.end('Not Found'); } else { res.writeHead(200, {'Content-Type': mime}); res.end(data); } }); }); server.listen(8080, () => console.log('NovaForge Game Hub running at http://localhost:8080'));\"",
-    "test": "node src/tests/test_runner.js",
-    "count-loc": "node -e \"const fs = require('fs'); const path = require('path'); let total = 0; function scan(dir) { fs.readdirSync(dir).forEach(f => { const p = path.join(dir, f); if (f === '.git' || f === 'node_modules' || f.endsWith('.zip')) return; const stat = fs.statSync(p); if (stat.isDirectory()) scan(p); else if (/\\.(js|css|html|json|md)$/.test(f)) { const lines = fs.readFileSync(p, 'utf-8').split('\\n').length; total += lines; console.log(p.padEnd(50) + ': ' + lines + ' lines'); } }); } scan('.'); console.log('===================================='); console.log('TOTAL LINES OF CODE: ' + total);\""
+    "start": "python -m http.server 8080",
+    "test": "node scripts/run_all_tests.js",
+    "benchmark": "node -e \"import('./src/tests/test_benchmark.js').then(m => m.runBenchmarks())\"",
+    "count-loc": "python -c \"import os; print(sum(len(open(os.path.join(r, f), encoding='utf-8', errors='ignore').readlines()) for r, d, fs in os.walk('.') if not any(x in r for x in ('.git', '__pycache__')) for f in fs if f.endswith(('.js', '.css', '.html', '.json', '.md', '.py'))))\""
   },
   "keywords": [
     "game-engine",
-    "html5-games",
-    "physics-simulation",
-    "raycasting",
-    "chiptune-synthesizer",
-    "trainplex-ready",
-    "arcade-studio"
+    "arcade-studio",
+    "web-audio-synthesis",
+    "physics-2d",
+    "sat-collision",
+    "raycasting-3d",
+    "zero-dependency",
+    "trainplex-ready"
   ],
   "author": "NovaForge Engineering Team",
   "license": "MIT"

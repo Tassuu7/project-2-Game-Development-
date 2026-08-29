@@ -1,0 +1,4964 @@
+{
+  "dungeons": [
+    {
+      "dungeonId": "dungeon_sector_01",
+      "name": "Subterranean Complex 1 - Sector B",
+      "floorLevel": 1,
+      "difficulty": 1.25,
+      "rooms": [
+        {
+          "roomId": "d1_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0012",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0013",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0014",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0015",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d1_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0016",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0017",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0018",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0019",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0020",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d1_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0021",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d1_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0022",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d1_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0023",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_02",
+      "name": "Subterranean Complex 2 - Sector C",
+      "floorLevel": 2,
+      "difficulty": 1.5,
+      "rooms": [
+        {
+          "roomId": "d2_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0022",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0023",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0024",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0025",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d2_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0026",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0027",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0028",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0029",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0030",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d2_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0031",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d2_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0032",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d2_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0033",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_03",
+      "name": "Subterranean Complex 3 - Sector D",
+      "floorLevel": 3,
+      "difficulty": 1.75,
+      "rooms": [
+        {
+          "roomId": "d3_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0032",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0033",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0034",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0035",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d3_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0036",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0037",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0038",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0039",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0040",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d3_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0041",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d3_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0042",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d3_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0043",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_04",
+      "name": "Subterranean Complex 4 - Sector E",
+      "floorLevel": 4,
+      "difficulty": 2.0,
+      "rooms": [
+        {
+          "roomId": "d4_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0042",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0043",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0044",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0045",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d4_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0046",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0047",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0048",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0049",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0050",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d4_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0051",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d4_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0052",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d4_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0053",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_05",
+      "name": "Subterranean Complex 5 - Sector F",
+      "floorLevel": 5,
+      "difficulty": 2.25,
+      "rooms": [
+        {
+          "roomId": "d5_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0052",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0053",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0054",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0055",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d5_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0056",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0057",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0058",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0059",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0060",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d5_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0061",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d5_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0062",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d5_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0063",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_06",
+      "name": "Subterranean Complex 6 - Sector A",
+      "floorLevel": 6,
+      "difficulty": 2.5,
+      "rooms": [
+        {
+          "roomId": "d6_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0062",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0063",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0064",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0065",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d6_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0066",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0067",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0068",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0069",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0070",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d6_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0071",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d6_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0072",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d6_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0073",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_07",
+      "name": "Subterranean Complex 7 - Sector B",
+      "floorLevel": 7,
+      "difficulty": 2.75,
+      "rooms": [
+        {
+          "roomId": "d7_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0072",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0073",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0074",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0075",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d7_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0076",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0077",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0078",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0079",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0080",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d7_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0081",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d7_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0082",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d7_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0083",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_08",
+      "name": "Subterranean Complex 8 - Sector C",
+      "floorLevel": 8,
+      "difficulty": 3.0,
+      "rooms": [
+        {
+          "roomId": "d8_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0082",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0083",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0084",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0085",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d8_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0086",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0087",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0088",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0089",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0090",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d8_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0091",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d8_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0092",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d8_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0093",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_09",
+      "name": "Subterranean Complex 9 - Sector D",
+      "floorLevel": 9,
+      "difficulty": 3.25,
+      "rooms": [
+        {
+          "roomId": "d9_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0092",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0093",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0094",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0095",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d9_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0096",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0097",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0098",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0099",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0100",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d9_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0101",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d9_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0102",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d9_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0103",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_10",
+      "name": "Subterranean Complex 10 - Sector E",
+      "floorLevel": 10,
+      "difficulty": 3.5,
+      "rooms": [
+        {
+          "roomId": "d10_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0102",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0103",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0104",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0105",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d10_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0106",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0107",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0108",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0109",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0110",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d10_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0111",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d10_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0112",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d10_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0113",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_11",
+      "name": "Subterranean Complex 11 - Sector F",
+      "floorLevel": 11,
+      "difficulty": 3.75,
+      "rooms": [
+        {
+          "roomId": "d11_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0112",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0113",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0114",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0115",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d11_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0116",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0117",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0118",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0119",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0120",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d11_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0121",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d11_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0122",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d11_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0123",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_12",
+      "name": "Subterranean Complex 12 - Sector A",
+      "floorLevel": 12,
+      "difficulty": 4.0,
+      "rooms": [
+        {
+          "roomId": "d12_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0122",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0123",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0124",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0125",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d12_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0126",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0127",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0128",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0129",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0130",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d12_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0131",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d12_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0132",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d12_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0133",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_13",
+      "name": "Subterranean Complex 13 - Sector B",
+      "floorLevel": 13,
+      "difficulty": 4.25,
+      "rooms": [
+        {
+          "roomId": "d13_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0132",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0133",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0134",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0135",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d13_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0136",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0137",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0138",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0139",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0140",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d13_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0141",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d13_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0142",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d13_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0143",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_14",
+      "name": "Subterranean Complex 14 - Sector C",
+      "floorLevel": 14,
+      "difficulty": 4.5,
+      "rooms": [
+        {
+          "roomId": "d14_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0142",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0143",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0144",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0145",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d14_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0146",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0147",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0148",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0149",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0150",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d14_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0151",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d14_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0152",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d14_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0153",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_15",
+      "name": "Subterranean Complex 15 - Sector D",
+      "floorLevel": 15,
+      "difficulty": 4.75,
+      "rooms": [
+        {
+          "roomId": "d15_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0152",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0153",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0154",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0155",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d15_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0156",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0157",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0158",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0159",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0160",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d15_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0161",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d15_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0162",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d15_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0163",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_16",
+      "name": "Subterranean Complex 16 - Sector E",
+      "floorLevel": 16,
+      "difficulty": 5.0,
+      "rooms": [
+        {
+          "roomId": "d16_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0162",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0163",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0164",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0165",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d16_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0166",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0167",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0168",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0169",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0170",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d16_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0171",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d16_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0172",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d16_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0173",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_17",
+      "name": "Subterranean Complex 17 - Sector F",
+      "floorLevel": 17,
+      "difficulty": 5.25,
+      "rooms": [
+        {
+          "roomId": "d17_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0172",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0173",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0174",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0175",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d17_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0176",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0177",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0178",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0179",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0180",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d17_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0181",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d17_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0182",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d17_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0183",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_18",
+      "name": "Subterranean Complex 18 - Sector A",
+      "floorLevel": 18,
+      "difficulty": 5.5,
+      "rooms": [
+        {
+          "roomId": "d18_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0182",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0183",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0184",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0185",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d18_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0186",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0187",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0188",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0189",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0190",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d18_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0191",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d18_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0192",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "roomId": "d18_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0193",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_19",
+      "name": "Subterranean Complex 19 - Sector B",
+      "floorLevel": 19,
+      "difficulty": 5.75,
+      "rooms": [
+        {
+          "roomId": "d19_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0192",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0193",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0194",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0195",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d19_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0196",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0197",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0198",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0199",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0200",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d19_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0201",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d19_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0202",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "roomId": "d19_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0203",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "dungeonId": "dungeon_sector_20",
+      "name": "Subterranean Complex 20 - Sector C",
+      "floorLevel": 20,
+      "difficulty": 6.0,
+      "rooms": [
+        {
+          "roomId": "d20_r1",
+          "x": 200,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r2",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0202",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r2",
+          "x": 400,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r3",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0203",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r3",
+          "x": 600,
+          "y": 0,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r4",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0204",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r4",
+          "x": 0,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r5",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0205",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r5",
+          "x": 200,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d20_r6",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0206",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r6",
+          "x": 400,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r7",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0207",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r7",
+          "x": 600,
+          "y": 200,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r8",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0208",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r8",
+          "x": 0,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r9",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0209",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r9",
+          "x": 200,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r10",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0210",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r10",
+          "x": 400,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "treasure",
+          "doors": [
+            {
+              "targetRoom": "d20_r11",
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0211",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r11",
+          "x": 600,
+          "y": 400,
+          "width": 160,
+          "height": 160,
+          "type": "combat",
+          "doors": [
+            {
+              "targetRoom": "d20_r12",
+              "side": "south"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0212",
+              "count": 5
+            }
+          ]
+        },
+        {
+          "roomId": "d20_r12",
+          "x": 0,
+          "y": 600,
+          "width": 160,
+          "height": 160,
+          "type": "boss",
+          "doors": [
+            {
+              "targetRoom": null,
+              "side": "east"
+            }
+          ],
+          "spawners": [
+            {
+              "enemyId": "mob_0213",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
