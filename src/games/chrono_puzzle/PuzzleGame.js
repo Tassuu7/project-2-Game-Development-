@@ -1,6 +1,6 @@
 /**
  * NovaForge Game Engine & Arcade Studio
- * Chrono Puzzle - Sokoban Tile Logic with Temporal Rewind
+ * Chrono Puzzle: Time Shift
  * @author NovaForge Engineering Team
  * @license Proprietary - All Rights Reserved
  */
@@ -8,26 +8,37 @@
 export class PuzzleGame {
     constructor(engine) {
         this.engine = engine;
-        this.gridSize = 48;
-        this.playerX = 2;
-        this.playerY = 2;
-        this.blocks = [
-            { x: 3, y: 2 },
-            { x: 4, y: 3 }
-        ];
-        this.targets = [
-            { x: 6, y: 2 },
-            { x: 6, y: 3 }
-        ];
+        this.gridSize = 52;
+        this.currentLevelIndex = 0;
         this.history = [];
+        this.moves = 0;
+        this.levels = [
+            {
+                player: { x: 2, y: 2 },
+                blocks: [{ x: 3, y: 2 }, { x: 4, y: 3 }],
+                targets: [{ x: 6, y: 2 }, { x: 6, y: 3 }]
+            },
+            {
+                player: { x: 1, y: 1 },
+                blocks: [{ x: 2, y: 2 }, { x: 3, y: 2 }, { x: 4, y: 3 }],
+                targets: [{ x: 5, y: 1 }, { x: 5, y: 2 }, { x: 5, y: 3 }]
+            }
+        ];
+        this.loadLevel(0);
     }
 
-    onCreate() {
+    loadLevel(index) {
+        this.currentLevelIndex = index % this.levels.length;
+        const lvl = this.levels[this.currentLevelIndex];
+        this.playerX = lvl.player.x;
+        this.playerY = lvl.player.y;
+        this.blocks = JSON.parse(JSON.stringify(lvl.blocks));
+        this.targets = JSON.parse(JSON.stringify(lvl.targets));
         this.history = [];
+        this.moves = 0;
     }
 
     move(dx, dy) {
-        // Record history for time-shift rewind
         this.history.push({
             px: this.playerX,
             py: this.playerY,
@@ -37,30 +48,37 @@ export class PuzzleGame {
         const nextPX = this.playerX + dx;
         const nextPY = this.playerY + dy;
 
-        // Check block push
         const block = this.blocks.find(b => b.x === nextPX && b.y === nextPY);
         if (block) {
             const nextBX = block.x + dx;
             const nextBY = block.y + dy;
-            const isBlocked = this.blocks.some(b => b.x === nextBX && b.y === nextBY);
-            if (!isBlocked && nextBX >= 1 && nextBX <= 8 && nextBY >= 1 && nextBY <= 8) {
+            const blocked = this.blocks.some(b => b.x === nextBX && b.y === nextBY);
+            if (!blocked && nextBX >= 1 && nextBX <= 8 && nextBY >= 1 && nextBY <= 8) {
                 block.x = nextBX;
                 block.y = nextBY;
                 this.playerX = nextPX;
                 this.playerY = nextPY;
+                this.moves++;
             }
         } else if (nextPX >= 1 && nextPX <= 8 && nextPY >= 1 && nextPY <= 8) {
             this.playerX = nextPX;
             this.playerY = nextPY;
+            this.moves++;
+        }
+
+        const allSolved = this.targets.every(t => this.blocks.some(b => b.x === t.x && b.y === t.y));
+        if (allSolved) {
+            setTimeout(() => this.loadLevel(this.currentLevelIndex + 1), 500);
         }
     }
 
     rewind() {
         if (this.history.length > 0) {
-            const lastState = this.history.pop();
-            this.playerX = lastState.px;
-            this.playerY = lastState.py;
-            this.blocks = lastState.blocks;
+            const last = this.history.pop();
+            this.playerX = last.px;
+            this.playerY = last.py;
+            this.blocks = last.blocks;
+            this.moves = Math.max(0, this.moves - 1);
         }
     }
 
@@ -74,35 +92,39 @@ export class PuzzleGame {
     }
 
     render(ctx) {
-        ctx.fillStyle = '#1e1b4b';
+        ctx.fillStyle = '#0c071e';
         ctx.fillRect(0, 0, 1280, 720);
 
-        const offsetX = 400;
-        const offsetY = 150;
+        const offsetX = 380;
+        const offsetY = 120;
 
-        // Draw grid
-        ctx.strokeStyle = '#4338ca';
+        ctx.strokeStyle = '#6366f1';
+        ctx.lineWidth = 2;
         ctx.strokeRect(offsetX + this.gridSize, offsetY + this.gridSize, this.gridSize * 8, this.gridSize * 8);
 
-        // Draw targets
         for (const t of this.targets) {
-            ctx.fillStyle = 'rgba(57, 255, 20, 0.4)';
+            ctx.fillStyle = 'rgba(57, 255, 20, 0.35)';
             ctx.fillRect(offsetX + t.x * this.gridSize + 4, offsetY + t.y * this.gridSize + 4, this.gridSize - 8, this.gridSize - 8);
+            ctx.strokeStyle = '#39ff14';
+            ctx.strokeRect(offsetX + t.x * this.gridSize + 4, offsetY + t.y * this.gridSize + 4, this.gridSize - 8, this.gridSize - 8);
         }
 
-        // Draw blocks
         for (const b of this.blocks) {
-            ctx.fillStyle = '#00e5ff';
+            const onTarget = this.targets.some(t => t.x === b.x && t.y === b.y);
+            ctx.fillStyle = onTarget ? '#39ff14' : '#00e5ff';
             ctx.fillRect(offsetX + b.x * this.gridSize + 4, offsetY + b.y * this.gridSize + 4, this.gridSize - 8, this.gridSize - 8);
+            ctx.strokeStyle = '#fff';
+            ctx.strokeRect(offsetX + b.x * this.gridSize + 4, offsetY + b.y * this.gridSize + 4, this.gridSize - 8, this.gridSize - 8);
         }
 
-        // Draw player
         ctx.fillStyle = '#ff0055';
         ctx.fillRect(offsetX + this.playerX * this.gridSize + 6, offsetY + this.playerY * this.gridSize + 6, this.gridSize - 12, this.gridSize - 12);
 
-        // HUD
-        ctx.fillStyle = '#ffffff';
-        ctx.font = '16px monospace';
-        ctx.fillText('CHRONO PUZZLE - Push cyan blocks onto green targets. Press [Z] to Rewind Time.', 30, 40);
+        ctx.fillStyle = '#ffe600';
+        ctx.font = 'bold 20px monospace';
+        ctx.fillText(`CHAMBER: ${this.currentLevelIndex + 1}   MOVES: ${this.moves}`, 30, 40);
+        ctx.fillStyle = '#8e8eb2';
+        ctx.font = '12px monospace';
+        ctx.fillText('[WASD/Arrows] Push Blocks onto Green Targets   [Z/R] Rewind Time', 30, 70);
     }
 }

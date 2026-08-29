@@ -1,4 +1,10 @@
-<!DOCTYPE html>
+# -*- coding: utf-8 -*-
+import sys
+sys.path.insert(0, '.')
+from scripts.code_gen_lib import write_file
+
+def update_index_with_auth():
+    html_content = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -621,3 +627,7 @@
     </script>
 </body>
 </html>
+"""
+    write_file("index.html", html_content)
+
+update_index_with_auth()
