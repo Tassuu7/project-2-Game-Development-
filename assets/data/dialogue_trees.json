@@ -1,0 +1,25 @@
+{
+  "npc_commander": {
+    "start": {
+      "text": "Pilot, the orbital station is under siege. Are you ready for deployment?",
+      "choices": [
+        {
+          "label": "I'm ready. Launch my ship!",
+          "next": "launch"
+        },
+        {
+          "label": "I need more supplies first.",
+          "next": "supplies"
+        }
+      ]
+    },
+    "launch": {
+      "text": "Godspeed! Watch out for enemy interceptors.",
+      "action": "START_MISSION"
+    },
+    "supplies": {
+      "text": "Check the armory and stock up on shield cells.",
+      "action": "OPEN_SHOP"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "weapons": [
+    {
+      "id": "w1",
+      "name": "Plasma Blade",
+      "damage": 25,
+      "tier": 1,
+      "type": "melee",
+      "cost": 50
+    },
+    {
+      "id": "w2",
+      "name": "Laser Carbine",
+      "damage": 40,
+      "tier": 2,
+      "type": "ranged",
+      "cost": 120
+    },
+    {
+      "id": "w3",
+      "name": "Hyperion Cannon",
+      "damage": 100,
+      "tier": 3,
+      "type": "heavy",
+      "cost": 350
+    }
+  ],
+  "armors": [
+    {
+      "id": "a1",
+      "name": "Carbon Fiber Suit",
+      "defense": 15,
+      "healthBonus": 50,
+      "cost": 80
+    },
+    {
+      "id": "a2",
+      "name": "Nano-Shield Exoskeleton",
+      "defense": 45,
+      "healthBonus": 150,
+      "cost": 250
+    }
+  ],
+  "consumables": [
+    {
+      "id": "c1",
+      "name": "Nano-Medkit",
+      "heal": 50,
+      "cost": 20
+    },
+    {
+      "id": "c2",
+      "name": "Energy Overcharge",
+      "mana": 100,
+      "cost": 35
+    }
+  ]
+}

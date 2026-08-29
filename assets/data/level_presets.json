@@ -1,0 +1,47 @@
+{
+  "presets": [
+    {
+      "id": "level_01",
+      "name": "Orbital Station Alpha",
+      "width": 40,
+      "height": 25,
+      "theme": "space_station",
+      "spawns": [
+        {
+          "type": "player",
+          "x": 64,
+          "y": 64
+        },
+        {
+          "type": "drone",
+          "x": 300,
+          "y": 150
+        },
+        {
+          "type": "turret",
+          "x": 600,
+          "y": 200
+        }
+      ]
+    },
+    {
+      "id": "level_02",
+      "name": "Cyberpunk Neon Alleys",
+      "width": 50,
+      "height": 20,
+      "theme": "cyber_city",
+      "spawns": [
+        {
+          "type": "player",
+          "x": 100,
+          "y": 200
+        },
+        {
+          "type": "runner",
+          "x": 400,
+          "y": 200
+        }
+      ]
+    }
+  ]
+}

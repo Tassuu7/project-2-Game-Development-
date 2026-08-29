@@ -1,0 +1,22 @@
+[
+  {
+    "id": "q1",
+    "title": "First Contact",
+    "description": "Defeat 5 rogue scout drones in Sector 4.",
+    "target": 5,
+    "reward": {
+      "exp": 100,
+      "credits": 150
+    }
+  },
+  {
+    "id": "q2",
+    "title": "Core Meltdown",
+    "description": "Destroy the Orbital Dreadnought boss.",
+    "target": 1,
+    "reward": {
+      "exp": 500,
+      "credits": 1000
+    }
+  }
+]
