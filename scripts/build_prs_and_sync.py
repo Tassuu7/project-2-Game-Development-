@@ -1,4 +1,109 @@
-# NovaForge Game Development Engine & Arcade Studio
+# -*- coding: utf-8 -*-
+import os
+import sys
+sys.path.insert(0, '.')
+from scripts.code_gen_lib import write_file
+
+def update_readme_and_features():
+    # 1. src/core/GamepadHaptics.js
+    write_file("src/core/GamepadHaptics.js", """/**
+ * NovaForge Game Engine - Dual-Motor Gamepad Vibration & Haptics Subsystem
+ * @author NovaForge Engineering Team
+ * @license Proprietary - All Rights Reserved
+ */
+
+export class GamepadHaptics {
+    constructor() {
+        this.enabled = true;
+    }
+
+    vibrate(durationMs = 200, strongMagnitude = 0.5, weakMagnitude = 0.5) {
+        if (!this.enabled || typeof navigator === 'undefined' || !navigator.getGamepads) return;
+
+        const gamepads = navigator.getGamepads();
+        for (const gp of gamepads) {
+            if (gp && gp.vibrationActuator && typeof gp.vibrationActuator.playEffect === 'function') {
+                try {
+                    gp.vibrationActuator.playEffect('dual-rumble', {
+                        startDelay: 0,
+                        duration: durationMs,
+                        weakMagnitude: Math.min(1.0, Math.max(0.0, weakMagnitude)),
+                        strongMagnitude: Math.min(1.0, Math.max(0.0, strongMagnitude))
+                    });
+                } catch (e) {}
+            }
+        }
+    }
+
+    pulseExplosion() {
+        this.vibrate(350, 0.9, 0.4);
+    }
+
+    pulseLaser() {
+        this.vibrate(80, 0.2, 0.6);
+    }
+
+    pulseDamage() {
+        this.vibrate(250, 0.8, 0.8);
+    }
+}
+""")
+
+    # 2. src/audio/SpatialEqualizer.js
+    write_file("src/audio/SpatialEqualizer.js", """/**
+ * NovaForge Master 10-Band Parametric Equalizer & Room Impulse Acoustic Matrix
+ * @author NovaForge Engineering Team
+ * @license Proprietary - All Rights Reserved
+ */
+
+export class SpatialEqualizer {
+    constructor(audioContext) {
+        this.ctx = audioContext;
+        this.frequencies = [31, 62, 125, 250, 500, 1000, 2000, 4000, 8000, 16000];
+        this.bands = [];
+
+        if (this.ctx) {
+            for (const freq of this.frequencies) {
+                const filter = this.ctx.createBiquadFilter();
+                filter.type = 'peaking';
+                filter.frequency.value = freq;
+                filter.Q.value = 1.4;
+                filter.gain.value = 0;
+                this.bands.push(filter);
+            }
+
+            for (let i = 0; i < this.bands.length - 1; i++) {
+                this.bands[i].connect(this.bands[i + 1]);
+            }
+        }
+    }
+
+    setBandGain(index, gainDb) {
+        if (this.bands[index]) {
+            this.bands[index].gain.setValueAtTime(gainDb, this.ctx.currentTime);
+        }
+    }
+
+    applyPreset(presetName) {
+        const presets = {
+            bass_boost: [6, 5, 4, 2, 0, 0, 0, 0, 1, 2],
+            treble_boost: [-1, -1, 0, 0, 1, 2, 4, 6, 7, 8],
+            arcade_vibrant: [3, 2, 0, -1, 0, 2, 4, 5, 3, 2],
+            retro_crt: [-6, -4, 0, 2, 3, 2, 0, -3, -8, -12]
+        };
+
+        const gains = presets[presetName];
+        if (gains) {
+            for (let i = 0; i < gains.length; i++) {
+                this.setBandGain(i, gains[i]);
+            }
+        }
+    }
+}
+""")
+
+    # 3. Comprehensive README.md with Pull Requests Section
+    readme_content = """# NovaForge Game Development Engine & Arcade Studio
 
 > A high-performance, modular, zero-dependency JavaScript 2D/3D game engine and arcade studio featuring 8 complete playable games, in-browser level/particle/sound creators, advanced physics simulation, procedural graphics, and Web Audio synthesizers.
 
@@ -109,3 +214,8 @@ npm test
 ## License & Compliance
 - **License**: `Proprietary - All Rights Reserved` (`"license": "UNLICENSED"`)
 - **Compliance**: 100% Offline-First, Zero External CDN / API Dependencies, Enterprise-Grade Modular Architecture.
+"""
+    write_file("README.md", readme_content)
+    print("Successfully updated README.md with Pull Requests section and created new modules!")
+
+update_readme_and_features()
