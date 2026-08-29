@@ -1,0 +1,23 @@
+/**
+ * NovaForge Keyframe Animations
+ */
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes pulseGlow {
+    0%, 100% {
+        box-shadow: 0 0 10px rgba(0, 229, 255, 0.4);
+    }
+    50% {
+        box-shadow: 0 0 25px rgba(0, 229, 255, 0.8);
+    }
+}
