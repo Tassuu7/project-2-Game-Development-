@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradGS" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a14"/><stop offset="100%" stop-color="#14142b"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="340" fill="url(#bgGradGS)"/>
+  <!-- Newton's Cradle & Pendulum -->
+  <line x1="200" y1="40" x2="400" y2="40" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+  <line x1="240" y1="40" x2="240" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="240" cy="150" r="18" fill="#00e5ff"/>
+  <line x1="280" y1="40" x2="280" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="280" cy="150" r="18" fill="#00e5ff"/>
+  <line x1="320" y1="40" x2="320" y2="150" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="320" cy="150" r="18" fill="#00e5ff"/>
+  <line x1="360" y1="40" x2="420" y2="120" stroke="#94a3b8" stroke-width="2"/>
+  <circle cx="420" cy="120" r="18" fill="#00e5ff"/>
+  <!-- Fluid Particles Splash -->
+  <circle cx="150" cy="220" r="10" fill="rgba(0,229,255,0.7)"/>
+  <circle cx="170" cy="240" r="14" fill="rgba(0,229,255,0.8)"/>
+  <circle cx="135" cy="250" r="12" fill="rgba(0,229,255,0.6)"/>
+  <!-- Stacking Rigid Blocks -->
+  <rect x="450" y="220" width="40" height="40" fill="#ff0055" stroke="#fff" stroke-width="1.5" transform="rotate(12, 470, 240)"/>
+  <rect x="470" y="170" width="36" height="36" fill="#ffe600" stroke="#fff" stroke-width="1.5" transform="rotate(-8, 488, 188)"/>
+  <rect x="20" y="270" width="220" height="45" rx="6" fill="rgba(20,20,43,0.9)" stroke="#00e5ff" stroke-width="1.5"/>
+  <text x="35" y="298" font-family="'Segoe UI', monospace, sans-serif" font-size="16" font-weight="900" fill="#00e5ff" letter-spacing="2">GRAVITY SANDBOX</text>
+</svg>
