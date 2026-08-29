@@ -1,7 +1,7 @@
 /**
  * NovaForge Physics & Math Performance Benchmark Suite
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

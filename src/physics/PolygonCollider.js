@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 2D Convex Polygon Collider
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Collider2D } from './Collider2D.js';

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Master 2D Physics World, Velocity Verlet Integration & Contact Resolution
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

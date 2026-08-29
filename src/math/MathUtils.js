@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Mathematical Utility Constants, Interpolation Functions & Algorithms
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const MathUtils = {

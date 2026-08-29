@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * High-Performance Typed Event Bus with Priority Queue & Wildcards
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class EventBus {

@@ -1,7 +1,7 @@
 /**
  * NovaForge Fast Trigonometric Approximation & Precomputed Lookup Tables
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class TrigLookupTable {

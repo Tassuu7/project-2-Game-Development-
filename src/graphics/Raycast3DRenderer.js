@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Classic 3D Raycasting Engine (Wolfenstein-style DDA & Depth Buffer)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Raycast3DRenderer {

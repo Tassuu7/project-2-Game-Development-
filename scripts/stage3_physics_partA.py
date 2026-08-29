@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * Abstract 2D Geometric Collider Base Class
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -38,7 +38,7 @@ export class Collider2D {
  * NovaForge Game Engine & Arcade Studio
  * 2D Box / Oriented Bounding Box Collider
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Collider2D } from './Collider2D.js';
@@ -115,7 +115,7 @@ export class BoxCollider extends Collider2D {
  * NovaForge Game Engine & Arcade Studio
  * 2D Circle Collider
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Collider2D } from './Collider2D.js';
@@ -152,7 +152,7 @@ export class CircleCollider extends Collider2D {
  * NovaForge Game Engine & Arcade Studio
  * 2D Convex Polygon Collider
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Collider2D } from './Collider2D.js';
@@ -229,7 +229,7 @@ export class PolygonCollider extends Collider2D {
  * NovaForge Game Engine & Arcade Studio
  * Separating Axis Theorem (SAT) Collision Solver & Contact Manifolds
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

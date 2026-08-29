@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * In-Browser Interactive Level Creator & Object Placer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class LevelEditor {

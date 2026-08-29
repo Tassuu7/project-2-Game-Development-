@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Rhythm Blaster: SynthWave - Beat Slasher Game
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class RhythmGame {

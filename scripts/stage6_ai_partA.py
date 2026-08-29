@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * A* Pathfinding Engine with Min-Heap & Path Smoothing
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PathfindingAStar {
@@ -111,7 +111,7 @@ export class PathfindingAStar {
  * NovaForge Game Engine & Arcade Studio
  * 2D Polygonal Navigation Mesh & Path Traversal
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class NavMesh2D {
@@ -131,7 +131,7 @@ export class NavMesh2D {
  * NovaForge Game Engine & Arcade Studio
  * Hierarchical Behavior Tree Framework (Selector, Sequence, Decorator)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const NodeState = {

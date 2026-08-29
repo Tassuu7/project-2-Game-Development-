@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Classic 2D/3D Perlin Noise Generator with Fractal Octaves
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PerlinNoise {

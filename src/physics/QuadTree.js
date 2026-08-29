@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Spatial Partitioning 2D Quadtree Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class QuadTree {

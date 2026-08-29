@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Dungeon Raycaster 3D - Classic 3D FPS Dungeon Crawler
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Raycast3DRenderer } from '../../graphics/Raycast3DRenderer.js';

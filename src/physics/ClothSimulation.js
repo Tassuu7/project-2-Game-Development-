@@ -1,7 +1,7 @@
 /**
  * NovaForge 2D Mass-Spring Cloth & Flag Physics Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

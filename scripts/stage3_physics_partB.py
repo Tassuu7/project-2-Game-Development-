@@ -7,7 +7,7 @@ def build_partB():
  * NovaForge Game Engine & Arcade Studio
  * 2D Rigid Body with Dynamic, Static, Kinematic State Integration
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -122,7 +122,7 @@ export class RigidBody {
  * NovaForge Game Engine & Arcade Studio
  * Spatial Partitioning 2D Quadtree Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class QuadTree {
@@ -215,7 +215,7 @@ export class QuadTree {
  * NovaForge Game Engine & Arcade Studio
  * Broadphase Spatial Hash Grid for Ultra-Fast Proximity Queries
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SpatialHashGrid {
@@ -280,7 +280,7 @@ export class SpatialHashGrid {
  * NovaForge Game Engine & Arcade Studio
  * Spring Joint Constraint Simulation
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -325,7 +325,7 @@ export class SpringJoint {
  * NovaForge Game Engine & Arcade Studio
  * Distance Joint Constraint with Baumgarte Stabilization
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

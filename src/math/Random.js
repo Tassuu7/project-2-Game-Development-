@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Deterministic Pseudo-Random Number Generator (PRNG) & Distributions
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Random {

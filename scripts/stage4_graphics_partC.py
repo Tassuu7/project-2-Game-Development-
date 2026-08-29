@@ -7,7 +7,7 @@ def build_partC():
  * NovaForge Game Engine & Arcade Studio
  * Classic 3D Raycasting Engine (Wolfenstein-style DDA & Depth Buffer)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Raycast3DRenderer {
@@ -145,7 +145,7 @@ export class Raycast3DRenderer {
  * NovaForge Game Engine & Arcade Studio
  * Procedural Vector Art Generator for Spaceships, Characters & Glyphs
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class VectorArtGenerator {
@@ -224,7 +224,7 @@ export class VectorArtGenerator {
  * NovaForge Game Engine & Arcade Studio
  * High-DPI Canvas Heads-Up Display & Floating Combat Text Renderer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class UIOverlayRenderer {
@@ -286,7 +286,7 @@ export class UIOverlayRenderer {
  * NovaForge Game Engine & Arcade Studio
  * Master 2D Multi-Layer Rendering Pipeline
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Camera2D } from './Camera2D.js';

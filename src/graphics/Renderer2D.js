@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Master 2D Multi-Layer Rendering Pipeline
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Camera2D } from './Camera2D.js';

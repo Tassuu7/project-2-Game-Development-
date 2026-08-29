@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * Web Audio API Master Audio Context & Bus Routing Node
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class AudioContextManager {
@@ -95,7 +95,7 @@ export class AudioContextManager {
  * NovaForge Game Engine & Arcade Studio
  * Real-Time Programmatic Sound FX Synthesizer with ADSR Envelopes
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SoundFXSynthesizer {
@@ -226,7 +226,7 @@ export class SoundFXSynthesizer {
  * NovaForge Game Engine & Arcade Studio
  * 4-Channel Multi-Track Retro Chiptune Music Synthesizer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ChiptuneMusicTracker {

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 2D Viewport Camera with Smooth Following, Zoom & Screen Shake
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

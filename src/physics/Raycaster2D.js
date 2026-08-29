@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 2D Raycasting, Segment Intersections and Visibility Polygons
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

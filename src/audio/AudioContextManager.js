@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Web Audio API Master Audio Context & Bus Routing Node
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class AudioContextManager {

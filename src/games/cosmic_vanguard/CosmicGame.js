@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Cosmic Vanguard - Bullet Hell Space Shooter
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../../math/Vector2.js';

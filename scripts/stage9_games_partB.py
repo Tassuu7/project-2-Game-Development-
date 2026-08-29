@@ -7,7 +7,7 @@ def build_partB():
  * NovaForge Game Engine & Arcade Studio
  * Cyber Runner 2099 - Precision Platformer with Wall Jumping & Dashing
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../../math/Vector2.js';
@@ -136,7 +136,7 @@ export class PlatformerGame {
  * NovaForge Game Engine & Arcade Studio
  * Dungeon Raycaster 3D - Classic 3D FPS Dungeon Crawler
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Raycast3DRenderer } from '../../graphics/Raycast3DRenderer.js';

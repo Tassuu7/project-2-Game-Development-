@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Generative Ambient Soundscapes & Atmospheric Audio Generator
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ProceduralAudioGenerator {

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Drag-and-Drop Equipment & Item Inventory Grid
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class InventoryGrid {

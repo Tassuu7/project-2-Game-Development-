@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * 2D Viewport Camera with Smooth Following, Zoom & Screen Shake
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -110,7 +110,7 @@ export class Camera2D {
  * NovaForge Game Engine & Arcade Studio
  * Sprite Atlas Grid Slicing & Texture Frame Manager
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SpriteSheet {
@@ -151,7 +151,7 @@ export class SpriteSheet {
  * NovaForge Game Engine & Arcade Studio
  * State-Based Sprite Frame Animation Player
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class AnimationController {
@@ -221,7 +221,7 @@ export class AnimationController {
  * NovaForge Game Engine & Arcade Studio
  * Chunked Orthogonal & Isometric Tilemap Rendering Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class TilemapRenderer {

@@ -7,7 +7,7 @@ def build_partE():
  * NovaForge Game Engine & Arcade Studio
  * Unified Keyboard, Mouse, Touch, and Action Input Coordinator
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class InputManager {
@@ -257,7 +257,7 @@ export class InputManager {
  * NovaForge Game Engine & Arcade Studio
  * HTML5 Gamepad Controller Abstraction & Dual-Motor Haptic Vibration
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class GamepadHandler {
@@ -371,7 +371,7 @@ export class GamepadHandler {
  * NovaForge Game Engine & Arcade Studio
  * Fixed-Timestep Physics & Smooth Render Game Loop
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class GameLoop {
@@ -455,7 +455,7 @@ export class GameLoop {
  * NovaForge Game Engine & Arcade Studio
  * Central Orchestrator & Master Subsystem Registry
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { EngineConfig, ConfigurationManager } from './Config.js';

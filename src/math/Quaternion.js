@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Quaternion Representation for 3D Orientation & Slerp
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Quaternion {

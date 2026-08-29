@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Cyber Runner 2099 - Precision Platformer with Wall Jumping & Dashing
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../../math/Vector2.js';

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Heads-Up Display Controller (Health, Mana, Score, Boss Bar)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class HUDController {

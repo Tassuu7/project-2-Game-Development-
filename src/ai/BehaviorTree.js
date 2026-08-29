@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Hierarchical Behavior Tree Framework (Selector, Sequence, Decorator)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const NodeState = {

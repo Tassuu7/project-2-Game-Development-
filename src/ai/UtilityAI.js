@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Utility-Based Action Scoring & Decision Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class UtilityAI {

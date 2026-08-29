@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * Cosmic Vanguard - Bullet Hell Space Shooter
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../../math/Vector2.js';
@@ -161,7 +161,7 @@ export class CosmicGame {
  * NovaForge Game Engine & Arcade Studio
  * Shadow Quest: Chronicles of Eldoria (2D Action RPG)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../../math/Vector2.js';

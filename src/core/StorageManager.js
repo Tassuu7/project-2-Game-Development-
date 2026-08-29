@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Client-Side Persistence Layer (LocalStorage & IndexedDB Engine)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class StorageManager {

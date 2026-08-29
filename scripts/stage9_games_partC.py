@@ -7,7 +7,7 @@ def build_partC():
  * NovaForge Game Engine & Arcade Studio
  * Gravity Sandbox & Physics Playground
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { PhysicsWorld } from '../../physics/PhysicsWorld.js';
@@ -92,7 +92,7 @@ export class SandboxGame {
  * NovaForge Game Engine & Arcade Studio
  * Neon Tower Defense - Strategic Grid Path Defense
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../../math/Vector2.js';

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * High-Precision Delta Timer, Schedulers, and Easing Tweens
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Timer {

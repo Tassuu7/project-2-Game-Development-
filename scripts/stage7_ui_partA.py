@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * Screen Transition Manager, Menus & Settings Overlay
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class UIManager {
@@ -48,7 +48,7 @@ export class UIManager {
  * NovaForge Game Engine & Arcade Studio
  * Heads-Up Display Controller (Health, Mana, Score, Boss Bar)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class HUDController {
@@ -75,7 +75,7 @@ export class HUDController {
  * NovaForge Game Engine & Arcade Studio
  * Branching Typewriter Dialogue Box with Choices
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class DialogueBox {
@@ -111,7 +111,7 @@ export class DialogueBox {
  * NovaForge Game Engine & Arcade Studio
  * Drag-and-Drop Equipment & Item Inventory Grid
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class InventoryGrid {
@@ -142,7 +142,7 @@ export class InventoryGrid {
  * NovaForge Game Engine & Arcade Studio
  * Toast Notification & Achievement Pop-up System
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class NotificationSystem {

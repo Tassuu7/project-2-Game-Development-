@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Rule-Based Decision Tree Evaluator
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class DecisionNode {

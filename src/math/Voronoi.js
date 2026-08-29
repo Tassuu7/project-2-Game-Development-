@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Procedural Cellular Voronoi Noise & Distance Field Metrics
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class VoronoiNoise {

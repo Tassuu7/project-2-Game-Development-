@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Procedural Vector Art Generator for Spaceships, Characters & Glyphs
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class VectorArtGenerator {
