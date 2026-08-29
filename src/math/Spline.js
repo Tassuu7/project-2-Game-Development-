@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Catmull-Rom and Bezier Spline Path Traversal Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class CatmullRomSpline {

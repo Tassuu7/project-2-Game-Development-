@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 4-Channel Multi-Track Retro Chiptune Music Synthesizer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ChiptuneMusicTracker {

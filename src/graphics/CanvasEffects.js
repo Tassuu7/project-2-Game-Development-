@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Procedural Starfield, Weather & Laser Particle Effects
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class CanvasEffects {

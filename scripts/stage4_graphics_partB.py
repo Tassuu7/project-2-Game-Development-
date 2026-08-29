@@ -7,7 +7,7 @@ def build_partB():
  * NovaForge Game Engine & Arcade Studio
  * Dynamic 2D Lighting Engine with Radial Falloff & Occlusion Shadows
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class LightingSystem2D {
@@ -76,7 +76,7 @@ export class LightingSystem2D {
  * NovaForge Game Engine & Arcade Studio
  * Screen Post-Processing Effects (Bloom, CRT Scanlines, Chromatic Aberration)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PostProcessingFilters {
@@ -120,7 +120,7 @@ export class PostProcessingFilters {
  * NovaForge Game Engine & Arcade Studio
  * Procedural Starfield, Weather & Laser Particle Effects
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class CanvasEffects {

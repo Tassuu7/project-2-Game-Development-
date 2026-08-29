@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Sprite Atlas Grid Slicing & Texture Frame Manager
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SpriteSheet {

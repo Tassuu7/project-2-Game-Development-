@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Broadphase Spatial Hash Grid for Ultra-Fast Proximity Queries
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SpatialHashGrid {

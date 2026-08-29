@@ -84,5 +84,5 @@ npm test
 ---
 
 ## License & Compliance
-- License: MIT
+- License: Proprietary (All Rights Reserved)
 - Compliance: 100% Offline-First, Zero External CDN / API Dependencies, Enterprise-Grade Modular Architecture.

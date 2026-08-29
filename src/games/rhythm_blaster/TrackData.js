@@ -1,7 +1,7 @@
 /**
  * NovaForge Rhythm Blaster Song Tracks & Choreographed Beat Maps
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const SONG_TRACKS = [

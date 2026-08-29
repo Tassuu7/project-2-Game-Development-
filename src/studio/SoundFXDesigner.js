@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Interactive Synthesizer Preset Designer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SoundFXDesigner {

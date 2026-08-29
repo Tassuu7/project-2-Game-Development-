@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Unified Keyboard, Mouse, Touch, and Action Input Coordinator
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class InputManager {

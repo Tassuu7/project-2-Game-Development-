@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Hierarchical Finite State Machine with Enter, Update, and Exit Hooks
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class StateMachine {

@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * In-Browser Interactive Level Creator & Object Placer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class LevelEditor {
@@ -64,7 +64,7 @@ export class LevelEditor {
  * NovaForge Game Engine & Arcade Studio
  * Real-Time Visual Particle Emitter Designer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ParticleDesigner {
@@ -96,7 +96,7 @@ export class ParticleDesigner {
  * NovaForge Game Engine & Arcade Studio
  * Interactive Synthesizer Preset Designer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SoundFXDesigner {

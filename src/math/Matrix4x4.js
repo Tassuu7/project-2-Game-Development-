@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 4x4 Matrix for 3D Projections, Camera Transformations & Raycasting
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Matrix4x4 {

@@ -7,7 +7,7 @@ def build_partC():
  * NovaForge Game Engine & Arcade Studio
  * Classic 2D/3D Perlin Noise Generator with Fractal Octaves
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PerlinNoise {
@@ -96,7 +96,7 @@ export class PerlinNoise {
  * NovaForge Game Engine & Arcade Studio
  * 2D Simplex Noise for Procedural Terrain and Textures
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SimplexNoise {
@@ -187,7 +187,7 @@ export class SimplexNoise {
  * NovaForge Game Engine & Arcade Studio
  * Procedural Cellular Voronoi Noise & Distance Field Metrics
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class VoronoiNoise {
@@ -259,7 +259,7 @@ export class VoronoiNoise {
  * NovaForge Game Engine & Arcade Studio
  * Catmull-Rom and Bezier Spline Path Traversal Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class CatmullRomSpline {
@@ -312,7 +312,7 @@ export class CatmullRomSpline {
  * NovaForge Game Engine & Arcade Studio
  * Deterministic Pseudo-Random Number Generator (PRNG) & Distributions
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Random {

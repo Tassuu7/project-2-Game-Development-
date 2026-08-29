@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * HTML5 Gamepad Controller Abstraction & Dual-Motor Haptic Vibration
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class GamepadHandler {

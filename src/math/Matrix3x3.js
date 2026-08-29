@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 3x3 Transformation Matrix for 2D Affine Transforms
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Matrix3x3 {

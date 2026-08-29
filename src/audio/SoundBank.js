@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Master Sound Bank & Preset SFX Dispatcher
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { AudioContextManager } from './AudioContextManager.js';

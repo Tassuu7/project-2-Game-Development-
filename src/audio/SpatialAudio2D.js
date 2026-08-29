@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Positional 2D Spatial Audio with Stereo Panning & Distance Attenuation
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SpatialAudio2D {

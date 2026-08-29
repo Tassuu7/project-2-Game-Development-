@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Combat Enemy Tactical Finite State Machine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class EnemyFSM {

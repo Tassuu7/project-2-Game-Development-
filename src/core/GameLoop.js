@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Fixed-Timestep Physics & Smooth Render Game Loop
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class GameLoop {

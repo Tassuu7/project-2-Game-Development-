@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * Automated Unit Test Framework & Runner
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class TestRunner {

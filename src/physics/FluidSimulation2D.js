@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * SPH (Smoothed-Particle Hydrodynamics) 2D Fluid Simulation
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

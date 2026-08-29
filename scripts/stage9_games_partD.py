@@ -7,7 +7,7 @@ def build_partD():
  * NovaForge Game Engine & Arcade Studio
  * Chrono Puzzle - Sokoban Tile Logic with Temporal Rewind
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PuzzleGame {
@@ -118,7 +118,7 @@ export class PuzzleGame {
  * NovaForge Game Engine & Arcade Studio
  * Rhythm Blaster: SynthWave - Beat Slasher Game
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class RhythmGame {

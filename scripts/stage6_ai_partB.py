@@ -7,7 +7,7 @@ def build_partB():
  * NovaForge Game Engine & Arcade Studio
  * Rule-Based Decision Tree Evaluator
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class DecisionNode {
@@ -36,7 +36,7 @@ export class DecisionNode {
  * NovaForge Game Engine & Arcade Studio
  * Autonomous Agent Swarm & Boids Flocking Simulation
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -145,7 +145,7 @@ export class Boid {
  * NovaForge Game Engine & Arcade Studio
  * Combat Enemy Tactical Finite State Machine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class EnemyFSM {
@@ -208,7 +208,7 @@ export class EnemyFSM {
  * NovaForge Game Engine & Arcade Studio
  * Utility-Based Action Scoring & Decision Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class UtilityAI {

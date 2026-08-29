@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Real-Time Visual Particle Emitter Designer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ParticleDesigner {

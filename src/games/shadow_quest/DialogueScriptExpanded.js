@@ -1,7 +1,7 @@
 /**
  * NovaForge Shadow Quest Full Narrative & Dialogue Trees
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const RPG_DIALOGUES = {

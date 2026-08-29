@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * A* Pathfinding Engine with Min-Heap & Path Smoothing
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PathfindingAStar {

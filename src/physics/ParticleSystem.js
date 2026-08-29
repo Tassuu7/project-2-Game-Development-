@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * High-Density Particle Physics & Visual Emitter Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ParticleSystem {

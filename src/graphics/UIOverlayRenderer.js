@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * High-DPI Canvas Heads-Up Display & Floating Combat Text Renderer
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class UIOverlayRenderer {

@@ -31,7 +31,7 @@ def build_surpass():
     write_file("src/graphics/Shaders2D.js", """/**
  * NovaForge 2D Canvas Post-Processing Shaders & Color Matrix Algorithms
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Shaders2D {

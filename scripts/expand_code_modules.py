@@ -9,7 +9,7 @@ def build_modules():
         "/**",
         " * NovaForge Fast Trigonometric Approximation & Precomputed Lookup Tables",
         " * @author NovaForge Engineering Team",
-        " * @license MIT",
+        " * @license Proprietary - All Rights Reserved",
         " */",
         "",
         "export class TrigLookupTable {",
@@ -49,7 +49,7 @@ def build_modules():
     write_file("src/math/FourierTransform.js", """/**
  * NovaForge Discrete & Fast Fourier Transform (FFT) for Audio Analysis
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class FastFourierTransform {
@@ -84,7 +84,7 @@ export class FastFourierTransform {
     write_file("src/physics/ClothSimulation.js", """/**
  * NovaForge 2D Mass-Spring Cloth & Flag Physics Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -178,7 +178,7 @@ export class ClothSimulation {
     write_file("src/games/cosmic_vanguard/BossPatterns.js", """/**
  * NovaForge Cosmic Vanguard Boss Attack Patterns & Wave Formations
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class BossPatterns {
@@ -225,7 +225,7 @@ export class BossPatterns {
     write_file("src/games/rhythm_blaster/TrackData.js", """/**
  * NovaForge Rhythm Blaster Song Tracks & Choreographed Beat Maps
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const SONG_TRACKS = [

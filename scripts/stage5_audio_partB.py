@@ -7,7 +7,7 @@ def build_partB():
  * NovaForge Game Engine & Arcade Studio
  * Generative Ambient Soundscapes & Atmospheric Audio Generator
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ProceduralAudioGenerator {
@@ -56,7 +56,7 @@ export class ProceduralAudioGenerator {
  * NovaForge Game Engine & Arcade Studio
  * Positional 2D Spatial Audio with Stereo Panning & Distance Attenuation
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SpatialAudio2D {
@@ -81,7 +81,7 @@ export class SpatialAudio2D {
  * NovaForge Game Engine & Arcade Studio
  * Master Sound Bank & Preset SFX Dispatcher
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { AudioContextManager } from './AudioContextManager.js';

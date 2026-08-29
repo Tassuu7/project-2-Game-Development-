@@ -1,7 +1,7 @@
 /**
  * NovaForge Cosmic Vanguard Boss Attack Patterns & Wave Formations
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class BossPatterns {

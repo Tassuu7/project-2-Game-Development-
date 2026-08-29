@@ -7,7 +7,7 @@ def build_partC():
  * NovaForge Game Engine & Arcade Studio
  * Verlet Multi-Bone Ragdoll Simulation System
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -110,7 +110,7 @@ export class RagdollPhysics {
  * NovaForge Game Engine & Arcade Studio
  * SPH (Smoothed-Particle Hydrodynamics) 2D Fluid Simulation
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -221,7 +221,7 @@ export class FluidSimulation2D {
  * NovaForge Game Engine & Arcade Studio
  * 2D Raycasting, Segment Intersections and Visibility Polygons
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';
@@ -317,7 +317,7 @@ export class Raycaster2D {
  * NovaForge Game Engine & Arcade Studio
  * High-Density Particle Physics & Visual Emitter Engine
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class ParticleSystem {
@@ -423,7 +423,7 @@ export class ParticleSystem {
  * NovaForge Game Engine & Arcade Studio
  * Master 2D Physics World, Velocity Verlet Integration & Contact Resolution
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

@@ -12,7 +12,7 @@ def expand_all():
         " * NovaForge Game Engine & Arcade Studio",
         " * 3D Geometry Primitives, Vertex Buffers & Normal Calculations",
         " * @author NovaForge Engineering Team",
-        " * @license MIT",
+        " * @license Proprietary - All Rights Reserved",
         " */",
         "",
         "export class Geometry3D {",

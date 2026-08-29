@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 2D Simplex Noise for Procedural Terrain and Textures
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SimplexNoise {

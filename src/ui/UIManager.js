@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Screen Transition Manager, Menus & Settings Overlay
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class UIManager {

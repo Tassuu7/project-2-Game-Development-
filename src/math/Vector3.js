@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 3D Vector Representation & Linear Algebra Operations
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Vector3 {

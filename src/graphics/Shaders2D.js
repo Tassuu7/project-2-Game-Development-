@@ -1,7 +1,7 @@
 /**
  * NovaForge 2D Canvas Post-Processing Shaders & Color Matrix Algorithms
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Shaders2D {

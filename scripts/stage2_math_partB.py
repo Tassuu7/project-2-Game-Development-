@@ -7,7 +7,7 @@ def build_partB():
  * NovaForge Game Engine & Arcade Studio
  * 4x4 Matrix for 3D Projections, Camera Transformations & Raycasting
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Matrix4x4 {
@@ -124,7 +124,7 @@ export class Matrix4x4 {
  * NovaForge Game Engine & Arcade Studio
  * Quaternion Representation for 3D Orientation & Slerp
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Quaternion {
@@ -227,7 +227,7 @@ export class Quaternion {
  * NovaForge Game Engine & Arcade Studio
  * Mathematical Utility Constants, Interpolation Functions & Algorithms
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const MathUtils = {

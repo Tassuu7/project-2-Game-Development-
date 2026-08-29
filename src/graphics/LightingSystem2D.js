@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Dynamic 2D Lighting Engine with Radial Falloff & Occlusion Shadows
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class LightingSystem2D {

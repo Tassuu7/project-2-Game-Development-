@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Gravity Sandbox & Physics Playground
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { PhysicsWorld } from '../../physics/PhysicsWorld.js';

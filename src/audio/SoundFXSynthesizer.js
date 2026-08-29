@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Real-Time Programmatic Sound FX Synthesizer with ADSR Envelopes
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class SoundFXSynthesizer {

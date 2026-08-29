@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * 2D Euclidean Vector with Comprehensive Geometric Operations
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Vector2 {

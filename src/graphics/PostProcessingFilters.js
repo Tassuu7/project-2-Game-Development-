@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Screen Post-Processing Effects (Bloom, CRT Scanlines, Chromatic Aberration)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class PostProcessingFilters {

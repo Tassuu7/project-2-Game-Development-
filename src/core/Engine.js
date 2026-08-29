@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Central Orchestrator & Master Subsystem Registry
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { EngineConfig, ConfigurationManager } from './Config.js';

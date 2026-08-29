@@ -7,7 +7,7 @@ def build_partA():
  * NovaForge Game Engine & Arcade Studio
  * 2D Euclidean Vector with Comprehensive Geometric Operations
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Vector2 {
@@ -245,7 +245,7 @@ export class Vector2 {
  * NovaForge Game Engine & Arcade Studio
  * 3D Vector Representation & Linear Algebra Operations
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Vector3 {
@@ -382,7 +382,7 @@ export class Vector3 {
  * NovaForge Game Engine & Arcade Studio
  * 3x3 Transformation Matrix for 2D Affine Transforms
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class Matrix3x3 {

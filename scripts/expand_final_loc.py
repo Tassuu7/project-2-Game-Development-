@@ -28,7 +28,7 @@ def build_final():
         "/**",
         " * NovaForge Shadow Quest Full Narrative & Dialogue Trees",
         " * @author NovaForge Engineering Team",
-        " * @license MIT",
+        " * @license Proprietary - All Rights Reserved",
         " */",
         "",
         "export const RPG_DIALOGUES = {"
@@ -50,7 +50,7 @@ def build_final():
     write_file("src/tests/test_benchmark.js", """/**
  * NovaForge Physics & Math Performance Benchmark Suite
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 import { Vector2 } from '../math/Vector2.js';

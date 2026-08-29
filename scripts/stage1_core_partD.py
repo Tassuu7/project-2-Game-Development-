@@ -7,7 +7,7 @@ def build_partD():
  * NovaForge Game Engine & Arcade Studio
  * Hierarchical Finite State Machine with Enter, Update, and Exit Hooks
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class StateMachine {
@@ -133,7 +133,7 @@ export class StateMachine {
  * NovaForge Game Engine & Arcade Studio
  * Client-Side Persistence Layer (LocalStorage & IndexedDB Engine)
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class StorageManager {

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Core Engine Configuration & Global Settings Registry
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export const EngineConfig = {

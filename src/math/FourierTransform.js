@@ -1,7 +1,7 @@
 /**
  * NovaForge Discrete & Fast Fourier Transform (FFT) for Audio Analysis
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class FastFourierTransform {

@@ -2,7 +2,7 @@
  * NovaForge Game Engine & Arcade Studio
  * Branching Typewriter Dialogue Box with Choices
  * @author NovaForge Engineering Team
- * @license MIT
+ * @license Proprietary - All Rights Reserved
  */
 
 export class DialogueBox {
