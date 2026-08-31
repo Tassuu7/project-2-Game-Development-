@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+# -*- coding: utf-8 -*-
+import sys
+sys.path.insert(0, '.')
+from scripts.code_gen_lib import write_file
+
+index_html = """<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -627,3 +632,6 @@
     </script>
 </body>
 </html>
+"""
+write_file("index.html", index_html)
+print("Wrote index.html successfully!")

@@ -1,4 +1,9 @@
-/**
+# -*- coding: utf-8 -*-
+import sys
+sys.path.insert(0, '.')
+from scripts.code_gen_lib import write_file
+
+hub_css = """/**
  * NovaForge Game Engine & Arcade Studio
  * Human-Crafted Game Hub & Arcade Stylesheet
  * Inspired by Steam, itch.io & Cyberpunk aesthetics
@@ -321,3 +326,6 @@ body {
     max-height: 100%;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
 }
+"""
+write_file("assets/css/hub.css", hub_css)
+print("Wrote assets/css/hub.css")
