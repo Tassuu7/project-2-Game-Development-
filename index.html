@@ -92,6 +92,12 @@
                 <span class="brand-badge">Arcade Studio v2.4</span>
             </div>
 
+            <!-- Global Game Search Bar -->
+            <div class="search-wrapper">
+                <span class="search-icon">&#128269;</span>
+                <input type="text" class="search-input" id="game-search-input" placeholder="Search games by title or tags...">
+            </div>
+
             <div class="header-controls">
                 <div id="user-profile-btn" class="user-pill" title="Player Profile">
                     <div class="user-avatar" id="user-avatar-initial">P</div>
@@ -105,14 +111,25 @@
         </header>
 
         <main class="hub-main">
-            <!-- Header Hero Banner -->
+            <!-- Header Hero Banner with Metrics -->
             <div class="hero-box">
                 <div>
-                    <h1>NovaForge Arcade Showcase</h1>
+                    <h1>NovaForge Arcade Dashboard</h1>
                     <p>Eight complete hardware-accelerated Canvas games built with zero external dependencies, authentic physics, and Web Audio synthesis.</p>
                 </div>
-                <div style="font-family: monospace; font-size: 12px; color: var(--accent-cyan); background: rgba(0,229,255,0.1); padding: 8px 14px; border-radius: 8px; border: 1px solid rgba(0,229,255,0.3);">
-                    60 FPS &bull; Pure Canvas 2D &bull; Offline Ready
+                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+                    <div style="background: rgba(10, 14, 26, 0.7); border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 16px; font-weight: 800; color: var(--accent-cyan);">8</div>
+                        <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Games Ready</div>
+                    </div>
+                    <div style="background: rgba(10, 14, 26, 0.7); border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 16px; font-weight: 800; color: var(--accent-cyan);">60 FPS</div>
+                        <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Hardware Canvas</div>
+                    </div>
+                    <div style="background: rgba(10, 14, 26, 0.7); border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; text-align: center;">
+                        <div style="font-size: 16px; font-weight: 800; color: var(--accent-cyan);">100%</div>
+                        <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Offline Ready</div>
+                    </div>
                 </div>
             </div>
 
@@ -149,7 +166,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">WASD + Space + 1-4</span>
-                            <span class="card-rating">4.9 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -172,7 +189,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">WASD + Space + Q,E</span>
-                            <span class="card-rating">4.8 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -195,7 +212,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">A/D + Space + Shift</span>
-                            <span class="card-rating">5.0 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -218,7 +235,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">WASD / Arrows + Space</span>
-                            <span class="card-rating">4.7 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -241,7 +258,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">Mouse Click + 1-5</span>
-                            <span class="card-rating">4.9 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -264,7 +281,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">Mouse Click (Place/Upgrade)</span>
-                            <span class="card-rating">4.8 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -287,7 +304,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">WASD / Arrows + Z, R</span>
-                            <span class="card-rating">4.9 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -310,7 +327,7 @@
                         </div>
                         <div class="card-footer">
                             <span class="card-controls">D, F, J, K Keys</span>
-                            <span class="card-rating">5.0 &#9733;</span>
+                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
                         </div>
                     </div>
                 </div>
@@ -485,22 +502,36 @@
             });
         });
 
-        // Filter chips
+        // Filter and Search System
+        let currentFilter = 'all';
+        function applyFilters() {
+            const query = (document.getElementById('game-search-input')?.value || '').toLowerCase().trim();
+            document.querySelectorAll('.game-card').forEach(card => {
+                const category = card.getAttribute('data-category');
+                const title = (card.querySelector('.game-title')?.textContent || '').toLowerCase();
+                const desc = (card.querySelector('.game-description')?.textContent || '').toLowerCase();
+                
+                const matchesFilter = currentFilter === 'all' || category === currentFilter;
+                const matchesSearch = !query || title.includes(query) || desc.includes(query);
+
+                if (matchesFilter && matchesSearch) {
+                    card.style.display = 'flex';
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+        }
+
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.addEventListener('click', () => {
                 document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
                 btn.classList.add('active');
-                const filter = btn.getAttribute('data-filter');
-
-                document.querySelectorAll('.game-card').forEach(card => {
-                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
-                        card.style.display = 'flex';
-                    } else {
-                        card.style.display = 'none';
-                    }
-                });
+                currentFilter = btn.getAttribute('data-filter');
+                applyFilters();
             });
         });
+
+        document.getElementById('game-search-input')?.addEventListener('input', applyFilters);
 
         // Back to Hub
         document.getElementById('btn-back-hub').addEventListener('click', () => {

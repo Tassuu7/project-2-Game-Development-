@@ -1,4 +1,10 @@
-/**
+# -*- coding: utf-8 -*-
+import sys
+sys.path.insert(0, '.')
+from scripts.code_gen_lib import write_file
+
+# 1. assets/css/hub.css - Organized, Polished Dashboard Stylesheet
+hub_css = """/**
  * NovaForge Arcade Studio - Professional Game Dashboard
  * Structured Grid Layout, Hero Highlights & Fullscreen Viewport
  * @author NovaForge Engineering Team
@@ -496,3 +502,6 @@ body {
     font-size: 12px;
     margin-top: auto;
 }
+"""
+write_file("assets/css/hub.css", hub_css)
+print("Wrote structured assets/css/hub.css successfully!")
