@@ -1,9 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 60" width="100%" height="100%">
   <defs>
-    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00e5ff"/><stop offset="50%" stop-color="#ff0055"/><stop offset="100%" stop-color="#ffe600"/>
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00e5ff"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
     </linearGradient>
   </defs>
-  <polygon points="30,10 60,50 45,50 65,90 25,45 40,45" fill="#00e5ff"/>
-  <text x="80" y="62" font-family="'Segoe UI', monospace, sans-serif" font-size="34" font-weight="900" fill="url(#logoGrad)" letter-spacing="3">NOVAFORGE</text>
+  <!-- Geometric Cube / Nova Mark -->
+  <g transform="translate(10, 8)">
+    <polygon points="22,4 40,14 40,34 22,44 4,34 4,14" fill="none" stroke="url(#brandGrad)" stroke-width="3"/>
+    <polygon points="22,4 22,24 40,14" fill="rgba(0,229,255,0.2)"/>
+    <polygon points="22,24 4,14 22,4" fill="rgba(0,229,255,0.4)"/>
+    <polygon points="22,24 40,34 22,44" fill="rgba(59,130,246,0.3)"/>
+    <polygon points="22,24 4,34 22,44" fill="rgba(59,130,246,0.5)"/>
+  </g>
+  <!-- Clean Human Typography -->
+  <text x="64" y="34" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#ffffff" letter-spacing="1">NOVAFORGE</text>
+  <text x="64" y="47" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="10" font-weight="600" fill="#00e5ff" letter-spacing="3">ARCADE STUDIO</text>
 </svg>

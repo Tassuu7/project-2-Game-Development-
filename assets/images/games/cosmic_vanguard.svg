@@ -1,59 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 340" width="100%" height="100%">
-  <defs>
-    <linearGradient id="bgGradCV" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050515"/>
-      <stop offset="50%" stop-color="#0a1033"/>
-      <stop offset="100%" stop-color="#1a0033"/>
-    </linearGradient>
-    <linearGradient id="shipGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#00e5ff"/>
-      <stop offset="100%" stop-color="#7000ff"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-  </defs>
-  <rect width="600" height="340" fill="url(#bgGradCV)"/>
-  <!-- Stars -->
-  <circle cx="50" cy="40" r="1.5" fill="#fff" opacity="0.8"/>
-  <circle cx="120" cy="90" r="2" fill="#00e5ff" opacity="0.6"/>
-  <circle cx="280" cy="30" r="1" fill="#fff" opacity="0.5"/>
-  <circle cx="450" cy="80" r="2" fill="#ff0055" opacity="0.7"/>
-  <circle cx="520" cy="150" r="1.5" fill="#fff" opacity="0.9"/>
-  <circle cx="80" cy="220" r="1.2" fill="#ffe600" opacity="0.6"/>
-  <circle cx="390" cy="260" r="1.8" fill="#fff" opacity="0.8"/>
-  <circle cx="540" cy="40" r="1" fill="#fff" opacity="0.4"/>
-  <!-- Nebula Clouds -->
-  <path d="M 100 200 Q 200 120 350 180 T 550 120" fill="none" stroke="#7000ff" stroke-width="60" opacity="0.15" filter="url(#glow)"/>
-  <path d="M 50 100 Q 250 80 450 140" fill="none" stroke="#00e5ff" stroke-width="40" opacity="0.12" filter="url(#glow)"/>
-  <!-- Player Spaceship -->
-  <g transform="translate(300, 210)" filter="url(#glow)">
-    <!-- Engine Flames -->
-    <polygon points="-8,45 0,75 8,45" fill="#ffaa00"/>
-    <polygon points="-4,45 0,65 4,45" fill="#ffe600"/>
-    <!-- Hull -->
-    <polygon points="0,-45 35,35 15,25 0,35 -15,25 -35,35" fill="url(#shipGrad)" stroke="#00e5ff" stroke-width="2"/>
-    <!-- Cockpit -->
-    <polygon points="0,-20 8,10 0,5 -8,10" fill="#ff0055"/>
-    <!-- Lasers -->
-    <line x1="-28" y1="20" x2="-28" y2="-120" stroke="#00e5ff" stroke-width="3" opacity="0.9"/>
-    <line x1="28" y1="20" x2="28" y2="-120" stroke="#00e5ff" stroke-width="3" opacity="0.9"/>
+  <rect width="600" height="340" fill="#0b0f19"/>
+  <!-- Subtle Grid Lines -->
+  <line x1="0" y1="85" x2="600" y2="85" stroke="#1f293d" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="0" y1="170" x2="600" y2="170" stroke="#1f293d" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="0" y1="255" x2="600" y2="255" stroke="#1f293d" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="150" y1="0" x2="150" y2="340" stroke="#1f293d" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="300" y1="0" x2="300" y2="340" stroke="#1f293d" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="450" y1="0" x2="450" y2="340" stroke="#1f293d" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Iconic Vector Spacecraft -->
+  <g transform="translate(300, 150)">
+    <!-- Propulsion Trails -->
+    <line x1="-18" y1="35" x2="-18" y2="65" stroke="#00e5ff" stroke-width="2" opacity="0.6"/>
+    <line x1="18" y1="35" x2="18" y2="65" stroke="#00e5ff" stroke-width="2" opacity="0.6"/>
+    <line x1="0" y1="40" x2="0" y2="80" stroke="#38bdf8" stroke-width="3"/>
+    
+    <!-- Ship Geometry -->
+    <polygon points="0,-48 36,28 18,20 0,28 -18,20 -36,28" fill="#1e293b" stroke="#00e5ff" stroke-width="2.5"/>
+    <polygon points="0,-30 12,8 0,4 -12,8" fill="#00e5ff" opacity="0.3"/>
+    <!-- Laser Blasts -->
+    <circle cx="-36" cy="-20" r="3" fill="#00e5ff"/>
+    <circle cx="36" cy="-20" r="3" fill="#00e5ff"/>
   </g>
-  <!-- Enemy Invaders -->
-  <g transform="translate(180, 80) scale(0.6)" filter="url(#glow)">
-    <polygon points="0,40 30,-30 0,-15 -30,-30" fill="#ff0055" stroke="#ff3366" stroke-width="2"/>
-  </g>
-  <g transform="translate(420, 75) scale(0.6)" filter="url(#glow)">
-    <polygon points="0,40 30,-30 0,-15 -30,-30" fill="#ff0055" stroke="#ff3366" stroke-width="2"/>
-  </g>
-  <g transform="translate(300, 60) scale(0.8)" filter="url(#glow)">
-    <polygon points="0,50 40,-35 0,-20 -40,-35" fill="#ff0055" stroke="#ff3366" stroke-width="2"/>
-  </g>
-  <!-- Game Title Badge -->
-  <rect x="20" y="270" width="220" height="45" rx="6" fill="rgba(10,16,51,0.85)" stroke="#00e5ff" stroke-width="1.5"/>
-  <text x="35" y="298" font-family="'Segoe UI', monospace, sans-serif" font-size="16" font-weight="900" fill="#00e5ff" letter-spacing="2">COSMIC VANGUARD</text>
+
+  <!-- Clean Title & Genre Pill -->
+  <rect x="30" y="275" width="80" height="24" rx="4" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+  <text x="70" y="291" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="1">ACTION</text>
+  <text x="125" y="292" font-family="-apple-system, sans-serif" font-size="16" font-weight="800" fill="#ffffff" letter-spacing="1">COSMIC VANGUARD</text>
 </svg>
