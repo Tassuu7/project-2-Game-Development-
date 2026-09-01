@@ -100,7 +100,8 @@
                 <button class="btn" id="btn-open-tests" title="QA Test Suite">&#10003; QA Tests</button>
                 <button class="btn" id="btn-toggle-audio" title="Audio Sound Effects">&#128266; Audio: ON</button>
                 <button class="btn" id="btn-toggle-fullscreen" title="Fullscreen">&#x26F6; Fullscreen</button>
-                <div id="user-profile-btn" class="user-pill" title="Player Profile">
+                <button class="btn btn-primary" id="btn-auth-trigger" title="Sign In or Register">&#128273; Sign In</button>
+                <div id="user-profile-btn" class="user-pill" title="Player Profile & High Scores" style="display: none;">
                     <div class="user-avatar" id="user-avatar-initial">P</div>
                     <span id="user-display-name" style="font-weight: 700;">PlayerOne</span>
                 </div>
@@ -507,15 +508,18 @@
             const displayName = document.getElementById('user-display-name');
             const avatarInitial = document.getElementById('user-avatar-initial');
             const authBtn = document.getElementById('btn-auth-trigger');
+            const userPill = document.getElementById('user-profile-btn');
 
             if (user && !user.isGuest) {
-                displayName.textContent = user.username;
-                avatarInitial.textContent = user.username.charAt(0).toUpperCase();
-                authBtn.textContent = 'Account';
+                if (displayName) displayName.textContent = user.username;
+                if (avatarInitial) avatarInitial.textContent = user.username.charAt(0).toUpperCase();
+                if (authBtn) authBtn.style.display = 'none';
+                if (userPill) userPill.style.display = 'inline-flex';
             } else {
-                displayName.textContent = 'Guest';
-                avatarInitial.textContent = 'G';
-                authBtn.textContent = 'Sign In';
+                if (displayName) displayName.textContent = 'Guest';
+                if (avatarInitial) avatarInitial.textContent = 'G';
+                if (authBtn) authBtn.style.display = 'inline-flex';
+                if (userPill) userPill.style.display = 'none';
             }
         }
         auth.onAuthChange = updateAuthUI;
@@ -531,20 +535,28 @@
         engine.registerScene('chrono_puzzle', new PuzzleGame(engine));
         engine.registerScene('rhythm_blaster', new RhythmGame(engine));
 
+        engine.init().catch(err => console.warn('Engine init:', err));
+
         let currentGameKey = 'cosmic_vanguard';
 
         function launchGame(gameKey, title) {
             currentGameKey = gameKey;
-            document.getElementById('active-game-title').textContent = title || gameKey;
+            const titleEl = document.getElementById('active-game-title');
+            if (titleEl) titleEl.textContent = title || gameKey;
             
             // Activate Fullscreen Game Viewport
-            document.getElementById('hub-screen').classList.remove('active');
-            document.getElementById('game-screen').classList.add('active');
+            const hub = document.getElementById('hub-screen');
+            const gameScreen = document.getElementById('game-screen');
+            if (hub) hub.classList.remove('active');
+            if (gameScreen) gameScreen.classList.add('active');
 
             engine.switchScene(gameKey).then(() => {
                 engine.start();
                 soundBank.play('coin');
-                NotificationSystem.notify(`Loaded ${title || gameKey}!`, 'info');
+                NotificationSystem.notify(`Loaded ${title || gameKey}! Ready to play!`, 'info');
+            }).catch(err => {
+                console.error('Failed to load scene:', err);
+                NotificationSystem.notify(`Loading error: ${err.message}`, 'error');
             });
         }
 
@@ -670,8 +682,11 @@
         }
         document.getElementById('btn-toggle-fullscreen')?.addEventListener('click', toggleFullscreen);
         document.getElementById('btn-fs-toggle')?.addEventListener('click', toggleFullscreen);
+        document.getElementById('btn-auth-trigger')?.addEventListener('click', () => {
+            authModal.classList.add('open');
+        });
 
-        document.getElementById('user-profile-btn').addEventListener('click', () => {
+        document.getElementById('user-profile-btn')?.addEventListener('click', () => {
             if (auth.currentUser && !auth.currentUser.isGuest) {
                 openProfile();
             } else {
@@ -679,8 +694,8 @@
             }
         });
 
-        document.getElementById('btn-close-auth').addEventListener('click', () => authModal.classList.remove('open'));
-        document.getElementById('btn-close-profile').addEventListener('click', () => profileModal.classList.remove('open'));
+        document.getElementById('btn-close-auth')?.addEventListener('click', () => authModal.classList.remove('open'));
+        document.getElementById('btn-close-profile')?.addEventListener('click', () => profileModal.classList.remove('open'));
 
         tabSignIn.addEventListener('click', () => {
             tabSignIn.classList.add('active');
