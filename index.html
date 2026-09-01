@@ -343,6 +343,7 @@
             <button class="btn" id="btn-back-hub">&larr; Back to Arcade Hub</button>
             <div id="active-game-title" class="viewport-title">Game Viewport</div>
             <div style="display: flex; gap: 8px;">
+                <button class="btn" id="btn-game-controls-helper">&#9000; Controls</button>
                 <button class="btn" id="btn-restart-game">&#8635; Restart</button>
                 <button class="btn" id="btn-fs-toggle">&#x26F6; Fullscreen</button>
             </div>
@@ -606,11 +607,29 @@
         const tabSignIn = document.getElementById('tab-btn-signin');
         const tabSignUp = document.getElementById('tab-btn-signup');
 
-        document.getElementById('btn-open-controls').addEventListener('click', () => controlsModal.classList.add('open'));
-        document.getElementById('btn-close-controls').addEventListener('click', () => controlsModal.classList.remove('open'));
+        const allModals = [controlsModal, testsModal, authModal, profileModal];
+        function closeAllModals() {
+            allModals.forEach(m => m?.classList.remove('open'));
+        }
 
-        document.getElementById('btn-open-tests').addEventListener('click', () => testsModal.classList.add('open'));
-        document.getElementById('btn-close-tests').addEventListener('click', () => testsModal.classList.remove('open'));
+        // Close on backdrop click
+        allModals.forEach(modal => {
+            modal?.addEventListener('click', (e) => {
+                if (e.target === modal) modal.classList.remove('open');
+            });
+        });
+
+        // Close on Escape key
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeAllModals();
+        });
+
+        document.getElementById('btn-open-controls')?.addEventListener('click', () => controlsModal?.classList.add('open'));
+        document.getElementById('btn-game-controls-helper')?.addEventListener('click', () => controlsModal?.classList.add('open'));
+        document.getElementById('btn-close-controls')?.addEventListener('click', () => controlsModal?.classList.remove('open'));
+
+        document.getElementById('btn-open-tests')?.addEventListener('click', () => testsModal?.classList.add('open'));
+        document.getElementById('btn-close-tests')?.addEventListener('click', () => testsModal?.classList.remove('open'));
 
         document.getElementById('btn-run-tests-action').addEventListener('click', async () => {
             const outBox = document.getElementById('tests-output-box');

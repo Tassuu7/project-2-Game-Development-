@@ -277,27 +277,30 @@
 }
 
 /* ==========================================================================
-   4. STRUCTURED GAME CARDS GRID
+   4. STRUCTURED GAME CARDS GRID (Side-by-Side Responsive Layout)
    ========================================================================== */
-.game-cards-grid {
+.game-cards-grid, .games-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     gap: 24px;
     margin-bottom: 48px;
+    width: 100%;
 }
 
-.game-item-card {
+.game-item-card, .game-card {
     background: var(--bg-card);
     border: 1px solid var(--border-color);
     border-radius: 14px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    height: 100%;
     transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.2s ease, box-shadow 0.25s ease;
     cursor: pointer;
+    user-select: none;
 }
 
-.game-item-card:hover {
+.game-item-card:hover, .game-card:hover {
     transform: translateY(-6px);
     border-color: var(--border-highlight);
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.4), 0 0 20px rgba(56, 189, 248, 0.15);
@@ -466,7 +469,7 @@
     display: flex;
 }
 
-.game-topbar {
+.viewport-header, .game-topbar {
     background: #0d121f;
     border-bottom: 1px solid var(--border-color);
     height: 52px;
@@ -477,13 +480,13 @@
     z-index: 10;
 }
 
-.game-current-heading {
+.viewport-title, .game-current-heading {
     font-size: 16px;
     font-weight: 800;
     color: var(--accent-cyan);
 }
 
-.game-canvas-stage {
+.viewport-canvas-wrapper, .game-canvas-stage {
     flex: 1;
     width: 100%;
     height: calc(100vh - 52px);
@@ -505,14 +508,11 @@
 /* ==========================================================================
    6. SITE FOOTER
    ========================================================================== */
-.site-footer {
+.app-footer, .site-footer {
     border-top: 1px solid var(--border-color);
     background: #0d121f;
-    padding: 24px 0;
+    padding: 24px 32px;
     margin-top: auto;
-}
-
-.footer-inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -553,7 +553,7 @@
     color: #fff;
 }
 
-.modal-close-btn {
+.close-btn, .modal-close-btn {
     position: absolute;
     top: 16px;
     right: 18px;
@@ -565,7 +565,7 @@
     line-height: 1;
 }
 
-.modal-close-btn:hover {
+.close-btn:hover, .modal-close-btn:hover {
     color: #fff;
 }
 
