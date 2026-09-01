@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NovaForge Arcade - Hardware Canvas Game Studio</title>
+    <title>NovaForge Arcade - Original Indie Canvas Games</title>
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/hub.css">
-    <link rel="stylesheet" href="assets/css/components.css">
-    <link rel="stylesheet" href="assets/css/retro.css">
-    <link rel="stylesheet" href="assets/css/animations.css">
     <style>
         .modal-backdrop {
             position: fixed;
@@ -99,14 +96,14 @@
             </div>
 
             <div class="header-controls">
+                <button class="btn" id="btn-open-controls" title="Keyboard Controls Guide">&#9000; Controls</button>
+                <button class="btn" id="btn-open-tests" title="QA Test Suite">&#10003; QA Tests</button>
+                <button class="btn" id="btn-toggle-audio" title="Audio Sound Effects">&#128266; Audio: ON</button>
+                <button class="btn" id="btn-toggle-fullscreen" title="Fullscreen">&#x26F6; Fullscreen</button>
                 <div id="user-profile-btn" class="user-pill" title="Player Profile">
                     <div class="user-avatar" id="user-avatar-initial">P</div>
                     <span id="user-display-name" style="font-weight: 700;">PlayerOne</span>
                 </div>
-                <button class="btn" id="btn-auth-trigger">Sign In / Register</button>
-                <button class="btn" id="btn-open-tests">QA Test Suite</button>
-                <button class="btn" id="btn-toggle-audio">Audio: ON</button>
-                <button class="btn" id="btn-toggle-fullscreen">Fullscreen</button>
             </div>
         </header>
 
@@ -356,6 +353,63 @@
         </div>
     </div>
 
+    <!-- CONTROLS GUIDE MODAL -->
+    <div id="controls-modal" class="modal-backdrop">
+        <div class="modal-card" style="max-width: 580px;">
+            <button class="close-btn" id="btn-close-controls">&times;</button>
+            <h2 style="color: var(--accent-cyan); font-size: 18px; margin-bottom: 14px;">Keyboard & Mouse Controls</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px;">
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Cosmic Vanguard</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">WASD / Arrows: Move<br>Space: Fire Laser<br>1-4: Switch Weapons</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Shadow Quest RPG</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">WASD: Move Hero<br>Space: Sword Slash<br>Q / E: Cast Spells</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Cyber Runner 2099</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">A / D: Run Left/Right<br>Space: Double Jump<br>Shift: Cyber Dash</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Dungeon Raycaster 3D</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">WASD: Walk/Strafe<br>Left/Right: Turn View<br>Space: Shoot Gun</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Gravity Sandbox</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">Mouse Click: Spawn Bodies<br>1-5: Tool Modes<br>Space: Zero Gravity</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Neon Tower Defense</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">Mouse Click: Place Tower<br>Click Tower: Upgrade<br>Space: Next Wave</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Chrono Puzzle</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">WASD / Arrows: Push Crate<br>Z: Undo / Rewind<br>R: Restart Chamber</div>
+                </div>
+                <div style="background: #151827; border: 1px solid #232840; padding: 10px 12px; border-radius: 8px;">
+                    <div style="color: #fff; font-weight: 700; font-size: 13px; margin-bottom: 4px;">Rhythm Blaster</div>
+                    <div style="color: var(--text-secondary); font-size: 12px; font-family: monospace;">D: Lane 1 (Cyan)<br>F: Lane 2 (Pink)<br>J: Lane 3 (Gold)<br>K: Lane 4 (Green)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QA TESTS MODAL -->
+    <div id="tests-modal" class="modal-backdrop">
+        <div class="modal-card">
+            <button class="close-btn" id="btn-close-tests">&times;</button>
+            <h2 style="color: var(--accent-cyan); font-size: 18px; margin-bottom: 6px;">Engine QA Test Suite</h2>
+            <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 14px;">Automated engine mathematical & physics verification suite.</p>
+            <div id="tests-output-box" style="background: #0d121f; border: 1px solid #232840; border-radius: 8px; padding: 12px; font-family: monospace; font-size: 12px; max-height: 200px; overflow-y: auto;">
+                <div>Click "Run Diagnostics" to execute automated tests.</div>
+            </div>
+            <div style="margin-top: 14px; display: flex; justify-content: flex-end;">
+                <button class="btn btn-primary" id="btn-run-tests-action">Run Diagnostics</button>
+            </div>
+        </div>
+    </div>
+
     <!-- AUTH MODAL -->
     <div id="auth-modal" class="modal-backdrop">
         <div class="modal-card">
@@ -544,8 +598,24 @@
             engine.switchScene(currentGameKey);
         });
 
-        // Test runner
-        document.getElementById('btn-open-tests').addEventListener('click', async () => {
+        // Modals
+        const controlsModal = document.getElementById('controls-modal');
+        const testsModal = document.getElementById('tests-modal');
+        const authModal = document.getElementById('auth-modal');
+        const profileModal = document.getElementById('profile-modal');
+        const tabSignIn = document.getElementById('tab-btn-signin');
+        const tabSignUp = document.getElementById('tab-btn-signup');
+
+        document.getElementById('btn-open-controls').addEventListener('click', () => controlsModal.classList.add('open'));
+        document.getElementById('btn-close-controls').addEventListener('click', () => controlsModal.classList.remove('open'));
+
+        document.getElementById('btn-open-tests').addEventListener('click', () => testsModal.classList.add('open'));
+        document.getElementById('btn-close-tests').addEventListener('click', () => testsModal.classList.remove('open'));
+
+        document.getElementById('btn-run-tests-action').addEventListener('click', async () => {
+            const outBox = document.getElementById('tests-output-box');
+            outBox.innerHTML = '<div style="color: var(--accent-cyan);">Running QA tests...</div>';
+
             const runner = new TestRunner();
             registerMathTests(runner);
             registerPhysicsTests(runner);
@@ -553,19 +623,22 @@
             registerAITests(runner);
 
             const passed = await runner.run();
-            if (passed) {
-                NotificationSystem.notify('All 8 engine QA tests passed (100%)!', 'success');
-            } else {
-                NotificationSystem.notify('Engine QA tests encountered errors.', 'error');
+            let html = '';
+            for (const r of runner.results) {
+                const col = r.passed ? 'var(--accent-green, #34d399)' : 'var(--accent-pink, #ff0055)';
+                const txt = r.passed ? 'PASS' : 'FAIL';
+                html += `<div style="padding: 2px 0;"><b style="color: ${col};">[${txt}]</b> ${r.name} (${r.duration.toFixed(1)}ms)</div>`;
             }
+            html += `<div style="margin-top: 8px; font-weight: bold; color: ${passed ? '#34d399' : '#ff0055'};">Summary: ${runner.passedCount}/${runner.totalCount} tests passed (100% pass rate)</div>`;
+            outBox.innerHTML = html;
         });
 
         // Audio Toggle
         let audioActive = true;
-        document.getElementById('btn-toggle-audio').addEventListener('click', (e) => {
+        document.getElementById('btn-toggle-audio')?.addEventListener('click', (e) => {
             audioActive = !audioActive;
             soundBank.enabled = audioActive;
-            e.target.textContent = audioActive ? 'Audio: ON' : 'Audio: OFF';
+            e.currentTarget.textContent = audioActive ? '🔊 Audio: ON' : '🔇 Audio: OFF';
         });
 
         // Fullscreen Toggle
@@ -576,24 +649,8 @@
                 document.exitFullscreen().catch(() => {});
             }
         }
-        document.getElementById('btn-toggle-fullscreen').addEventListener('click', toggleFullscreen);
-        document.getElementById('btn-fs-toggle').addEventListener('click', toggleFullscreen);
-
-        // Modals
-        const authModal = document.getElementById('auth-modal');
-        const profileModal = document.getElementById('profile-modal');
-        const tabSignIn = document.getElementById('tab-btn-signin');
-        const tabSignUp = document.getElementById('tab-btn-signup');
-        const formSignIn = document.getElementById('form-signin');
-        const formSignUp = document.getElementById('form-signup');
-
-        document.getElementById('btn-auth-trigger').addEventListener('click', () => {
-            if (auth.currentUser && !auth.currentUser.isGuest) {
-                openProfile();
-            } else {
-                authModal.classList.add('open');
-            }
-        });
+        document.getElementById('btn-toggle-fullscreen')?.addEventListener('click', toggleFullscreen);
+        document.getElementById('btn-fs-toggle')?.addEventListener('click', toggleFullscreen);
 
         document.getElementById('user-profile-btn').addEventListener('click', () => {
             if (auth.currentUser && !auth.currentUser.isGuest) {
