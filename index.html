@@ -84,23 +84,21 @@
     <div id="hub-screen" class="app-screen active">
         <header class="app-header">
             <div class="brand-section">
-                <div class="brand-icon">&#9889;</div>
-                <div class="brand-title">NOVAFORGE</div>
-                <span class="brand-badge">Arcade Studio v2.4</span>
+                <div class="brand-title">NovaForge</div>
+                <span class="brand-badge">Arcade Studio</span>
             </div>
 
             <!-- Global Game Search Bar -->
             <div class="search-wrapper">
-                <span class="search-icon">&#128269;</span>
-                <input type="text" class="search-input" id="game-search-input" placeholder="Search games by title or tags...">
+                <input type="text" class="search-input" id="game-search-input" placeholder="Search games by title, genre, or controls...">
             </div>
 
             <div class="header-controls">
-                <button class="btn" id="btn-open-controls" title="Keyboard Controls Guide">&#9000; Controls</button>
-                <button class="btn" id="btn-open-tests" title="QA Test Suite">&#10003; QA Tests</button>
-                <button class="btn" id="btn-toggle-audio" title="Audio Sound Effects">&#128266; Audio: ON</button>
-                <button class="btn" id="btn-toggle-fullscreen" title="Fullscreen">&#x26F6; Fullscreen</button>
-                <button class="btn btn-primary" id="btn-auth-trigger" title="Sign In or Register">&#128273; Sign In</button>
+                <button class="btn" id="btn-open-controls" title="Keyboard Controls Guide">Controls</button>
+                <button class="btn" id="btn-open-tests" title="QA Test Suite">QA Tests</button>
+                <button class="btn" id="btn-toggle-audio" title="Audio Sound Effects">Sound: ON</button>
+                <button class="btn" id="btn-toggle-fullscreen" title="Fullscreen">Fullscreen</button>
+                <button class="btn btn-primary" id="btn-auth-trigger" title="Sign In or Register">Sign In</button>
                 <div id="user-profile-btn" class="user-pill" title="Player Profile & High Scores" style="display: none;">
                     <div class="user-avatar" id="user-avatar-initial">P</div>
                     <span id="user-display-name" style="font-weight: 700;">PlayerOne</span>
@@ -112,28 +110,28 @@
             <!-- Header Hero Banner with Metrics -->
             <div class="hero-box">
                 <div>
-                    <h1>NovaForge Arcade Dashboard</h1>
-                    <p>Eight complete hardware-accelerated Canvas games built with zero external dependencies, authentic physics, and Web Audio synthesis.</p>
+                    <h1 class="hero-title">Indie Canvas Game Library</h1>
+                    <p class="hero-subtitle">Eight original browser-based 2D and 3D games built with vanilla JavaScript, HTML5 Canvas, and Web Audio DSP synthesis.</p>
                 </div>
-                <div style="display: flex; gap: 12px; flex-wrap: wrap;">
-                    <div style="background: rgba(10, 14, 26, 0.7); border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; text-align: center;">
-                        <div style="font-size: 16px; font-weight: 800; color: var(--accent-cyan);">8</div>
-                        <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Games Ready</div>
+                <div class="hero-stats-group">
+                    <div class="stat-pill">
+                        <span class="stat-num">8</span>
+                        <span class="stat-lbl">Playable Games</span>
                     </div>
-                    <div style="background: rgba(10, 14, 26, 0.7); border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; text-align: center;">
-                        <div style="font-size: 16px; font-weight: 800; color: var(--accent-cyan);">60 FPS</div>
-                        <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Hardware Canvas</div>
+                    <div class="stat-pill">
+                        <span class="stat-num">60 FPS</span>
+                        <span class="stat-lbl">Hardware Canvas</span>
                     </div>
-                    <div style="background: rgba(10, 14, 26, 0.7); border: 1px solid var(--border); padding: 8px 14px; border-radius: 8px; text-align: center;">
-                        <div style="font-size: 16px; font-weight: 800; color: var(--accent-cyan);">100%</div>
-                        <div style="font-size: 10px; color: var(--text-muted); text-transform: uppercase;">Offline Ready</div>
+                    <div class="stat-pill">
+                        <span class="stat-num">100%</span>
+                        <span class="stat-lbl">Offline Ready</span>
                     </div>
                 </div>
             </div>
 
             <!-- Filter Buttons -->
             <div class="filter-row">
-                <button class="filter-btn active" data-filter="all">All Titles (8)</button>
+                <button class="filter-btn active" data-filter="all">All Games (8)</button>
                 <button class="filter-btn" data-filter="action">Space & Action</button>
                 <button class="filter-btn" data-filter="rpg">Action RPG</button>
                 <button class="filter-btn" data-filter="platformer">Platformer</button>
@@ -141,30 +139,35 @@
                 <button class="filter-btn" data-filter="physics">Physics Lab</button>
                 <button class="filter-btn" data-filter="strategy">Tower Defense</button>
                 <button class="filter-btn" data-filter="puzzle">Logic Puzzle</button>
-                <button class="filter-btn" data-filter="rhythm">Rhythm Slasher</button>
+                <button class="filter-btn" data-filter="rhythm">Rhythm</button>
             </div>
 
-            <!-- Games Grid with Authentic Human Game Covers -->
+            <!-- Games Grid with Side-by-Side Cards -->
             <div class="games-grid">
                 <!-- Game 1: Cosmic Vanguard -->
                 <div class="game-card" data-game="cosmic_vanguard" data-category="action">
                     <div class="card-banner">
                         <img src="assets/images/games/cosmic_vanguard.png" alt="Cosmic Vanguard">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Cosmic Vanguard</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Cosmic Vanguard</div>
+                                <span class="tag-pill">Action</span>
+                            </div>
                             <div class="game-description">High-intensity bullet-hell space shooter with 4 selectable weapon loadouts, power-up drops, boss encounters, and screen shake.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Space Shooter</span>
-                            <span class="tag-pill">Bullet Hell</span>
-                            <span class="tag-pill">4 Weapons</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">WASD + Space + 1-4</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Space Shooter</span>
+                                <span class="feature-tag">Bullet Hell</span>
+                                <span class="feature-tag">4 Weapons</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">WASD + Space + 1-4</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -173,21 +176,26 @@
                 <div class="game-card" data-game="shadow_quest" data-category="rpg">
                     <div class="card-banner">
                         <img src="assets/images/games/shadow_quest.png" alt="Shadow Quest RPG">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Shadow Quest: Eldoria</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Shadow Quest: Eldoria</div>
+                                <span class="tag-pill">RPG</span>
+                            </div>
                             <div class="game-description">Top-down action RPG with elemental magic casting (Fireball, Frost Nova), melee sword slashing, NPC dialogues, and dungeons.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Action RPG</span>
-                            <span class="tag-pill">Magic Spells</span>
-                            <span class="tag-pill">Quests</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">WASD + Space + Q,E</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Action RPG</span>
+                                <span class="feature-tag">Magic Spells</span>
+                                <span class="feature-tag">Quests</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">WASD + Space + Q,E</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -196,21 +204,26 @@
                 <div class="game-card" data-game="cyber_runner" data-category="platformer">
                     <div class="card-banner">
                         <img src="assets/images/games/cyber_runner.png" alt="Cyber Runner 2099">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Cyber Runner 2099</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Cyber Runner 2099</div>
+                                <span class="tag-pill">Platformer</span>
+                            </div>
                             <div class="game-description">Precision cyberpunk platformer featuring double jumps, cyber air dashes, crumbling platforms, jump pads, and ghost replay trails.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Platformer</span>
-                            <span class="tag-pill">Air Dash</span>
-                            <span class="tag-pill">Speedrun</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">A/D + Space + Shift</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Platformer</span>
+                                <span class="feature-tag">Air Dash</span>
+                                <span class="feature-tag">Speedrun</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">A/D + Space + Shift</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -219,21 +232,26 @@
                 <div class="game-card" data-game="dungeon_raycast3d" data-category="3d">
                     <div class="card-banner">
                         <img src="assets/images/games/dungeon_raycast3d.png" alt="Dungeon Raycaster 3D">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Dungeon Raycaster 3D</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Dungeon Raycaster 3D</div>
+                                <span class="tag-pill">Retro 3D</span>
+                            </div>
                             <div class="game-description">Classic 3D FPS raycasting dungeon crawler with muzzle flash animation, demon battles, ammo pick-ups, and radar minimap.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">3D Raycasting</span>
-                            <span class="tag-pill">Retro FPS</span>
-                            <span class="tag-pill">Minimap</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">WASD / Arrows + Space</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">3D Raycasting</span>
+                                <span class="feature-tag">Retro FPS</span>
+                                <span class="feature-tag">Minimap</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">WASD / Arrows + Space</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -242,21 +260,26 @@
                 <div class="game-card" data-game="gravity_sandbox" data-category="physics">
                     <div class="card-banner">
                         <img src="assets/images/games/gravity_sandbox.png" alt="Gravity Sandbox">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Gravity Sandbox & Physics Lab</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Gravity Sandbox & Physics Lab</div>
+                                <span class="tag-pill">Physics</span>
+                            </div>
                             <div class="game-description">Interactive physics playground with rigid bodies, Verlet ragdolls, SPH fluid dynamics, zero-gravity toggle, and bomb tools.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Physics Lab</span>
-                            <span class="tag-pill">Verlet Ragdolls</span>
-                            <span class="tag-pill">Fluid Particles</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">Mouse Click + 1-5</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Physics Lab</span>
+                                <span class="feature-tag">Verlet Ragdolls</span>
+                                <span class="feature-tag">Fluid Particles</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">Mouse Click + 1-5</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -265,21 +288,26 @@
                 <div class="game-card" data-game="neon_tower_defense" data-category="strategy">
                     <div class="card-banner">
                         <img src="assets/images/games/neon_tower_defense.png" alt="Neon Tower Defense">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Neon Tower Defense</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Neon Tower Defense</div>
+                                <span class="tag-pill">Strategy</span>
+                            </div>
                             <div class="game-description">Grid-based tactical defense with upgradable pulse towers, creep waves, range visualizers, and credit-based economy.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Tower Defense</span>
-                            <span class="tag-pill">Creep Waves</span>
-                            <span class="tag-pill">Grid Strategy</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">Mouse Click (Place/Upgrade)</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Tower Defense</span>
+                                <span class="feature-tag">Creep Waves</span>
+                                <span class="feature-tag">Grid Strategy</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">Mouse Click (Place/Upgrade)</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -288,21 +316,26 @@
                 <div class="game-card" data-game="chrono_puzzle" data-category="puzzle">
                     <div class="card-banner">
                         <img src="assets/images/games/chrono_puzzle.png" alt="Chrono Puzzle">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Chrono Puzzle: Time Shift</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Chrono Puzzle: Time Shift</div>
+                                <span class="tag-pill">Puzzle</span>
+                            </div>
                             <div class="game-description">Sokoban block-pushing logic puzzle with target detection, multi-room chambers, and instant time-rewind history.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Logic Puzzle</span>
-                            <span class="tag-pill">Time Rewind</span>
-                            <span class="tag-pill">Sokoban</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">WASD / Arrows + Z, R</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Logic Puzzle</span>
+                                <span class="feature-tag">Time Rewind</span>
+                                <span class="feature-tag">Sokoban</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">WASD / Arrows + Z, R</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -311,21 +344,26 @@
                 <div class="game-card" data-game="rhythm_blaster" data-category="rhythm">
                     <div class="card-banner">
                         <img src="assets/images/games/rhythm_blaster.png" alt="Rhythm Blaster">
-                        <div class="card-play-overlay"><div class="play-circle">&#9654;</div></div>
+                        <div class="card-play-overlay"><div class="play-circle">Play Game</div></div>
                     </div>
                     <div class="card-body">
                         <div>
-                            <div class="game-title">Rhythm Blaster: SynthWave</div>
+                            <div class="card-header-bar">
+                                <div class="game-title">Rhythm Blaster: SynthWave</div>
+                                <span class="tag-pill">Rhythm</span>
+                            </div>
                             <div class="game-description">4-lane high-speed synthwave beat slasher with precision hit ratings (PERFECT, GREAT), combo multipliers, and audio synths.</div>
                         </div>
-                        <div class="card-tags">
-                            <span class="tag-pill">Rhythm Game</span>
-                            <span class="tag-pill">Web Audio DSP</span>
-                            <span class="tag-pill">Combos</span>
-                        </div>
-                        <div class="card-footer">
-                            <span class="card-controls">D, F, J, K Keys</span>
-                            <span style="color: var(--accent-cyan); font-weight: 700; font-size: 12px;">&#9654; Play Game</span>
+                        <div>
+                            <div class="card-tags">
+                                <span class="feature-tag">Rhythm Game</span>
+                                <span class="feature-tag">Web Audio DSP</span>
+                                <span class="feature-tag">Combos</span>
+                            </div>
+                            <div class="card-footer">
+                                <span class="card-controls">D, F, J, K Keys</span>
+                                <span class="card-play-btn">Play Game &rarr;</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -341,12 +379,12 @@
     <!-- FULLSCREEN GAMEPLAY SCREEN -->
     <div id="game-screen">
         <div class="viewport-header">
-            <button class="btn" id="btn-back-hub">&larr; Back to Arcade Hub</button>
+            <button class="btn" id="btn-back-hub">Back to Library</button>
             <div id="active-game-title" class="viewport-title">Game Viewport</div>
             <div style="display: flex; gap: 8px;">
-                <button class="btn" id="btn-game-controls-helper">&#9000; Controls</button>
-                <button class="btn" id="btn-restart-game">&#8635; Restart</button>
-                <button class="btn" id="btn-fs-toggle">&#x26F6; Fullscreen</button>
+                <button class="btn" id="btn-game-controls-helper">Controls</button>
+                <button class="btn" id="btn-restart-game">Restart</button>
+                <button class="btn" id="btn-fs-toggle">Fullscreen</button>
             </div>
         </div>
 
@@ -669,7 +707,7 @@
         document.getElementById('btn-toggle-audio')?.addEventListener('click', (e) => {
             audioActive = !audioActive;
             soundBank.enabled = audioActive;
-            e.currentTarget.textContent = audioActive ? '🔊 Audio: ON' : '🔇 Audio: OFF';
+            e.currentTarget.textContent = audioActive ? 'Sound: ON' : 'Sound: OFF';
         });
 
         // Fullscreen Toggle
